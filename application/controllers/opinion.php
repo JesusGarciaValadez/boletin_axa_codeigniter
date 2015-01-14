@@ -64,6 +64,8 @@ class Opinion extends CI_Controller
 
         $this->_data[ 'poll' ]  = $poll;
 
+        $this->load->library('parser');
+
         $this->parser->parse( 'header_v', $this->_data );
         $this->parser->parse( 'opinion_v', $this->_data );
         $this->load->view( 'footer_v' );
