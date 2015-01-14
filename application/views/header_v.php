@@ -3,16 +3,21 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Bolet&iacute;n Axa - {mes}</title>
+    <title>Bolet&iacute;n Axa - <?=$mes;?></title>
 
-    <?=link_tag('css/{stylesheet}.css');?>
+    <?=link_tag('css/lemonade.css');?>
+    <?=link_tag('css/boletin-axa.css');?>
+    <?=link_tag('css/boletin-axa-auto.css');?>
+    <?=link_tag('css/boletin-axa-hogar.css');?>
+    <?=link_tag('css/boletin-axa-futuro.css');?>
+    <?=link_tag('css/boletin-axa-salud.css');?>
     <link rel="shortcut icon" href="<?=base_url('images/assets/favicon.ico');?>" type="image/x-icon" />
     <link rel="shortcut icon" href="<?=base_url('images/assets/favicon.png');?>" type="image/png" />
     <base href="<?=base_url();?>" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
     <meta name="robots" content="no index, no follow" />
-    <meta property="og:title"           content="Bolet&iacute;n AXA {mes} {anio}" />
+    <meta property="og:title"           content="Bolet&iacute;n AXA <?=$mes;?> <?=$anio;?>" />
     <meta property="og:type"            content="website" />
     <meta property="og:image"           content="<?=base_url('images/assets/header.png');?>" />
     <meta property="og:url"             content="<?=current_url();?>" />

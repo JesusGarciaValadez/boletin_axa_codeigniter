@@ -4,7 +4,7 @@
     </div>
     <div class="bit-5 header-details">
         <h2>BOLET&Iacute;N AXA</h2>
-        <h3>{mes} {anio} <strong>N. {numero}</strong></h3>
+        <h3>Octubre 2014 <strong>N. 10</strong></h3>
         <p>Consulta los n&uacute;meros anteriores <?=anchor('http://www.boletinaxa.com.mx/anterior/historico.html', img('images/assets/btn_landing.png'));?></p>
     </div>
 </header>
@@ -12,10 +12,10 @@
 <nav class="frame">
     <ul>
         <li><?=anchor('/', 'INICIO');?></li>
-        <li><?=anchor('2015/enero/salud', 'TU SALUD');?></li>
-        <li><?=anchor('2015/enero/futuro', 'TU FUTURO');?></li>
-        <li><?=anchor('2015/enero/auto', 'TU AUTO');?></li>
-        <li><?=anchor('2015/enero/hogar', 'TU HOGAR');?></li>
+        <li><?=anchor('salud', 'TU SALUD');?></li>
+        <li><?=anchor('futuro', 'TU FUTURO');?></li>
+        <li><?=anchor('auto', 'TU AUTO');?></li>
+        <li><?=anchor('hogar', 'TU HOGAR');?></li>
         <li><?=anchor('opinion?email='.$this->session->userdata('email'), 'TU OPINI&Oacute;N');?></li>
     </ul>
 </nav>
@@ -51,22 +51,19 @@
 <script>
     $(document).ready(function(){
         var w = $('.quiz').width();
-        $('form').on( 'click', 'input[name=answer]', function( e ) {
-            e.preventDefault();
-            e.stopPropagation();
-
+        $('input[name=answer]').click(function(){
             var l = $('.quiz-slides').position();
-            $( '.quiz-slides' ).animate ( {
-                left: ( l.left - w ) + 'px'
-            } );
+            $('.quiz-slides').animate({
+                left: (l.left-w)+'px'
+            });
 
-            $.post( '<?=base_url( "opinion/submit" );?>', {
-                question:   $( e.currentTarget ).parent( ).parent( ).parent( ).find( 'input[name="question"]' ).val( ),
-                email:      $('input[name="email"]').val(),
-                answer:     $( e.currentTarget ).parent().find('input[name="answer"]').val()
-            } ).done( function( data ) {
-                //console.log( data );
-            } );
+            $.post('<?=base_url("opinion/submit");?>', {
+                question: $(this).parent().parent().parent().find('input[name=question]').val(),
+                email: $('input[name=email').val(),
+                answer: $(this).parent().find('input[name=answer]').val()
+            }).done(function(data){
+                console.log(data);
+            });
         });
     });
 </script>
