@@ -51,19 +51,22 @@
 <script>
     $(document).ready(function(){
         var w = $('.quiz').width();
-        $('input[name=answer]').click(function(){
-            var l = $('.quiz-slides').position();
-            $('.quiz-slides').animate({
-                left: (l.left-w)+'px'
-            });
+        $('form').on( 'click', 'input[name=answer]', function( e ) {
+            e.preventDefault();
+            e.stopPropagation();
 
-            $.post('<?=base_url("opinion/submit");?>', {
-                question: $(this).parent().parent().parent().find('input[name=question]').val(),
-                email: $('input[name=email').val(),
-                answer: $(this).parent().find('input[name=answer]').val()
-            }).done(function(data){
-                console.log(data);
-            });
+            var l = $('.quiz-slides').position();
+            $( '.quiz-slides' ).animate ( {
+                left: ( l.left - w ) + 'px'
+            } );
+
+            $.post( '<?=base_url( "opinion/submit" );?>', {
+                question:   $( e.currentTarget ).parent( ).parent( ).parent( ).find( 'input[name="question"]' ).val( ),
+                email:      $('input[name="email"]').val(),
+                answer:     $( e.currentTarget ).parent().find('input[name="answer"]').val()
+            } ).done( function( data ) {
+                //console.log( data );
+            } );
         });
     });
 </script>
