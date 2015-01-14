@@ -39,7 +39,7 @@
 */
 
 $route[ 'default_controller' ]  = "inicio";
-$route[ '(:num)/(:any)/(:any)' ]  = "$1/$2/$3";
+//$route[ '(:num)/(:any)/(:any)' ]  = "$1/$2/$3";
 $route[ '404_override' ]        = '';
 
 
