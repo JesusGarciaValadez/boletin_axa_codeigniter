@@ -25,24 +25,26 @@
         <div class="bit-60 rounded shadow blue-square" id="two-row-span">
             <h1 class="white-text">Manejar bien:</h1>
             <h2 class="white-text">Un propósito de año nuevo</h2>
-            <p class="bit-80 white-text">Una nueva forma de conducir nuestros coches, es un gran propósito para iniciar el año.</p>
-            <p class="bit-60 centered">
-                <ul class="clearfix bit-70">
-                    <li class="clearfix bit-20">
-                        <?=img('images/assets/2015/inicio/familia.png');?>
-                    </li>
-                    <li class="clearfix bit-20">
-                        <?=img('images/assets/2015/inicio/ciclista.png');?>
-                    </li>
-                    <li class="clearfix bit-20">
-                        <?=img('images/assets/2015/inicio/edificio.png');?>
-                    </li>
-                    <li class="clearfix bit-20">
-                        <?=img('images/assets/2015/inicio/coche.png');?>
-                    </li>
-                </ul>
+            <p class="bit-1 white-text">Una nueva forma de conducir nuestros coches, es un gran propósito para iniciar el año.</p>
+            <p class="bit-20 clearfix centered">
                 <?=anchor('futuro', img('images/assets/2015/inicio/leer_mas_1.png'), 'class="clearfix"' );?>
             </p>
+            <div class="bit-80">
+                <ul class="clearfix bit-1">
+                    <li class="clearfix bit-25">
+                        <p><?=img('images/assets/2015/inicio/familia.png');?></p>
+                    </li>
+                    <li class="clearfix bit-25">
+                        <p><?=img('images/assets/2015/inicio/ciclista.png');?></p>
+                    </li>
+                    <li class="clearfix bit-25">
+                        <p><?=img('images/assets/2015/inicio/edificio.png');?></p>
+                    </li>
+                    <li class="clearfix bit-25">
+                        <p><?=img('images/assets/2015/inicio/coche.png');?></p>
+                    </li>
+                </ul>
+            </div>
         </div>
 
         <div class="bit-40" id="two-rows">
@@ -72,7 +74,9 @@
                         <?=img('images/assets/2015/inicio/casa_art1.png');?>
                     </p>
                     <p class="bit-60">¿Sabías que el 90% de los accidentes que ocurren en el hogar se pueden evitar?</p>
-                    <p class="bit-60"><?=anchor('hogar', img('images/assets/btn_leerMas.png'));?></p>
+                    <p class="bit-60 centered">
+                        <?=anchor('hogar', img('images/assets/btn_leerMas.png'));?>
+                    </p>
                 </div>
             </div>
         </div>
@@ -85,7 +89,9 @@
                         <?=img('images/assets/2015/inicio/mono_art2.png');?>
                     </p>
                     <p class="bit-60">El 80% de los mexicanos ha padecido de dolores agudos en la espalda.</p>
-                    <p class="bit-60"><?=anchor('salud', img('images/assets/btn_leerMas.png'));?></p>
+                    <p class="bit-60 centered">
+                        <?=anchor('salud', img('images/assets/btn_leerMas.png'));?>
+                    </p>
                 </div>
             </div>
         </div>
@@ -93,9 +99,11 @@
             <div class="square dark-text shadow gray-border">
                 <div class="bit-1 inner-square third">
                     <h3>¿Cómo recuperarte de los gastos de diciembre?</h3>
-                    <?=img( array( 'class' => "bit-40", 'src' => 'images/assets/2015/inicio/cerdo_art3.png' ));?>
+                    <p class="bit-40">
+                        <?=img( 'images/assets/2015/inicio/cerdo_art3.png' );?>
+                    </p>
                     <p class="bit-60">Que la cuesta de enero, no cueste tanto.</p>
-                    <p class="bit-60"><?=anchor('auto', img('images/assets/btn_leerMas.png'));?></p>
+                    <p class="bit-60 centered"><?=anchor('auto', img('images/assets/btn_leerMas.png'));?></p>
                 </div>
             </div>
         </div>
@@ -103,20 +111,26 @@
     <div class="frame">
         <div class="bit-3">
             <div class="small-square">
-                <div class="bit-1 lightblue inner-square first" style="background-color:#e8e7e5;">
-                    <h3>¡Ya puedes pagar tu póliza desde dispositivos móviles!</h3>
+                <div class="bit-1 inner-square first" style="background-color:#e8e7e5;">
+                    <h3 class="bit-1 centered">¡Ya puedes pagar tu póliza desde dispositivos móviles!</h3>
                     <h4 class="bit-80 centered">Fácil y en todo momento</h4>
-                    <?=img( array( 'class' => "bit-50", 'src' => 'images/assets/2015/inicio/dispositivos.png' ) );?>
-                    <?=anchor('apps', img('images/assets/btn_descubremas.png'), array( 'class' => 'bit-50' ));?>
+                    <p class="bit-40 centered">
+                        <?=img( 'images/assets/2015/inicio/dispositivos.png' );?>
+                    </p>
+                    <p class="bit-60 centered">
+                        <?=anchor('apps', img('images/assets/btn_descubremas.png'));?>
+                    </p>
                 </div>
             </div>
         </div>
         <div class="bit-3">
             <div class="small-square">
-                <div class="bit-1 lightblue inner-square second" style="background-color:#dcd9d6;">
-                    <?=img( array( 'class' => "bit-40", 'src' => 'images/assets/2015/inicio/call_center.png' ) );?>
-                    <h3 class="bit-50">¿Insatisfecho con nuestro servicio?</h3>
-                    <p class="bit-60">
+                <div class="bit-1 inner-square second" style="background-color:#dcd9d6;">
+                    <p class="bit-40">
+                        <?=img( 'images/assets/2015/inicio/call_center.png' );?>
+                    </p>
+                    <h3 class="bit-60 centered">¿Insatisfecho con nuestro servicio?</h3>
+                    <p class="bit-60 centered">
                         <?=anchor( 'http://axa.mx/Personas/perfiladores/Salud911/Paginas/default.aspx',
                         img('images/assets/btn_hazclicaqui.png'),
                         array(
@@ -130,10 +144,12 @@
         <div class="bit-3">
             <div class="small-square" style="background-color:#e8e7e5;">
                 <div class="bit-1 inner-square third">
-                    <?=img(array( 'class' => "bit-40", 'src' => 'images/assets/2015/inicio/mirada_x.png' ));?>
+                    <p class="bit-40 centered">
+                        <?=img( 'images/assets/2015/inicio/mirada_x.png' );?>
+                    </p>
                     <h3 class="bit-60">Blog Mirada X.</h3>
                     <p class="bit-60">Tecnología, prevención y la industria de seguros en una sola plataforma.</p>
-                    <p class="bit-60">
+                    <p class="bit-60 centered">
                         <?=anchor('http://promociones-axa.com.mx/?utm_medium=email+AXA/Touch&utm_campaign=AXA/Touch+Boletin+septiembre+2014+Escoge+y+estrena&utm_source=Boletin+septiembre+2014', img('images/assets/btn_descubremas.png'), array('target'=>'_blank'));?>
                     </p>
                 </div>
