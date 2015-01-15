@@ -5,12 +5,7 @@
     <meta charset="utf-8">
     <title>Bolet&iacute;n Axa - <?=$mes;?></title>
 
-    <?=link_tag('css/lemonade.css');?>
-    <?=link_tag('css/boletin-axa.css');?>
-    <?=link_tag('css/boletin-axa-auto.css');?>
-    <?=link_tag('css/boletin-axa-hogar.css');?>
-    <?=link_tag('css/boletin-axa-futuro.css');?>
-    <?=link_tag('css/boletin-axa-salud.css');?>
+    <?=link_tag('css/{stylesheet}.css');?>
     <link rel="shortcut icon" href="<?=base_url('images/assets/favicon.ico');?>" type="image/x-icon" />
     <link rel="shortcut icon" href="<?=base_url('images/assets/favicon.png');?>" type="image/png" />
     <base href="<?=base_url();?>" />

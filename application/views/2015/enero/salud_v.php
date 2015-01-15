@@ -4,7 +4,7 @@
     </div>
     <div class="bit-5 header-details">
         <h2>BOLET&Iacute;N AXA</h2>
-        <h3><?=$mes;?> <?=$anio;?> <strong>N. 10</strong></h3>
+        <h3>{mes} {anio} <strong>N. {numero}</strong></h3>
         <p>Consulta los n&uacute;meros anteriores <?=anchor('http://www.boletinaxa.com.mx/anterior/historico.html', img('images/assets/btn_landing.png'));?></p>
     </div>
 </header>
@@ -12,10 +12,10 @@
 <nav class="frame">
     <ul>
         <li><?=anchor('/', 'INICIO');?></li>
-        <li><?=anchor('salud', 'TU SALUD');?></li>
-        <li><?=anchor('futuro', 'TU FUTURO');?></li>
-        <li><?=anchor('auto', 'TU AUTO');?></li>
-        <li><?=anchor('hogar', 'TU HOGAR');?></li>
+        <li><?=anchor('2015/enero/salud', 'TU SALUD');?></li>
+        <li><?=anchor('2015/enero/futuro', 'TU FUTURO');?></li>
+        <li><?=anchor('2015/enero/auto', 'TU AUTO');?></li>
+        <li><?=anchor('2015/enero/hogar', 'TU HOGAR');?></li>
         <li><?=anchor('opinion?email='.$this->session->userdata('email'), 'TU OPINI&Oacute;N');?></li>
     </ul>
 </nav>
@@ -23,13 +23,13 @@
 <div class="container">
  <?=($this->session->flashdata('msg') ? '<p style="color:red;font-size:.8em;">'.$this->session->flashdata('msg').'</p>' : '');?>
 
-   
+
     <div class="frame purple">
     <div class="bit-60 purple" style="padding:0px;">
         <br><br><br>   <br>
-     
+
         <h1 style="font-size:3.52em; padding-left: 20px;"> Lumbalgia,</h1>
-        <h3 style="font-size:1.5em; padding-left: 20px;""> un mal que afecta a los mexicanos</h3>
+        <h3 style="font-size:1.5em; padding-left: 20px;"> un mal que afecta a los mexicanos</h3>
     </div>
 
     <div class="bit-40" style="padding:0px;">
@@ -40,17 +40,17 @@
 <div class="bit-20" style="text-align:left;"> <?=img('images/assets/salud_files/grafica.jpg');?>    </div>
     <div class="bit-80 purple-text"><br><br>
         <h1 style="line-height: 120%;">¿Sabías que el 80% de los mexicanos padecen de dolores agudos de espalda en algún momento
-de su vida?</h1><br>       
-       
+de su vida?</h1><br>
+
 
         <span class="source">Fuente: IMSS (www.imss.gob.mx/salud-en-linea/lumbalgia)</span><p></p>
     </div>
 
-   
+
 </div>
 
 <div class="frame">
-    <div class="bit-80 graytext"><br>        
+    <div class="bit-80 graytext"><br>
     <p align="justify">La lumbalgia es la presencia de dolor en la región lumbar, es decir en la espalda y cintura, que con frecuencia se recorre a los glúteos y muslos. Generalmente, se presenta después de realizar un gran esfuerzo con una postura inadecuada como, por
 ejemplo, después de cargar cosas muy pesadas sin protección de la columna o después de una caída o golpe muy fuerte.</p>
     </div>
@@ -71,7 +71,7 @@ ejemplo, después de cargar cosas muy pesadas sin protección de la columna o de
 
 <div class="frame purple">
 <div class="bit-1"><br>
-        <?=img('images/assets/salud_files/banner_depresion.png');?>    
+        <?=img('images/assets/salud_files/banner_depresion.png');?>
         </div>
 </div>
 
@@ -127,7 +127,7 @@ ejemplo, después de cargar cosas muy pesadas sin protección de la columna o de
             <?=img('images/assets/salud_files/descanso.png');?>    <br>
      </div>
 <br>
-        
+
     </div>
 </div>
 <div class="frame purple-light"> &nbsp;
@@ -142,7 +142,7 @@ ejemplo, después de cargar cosas muy pesadas sin protección de la columna o de
 
 
 
-    <div class="bit-80 purple-text"><br>       
+    <div class="bit-80 purple-text"><br>
     <h3>1. Mantener una postura correcta</h3>
      <p>Para lograr una buena postura, las orejas deben estar alineadas con los hombros y los omóplatos replegados, con esto, disminuye la tensión sobre la columna.</p>
     </div>
@@ -154,8 +154,8 @@ ejemplo, después de cargar cosas muy pesadas sin protección de la columna o de
 
 <div class="frame">
 
-    
-    <div class="bit-80 purple-text"><br>       
+
+    <div class="bit-80 purple-text"><br>
     <h3>2. Respira profundamente con el abdomen</h3>
      <p>Esto permite que los nervios de la columna se muevan en los conductos espinales.<br>
 Repite estas respiraciones profundas varias veces al día para ayudar a mantener tu<br>
@@ -169,8 +169,8 @@ postura y relajar la tensión de la espalda.</p>
 
 
 <div class="frame">
-   
-    <div class="bit-80 purple-text"><br>       
+
+    <div class="bit-80 purple-text"><br>
     <h3>3. Ejercitar los músculos que rodean la columna</h3>
      <p>Ejercítate utilizando pesas ligeras o practicando posiciones de yoga.<br>
 Estos ejercicios son buenos para mejorar la salud de tu columna.<br>
@@ -184,8 +184,8 @@ Sólo 10 minutos de estos ejercicios marcarán la diferencia.</p>
 
 
 <div class="frame">
-   
-    <div class="bit-80 purple-text"><br>       
+
+    <div class="bit-80 purple-text"><br>
     <h3>4. Mantener una dieta saludable</h3>
      <p>Tener un peso ideal es fundamental para la salud de la columna.<br>
 Una dieta balanceada, rica en proteínas magras, grasas vegetales, frutas y verduras frescas, es ideal para mantener un cuerpo esbelto.<br>
@@ -200,8 +200,8 @@ reducir el dolor de los nervios de la columna.</p>
 
 
 <div class="frame">
-   
-    <div class="bit-80 purple-text"><br>       
+
+    <div class="bit-80 purple-text"><br>
     <h3>5. Cuidar la postura al dormir</h3>
      <p>Es importante dormir lo suficiente (entre 6 y 8 horas al día), sobre todo dormir en una postura adecuada para que la columna esté relajada. La posición ideal es recostarte sobre tu costado, ya que así ejerces menos presión en la columna.</p>
     </div>
@@ -250,4 +250,4 @@ Si requieres de atención pregunta a tu agente sobre el programa +Care Ortopedia
 <div class="frame light-gray" style="text-align:center;margin-bottom:8px;">
     <h2 class="lightblue-text">Si necesitas más información</h2>
     <h2 class="pink-text">¡Contacta a tu agente!</h2>
-</div>    
+</div>

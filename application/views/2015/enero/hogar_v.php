@@ -4,7 +4,7 @@
     </div>
     <div class="bit-5 header-details">
         <h2>BOLET&Iacute;N AXA</h2>
-        <h3><?=$mes;?> <?=$anio;?> <strong>N. 10</strong></h3>
+        <h3>{mes} {anio} <strong>N. {numero}</strong></h3>
         <p>Consulta los n&uacute;meros anteriores <?=anchor('http://www.boletinaxa.com.mx/anterior/historico.html', img('images/assets/btn_landing.png'));?></p>
     </div>
 </header>
@@ -12,10 +12,10 @@
 <nav class="frame">
     <ul>
         <li><?=anchor('/', 'INICIO');?></li>
-        <li><?=anchor('salud', 'TU SALUD');?></li>
-        <li><?=anchor('futuro', 'TU FUTURO');?></li>
-        <li><?=anchor('auto', 'TU AUTO');?></li>
-        <li><?=anchor('hogar', 'TU HOGAR');?></li>
+        <li><?=anchor('2015/enero/salud', 'TU SALUD');?></li>
+        <li><?=anchor('2015/enero/futuro', 'TU FUTURO');?></li>
+        <li><?=anchor('2015/enero/auto', 'TU AUTO');?></li>
+        <li><?=anchor('2015/enero/hogar', 'TU HOGAR');?></li>
         <li><?=anchor('opinion?email='.$this->session->userdata('email'), 'TU OPINI&Oacute;N');?></li>
     </ul>
 </nav>
@@ -24,8 +24,8 @@
  <?=($this->session->flashdata('msg') ? '<p style="color:red;font-size:.8em;">'.$this->session->flashdata('msg').'</p>' : '');?>
 
     <div class="frame">
-   
-        <?=img('images/assets/hogar_files/banner_horgar.jpg');?>     
+
+        <?=img('images/assets/hogar_files/banner_horgar.jpg');?>
 </div>
 
 <div class="frame">
@@ -50,7 +50,7 @@ fallecimientos.</strong> Éstos, generalmente, no se producen por casualidad, si
 
        <div class="bit-2">
        <?=img('images/assets/hogar_files/hogar2.png');?>        </div>
-   
+
 </div>
 
 <div class="frame">
@@ -71,30 +71,30 @@ tomar las medidas necesarias para prevenirlos, en especial si en casa viven niñ
 <div class="frame">
     <div class="bit-1">
         <h1 style="font-size:1.8em; color:#F00">Los accidentes más comunes en el hogar son:</h1>
-        
+
     </div>
 
 <div class="frame graytext">
     <div class="bit-2">
-    
+
         <div align="center"><?=img('images/assets/hogar_files/acci_1.png');?>        </div>
-      
+
       <h2 style="text-align:center; color:#F00">Quemaduras</h2>
         <p style="text-align:center;">Producidas por planchas, estufas, lámparas, cerillos, cigarros y líquidos calientes.</p>
         </div>
-   
+
 
    <div class="bit-2">
-    
+
         <div align="center"><?=img('images/assets/hogar_files/acci_2.png');?>         </div>
       <h2 style="text-align:center; color:#F00">Intoxicaciones</h2>
         <p style="text-align:center;">Generadas al ingerir medicamentos, productos
-de limpieza o jardinería, insecticidas, pinturas, 
+de limpieza o jardinería, insecticidas, pinturas,
 solventes, adhesivos, combustibles, perfumes y/o
 bebidas alcohólicas</p>
     </div>
  </div>
- 
+
  <div class="frame graytext">
   <div class="bit-2">
         <div align="center"><?=img('images/assets/hogar_files/acci_3.png');?>         </div>
@@ -108,10 +108,10 @@ bebidas alcohólicas</p>
         <p style="text-align:center;">Producidas por objetos punzocortantes.</p>
     </div>
     </div>
-    
-    
+
+
     <div class="frame graytext">
-   
+
      <div class="bit-2">
         <div align="center"><?=img('images/assets/hogar_files/acci_5.png');?>         </div>
       <h2 style="text-align:center; color:#F00">Golpes</h2>
@@ -126,7 +126,7 @@ camas y otros muebles.</p>
 objetos en los enchufes.</p>
     </div>
  </div>
-   
+
 </div>
 
 
@@ -137,7 +137,7 @@ objetos en los enchufes.</p>
  <span class="source" style="padding-left:20px">Fuente: IMSS</span><br>
 </div>
     </div></div>
-    
+
 
 <div class="frame">
     <div class="bit-1 light-yellow">
@@ -148,7 +148,7 @@ riesgos a los que estás expuesto dentro de tu hogar:</h1>
 </div>
     </div>
 
-    
+
      <div class="frame graytext">
     <div class="bit-2">
         <div class="bit-60">
@@ -161,7 +161,7 @@ riesgos a los que estás expuesto dentro de tu hogar:</h1>
           </ul>
         </div>
         <div class="bit-40" align="center"><?=img('images/assets/hogar_files/ico_verde_1.png');?> </div>
-        
+
     </div>
 
    <div class="bit-2">
@@ -179,8 +179,8 @@ riesgos a los que estás expuesto dentro de tu hogar:</h1>
         <div class="bit-40" align="center"><?=img('images/assets/hogar_files/ico_verde_2.png');?> </div>
     </div>
  </div>
-     
- 
+
+
    <div class="frame graytext">
     <div class="bit-2">
         <div class="bit-60">
@@ -192,7 +192,7 @@ riesgos a los que estás expuesto dentro de tu hogar:</h1>
           </ul>
         </div>
         <div class="bit-40" align="center"><?=img('images/assets/hogar_files/ico_verde_3.png');?> </div>
-        
+
     </div>
 
    <div class="bit-2">
@@ -205,8 +205,8 @@ riesgos a los que estás expuesto dentro de tu hogar:</h1>
         <div class="bit-40" align="center"><?=img('images/assets/hogar_files/ico_verde_4.png');?> </div>
     </div>
  </div>
- 
- 
+
+
    <div class="frame graytext">
     <div class="bit-2">
         <div class="bit-60"><br><br>
@@ -215,7 +215,7 @@ riesgos a los que estás expuesto dentro de tu hogar:</h1>
           </ul>
         </div>
         <div class="bit-40" align="center"><?=img('images/assets/hogar_files/ico_verde_5.png');?> </div>
-        
+
     </div>
 
    <div class="bit-2">
@@ -229,8 +229,8 @@ riesgos a los que estás expuesto dentro de tu hogar:</h1>
         <div class="bit-40" align="center"><?=img('images/assets/hogar_files/ico_verde_6.png');?> </div>
     </div>
  </div>
- 
- 
+
+
    <div class="frame graytext">
     <div class="bit-2">
         <div class="bit-60">
@@ -240,7 +240,7 @@ riesgos a los que estás expuesto dentro de tu hogar:</h1>
           </ul>
         </div>
         <div class="bit-40" align="center"><?=img('images/assets/hogar_files/ico_verde_7.png');?> </div>
-        
+
     </div>
 
    <div class="bit-2">
@@ -252,9 +252,9 @@ riesgos a los que estás expuesto dentro de tu hogar:</h1>
        </div>
         <div class="bit-40" align="center"><?=img('images/assets/hogar_files/ico_verde_8.png');?> </div>
     </div>
- </div>  
-   
-   
+ </div>
+
+
 
 <div class="frame"><br>
     <div class="bit-1">
@@ -268,7 +268,7 @@ alternativa que te permitirá vivir más tranquilo y preparado ante cualquier ev
 
 
 
-    
+
 </div>
 
 <div class="frame">
@@ -297,4 +297,4 @@ alternativa que te permitirá vivir más tranquilo y preparado ante cualquier ev
 <div class="frame light-gray" style="text-align:center;margin-bottom:8px;">
     <h2 class="lightblue-text">Si necesitas más información</h2>
     <h2 class="pink-text">¡Contacta a tu agente!</h2>
-</div>   
+</div>

@@ -24,7 +24,7 @@
     <div class="frame">
         <div class="bit-60 rounded shadow blue-square" id="two-row-span">
             <h1 class="white-text">Manejar bien:</h1>
-            <h2 class="white-text">Un propósito de año nuevo</h2>
+            <h2 class="white-text">Un propósito de Año Nuevo</h2>
             <p class="bit-1 white-text">Una nueva forma de conducir nuestros coches, es un gran propósito para iniciar el año.</p>
             <p class="bit-20 clearfix centered">
                 <?=anchor('futuro', img('images/assets/2015/inicio/leer_mas_1.png'), 'class="clearfix"' );?>
@@ -57,7 +57,7 @@
 
             <div class="opinion bit-1 centered blue-square rounded shadow">
                 <h1>Queremos<br /><span class="red-text">conocer</span><br />m&aacute;s de ti.</h1>
-                <p>Ay&uacute;danos con esta peque&ntilde;a encuesta.</p>
+                <p>Ay&uacute;danos con esta peque&ntilde;a encuesta</p>
                 <div>
                     <?=anchor('opinion?email='.$this->session->userdata('email'), 'Da clic aqu&iacute;');?>
                 </div>
@@ -69,7 +69,7 @@
         <div class="bit-3 navy-border">
             <div class="square dark-text shadow gray-border ">
                 <div class="bit-1 dark-text inner-square first">
-                    <h3>Conoce los accidentes más frecuentes en el hogar y toma tus precauciones.</h3>
+                    <h3>Conoce los accidentes más frecuentes en el hogar y toma tus precauciones</h3>
                     <p class="bit-40">
                         <?=img('images/assets/2015/inicio/casa_art1.png');?>
                     </p>
@@ -147,7 +147,7 @@
                     <p class="bit-40 centered">
                         <?=img( 'images/assets/2015/inicio/mirada_x.png' );?>
                     </p>
-                    <h3 class="bit-60">Blog Mirada X.</h3>
+                    <h3 class="bit-60">Blog Mirada X</h3>
                     <p class="bit-60">Tecnología, prevención y la industria de seguros en una sola plataforma.</p>
                     <p class="bit-60 centered">
                         <?=anchor('http://promociones-axa.com.mx/?utm_medium=email+AXA/Touch&utm_campaign=AXA/Touch+Boletin+septiembre+2014+Escoge+y+estrena&utm_source=Boletin+septiembre+2014', img('images/assets/btn_descubremas.png'), array('target'=>'_blank'));?>
