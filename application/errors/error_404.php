@@ -21,12 +21,12 @@
 
     <nav class="frame">
         <ul>
-            <li><a href="http://www.boletinaxa.com.mx/">INICIO</a></li>
-            <li><a href="http://www.boletinaxa.com.mx/salud">TU SALUD</a></li>
-            <li><a href="http://www.boletinaxa.com.mx/futuro">TU FUTURO</a></li>
-            <li><a href="http://www.boletinaxa.com.mx/auto">TU AUTO</a></li>
-            <li><a href="http://www.boletinaxa.com.mx/hogar">TU HOGAR</a></li>
-            <li><a href="http://www.boletinaxa.com.mx/opinion?email=">TU OPINI&Oacute;N</a></li>
+            <li><?=anchor('/', 'INICIO');?></li>
+            <li><?=anchor('2015/enero/salud', 'TU SALUD');?></li>
+            <li><?=anchor('2015/enero/futuro', 'TU FUTURO');?></li>
+            <li><?=anchor('2015/enero/auto', 'TU AUTO');?></li>
+            <li><?=anchor('2015/enero/hogar', 'TU HOGAR');?></li>
+            <li><?=anchor('opinion?email='.$this->session->userdata('email'), 'TU OPINI&Oacute;N');?></li>
         </ul>
     </nav>
 
