@@ -4,14 +4,13 @@
     </div>
     <div class="bit-5 header-details">
         <h2>BOLET&Iacute;N AXA</h2>
-        <h3><?=$mes;?> <?=$anio;?> <strong>N. <?=$numero;?></strong></h3>
+        <h3>{mes} {anio} <strong>N. {numero}</strong></h3>
         <p>Consulta los n&uacute;meros anteriores <?=anchor('http://www.boletinaxa.com.mx/anterior/historico.html', img('images/assets/btn_landing.png'));?></p>
     </div>
 </header>
-
 <nav class="frame">
     <ul>
-        <li><?=anchor('2014/octubre/', 'INICIO');?></li>
+        <li><?=anchor('/', 'INICIO');?></li>
         <li><?=anchor('2014/octubre/salud', 'TU SALUD');?></li>
         <li><?=anchor('2014/octubre/futuro', 'TU FUTURO');?></li>
         <li><?=anchor('2014/octubre/auto', 'TU AUTO');?></li>

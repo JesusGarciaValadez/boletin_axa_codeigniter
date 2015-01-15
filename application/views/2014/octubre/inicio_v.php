@@ -4,14 +4,13 @@
     </div>
     <div class="bit-5 header-details">
         <h2>BOLET&Iacute;N AXA</h2>
-        <h3><?=$mes;?> <?=$anio;?> <strong>N. <?=$numero;?></strong></h3>
+        <h3>{mes} {anio} <strong>N. {numero}</strong></h3>
         <p>Consulta los n&uacute;meros anteriores <?=anchor('http://www.boletinaxa.com.mx/anterior/historico.html', img('images/assets/btn_landing.png'));?></p>
     </div>
 </header>
-
 <nav class="frame">
     <ul>
-        <li><?=anchor('2014/octubre/', 'INICIO');?></li>
+        <li><?=anchor('/', 'INICIO');?></li>
         <li><?=anchor('2014/octubre/salud', 'TU SALUD');?></li>
         <li><?=anchor('2014/octubre/futuro', 'TU FUTURO');?></li>
         <li><?=anchor('2014/octubre/auto', 'TU AUTO');?></li>
@@ -32,7 +31,7 @@
         </p>
         <p class="bit-40 centered">
             <?=img('images/assets/iconos_banner.png');?>
-            <?=anchor('futuro', img('images/assets/btn_leerMas.png'));?>
+            <?=anchor('2014/octubre/futuro', img('images/assets/btn_leerMas.png'));?>
         </p>
     </div>
 
@@ -64,7 +63,7 @@
                 </p>
                 <p class="bit-80">
                     Identifica los riesgos que corres en casa y toma medidas de prevenci&oacute;n para evitar este tipo de desastres.
-                    <?=anchor('hogar', img('images/assets/btn_leerMas.png'));?>
+                    <?=anchor('2014/octubre/hogar', img('images/assets/btn_leerMas.png'));?>
                 </p>
             </div>
         </div>
@@ -79,7 +78,7 @@
                 </p>
                 <p class="bit-80">
                     Una buena sonrisa nos puede abrir muchas puertas. Conoce las formas en las que puedes proteger tu dentadura.
-                    <?=anchor('salud', img('images/assets/btn_leerMas.png'));?>
+                    <?=anchor('2014/octubre/salud', img('images/assets/btn_leerMas.png'));?>
                 </p>
             </div>
         </div>
@@ -95,7 +94,7 @@
                 <p class="bit-80">
                     Todos estamos expuestos a que el autom&oacute;vil nos deje parados en la carretera. Aqu&iacute; te decimos qu&eacute;
                     hacer en estos casos.
-                    <?=anchor('auto', img('images/assets/btn_leerMas.png'));?>
+                    <?=anchor('2014/octubre/auto', img('images/assets/btn_leerMas.png'));?>
                 </p>
             </div>
         </div>
@@ -108,7 +107,7 @@
             <div class="bit-1 lightblue inner-square" style="background-color:#e8e7e5;">
                 <h3>Soluciones de protecci&oacute;n al alcance de tu mano</h3>
                 <p class="bit-40"><?=img('images/assets/pantallas_cel.png');?></p>
-                <p class="bit-60">3 apps para hacer tu vida m&aacute;s f&aacute;cil <?=br(3).anchor('apps', img('images/assets/btn_conocelas.png'));?></p>
+                <p class="bit-60">3 apps para hacer tu vida m&aacute;s f&aacute;cil <?=br(3).anchor('2014/octubre/apps', img('images/assets/btn_conocelas.png'));?></p>
             </div>
         </div>
     </div>
