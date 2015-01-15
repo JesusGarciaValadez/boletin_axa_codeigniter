@@ -9,7 +9,7 @@ $color_lochmara_approx: #0083c9
 $color_pelorous_approx: #3badc6
 $color_bon_jour_approx: #e1e1e1
 $black_40: rgba(0,0,0,0.40)
-$color_rio_grande_approx: #bed600
+$color_lima_approx: #69bc2c
 $color_alizarin_crimson_approx: #ea2e3b
 $color_fuscous_gray_approx: #57574e
 $color_mystic_approx: #e5edf5
@@ -23,9 +23,10 @@ $color_manz_approx: #dde97e
 $color_tusk_approx: #eff5bd
 $color_quill_gray_approx: #d3d3d1
 $color_cloudy_approx: #a8a7a3
+$color_rio_grande_approx: #bdd500
 $color_cello_approx: #133d5c
 $color_maroon_flush_approx: #ca255e
-$color_chenin_approx: #dccc68
+$color_catalina_blue_approx: #0f3284
 $color_amaranth_approx: #eb274a
 $color_shakespeare_approx: #5ea8db
 $color_hot_toddy_approx: #b09300
@@ -41,7 +42,7 @@ $font_2: sans-serif
 //@extend-elements
 //original selectors
 //body, html
-.extend_1 
+.extend_1
 	padding: 0
 	margin: 0
 	font-family: $font_0, $font_1, $font_2
@@ -51,62 +52,62 @@ $font_2: sans-serif
 
 
 
-body 
-	@extend %extend_1
+body
+	@extend %extend_1 !optional
 
-html 
-	@extend %extend_1
+html
+	@extend %extend_1 !optional
 
-img 
+img
 	vertical-align: middle
 	max-width: 100%
 	height: auto
 	border: 0
 
-header 
+header
 	width: 100%
 	max-width: 960px
 	padding: 0 30px 0 20px
 
-.header-details 
+.header-details
 	font-size: .75em
 	text-align: right
 	padding: 20px 0 0
-	img 
+	img
 		display: inline-block
 		position: relative
 		vertical-align: middle
 
-	h2 
+	h2
 		color: $color_red_approx
 		padding: 0 0 8px 0
 
-	h3 
+	h3
 		font-weight: normal
 		padding: 0 0 3px 0
 		margin: 0 0 8px 0
 		border-bottom: 1px dashed $color_endeavour_approx
 
-	p 
+	p
 		color: $color_red_approx
 		text-align: right
 
 
-nav 
+nav
 	position: relative
 	display: block
 	padding: 0
 	width: 100%
 	max-width: 960px
 	background-color: $color_timberwolf_approx
-	ul 
+	ul
 		position: relative
 		display: block
 		list-style-type: none
 		margin: 20px 0 0
 		padding: 0
 		text-align: center
-		li 
+		li
 			position: relative
 			display: inline-block
 			font-size: .8em
@@ -114,12 +115,12 @@ nav
 			padding: 8px 12px
 
 
-	li a 
+	li a
 		color: $color_bay_of_many_approx
 		text-decoration: none
 
 
-.container 
+.container
 	position: relative
 	display: block
 	width: 100%
@@ -127,17 +128,17 @@ nav
 	margin: 0 auto
 	padding: 1em .5em
 
-.opinion 
-	h1 
+.opinion
+	h1
 		font-size: 2.5em
 		margin: 10px 0
 		line-height: .8em
 
-	p 
+	p
 		font-size: .9em
 		margin-bottom: 20px
 
-	a 
+	a
 		font-weight: bold
 		text-decoration: none
 		color: $color_pelorous_approx
@@ -147,32 +148,32 @@ nav
 		border-radius: .5em
 
 
-.gray-border 
+.gray-border
 	border: 1px solid $color_bon_jour_approx
 
-@media screen and(min-width:800px) 
-	.square 
+@media screen and(min-width:800px)
+	.square
 		position: relative
 		display: block
 		height: 0
 		padding-top: 70%
 		overflow: hidden
 
-	.small-square 
+	.small-square
 		position: relative
 		display: block
 		height: 0
 		padding-top: 55%
 		overflow: hidden
 
-	.inner-square 
+	.inner-square
 		position: absolute
 		display: block
 		width: 100%
 		top: 0
 		left: 0
 
-	.sign-square 
+	.sign-square
 		position: relative
 		display: block
 		height: 0
@@ -185,7 +186,7 @@ nav
 		border-radius: 15px
 		border: 5px solid $color_salem_approx
 
-	.sign-inner-square 
+	.sign-inner-square
 		position: absolute
 		display: block
 		width: 100%
@@ -199,17 +200,17 @@ nav
 		background-color: $color_salem_approx
 
 
-@media screen and(min-width:480px) and(max-width:799px) 
-	.square 
+@media screen and(min-width:480px) and(max-width:799px)
+	.square
 		position: relative
 		display: block
 		overflow: hidden
 
-	.small-square 
+	.small-square
 		position: relative
 		display: block
 		overflow: hidden
-		img 
+		img
 			position: relative
 			display: block
 			max-height: 98%
@@ -217,14 +218,14 @@ nav
 			margin: 0 auto
 
 
-	.inner-square 
+	.inner-square
 		position: relative
 		display: block
 		width: 100%
 		top: 0
 		left: 0
 
-	.sign-square 
+	.sign-square
 		position: relative
 		display: block
 		height: 0
@@ -237,7 +238,7 @@ nav
 		border-radius: 15px
 		border: 5px solid $color_salem_approx
 
-	.sign-inner-square 
+	.sign-inner-square
 		position: absolute
 		display: block
 		width: 100%
@@ -251,17 +252,17 @@ nav
 		background-color: $color_salem_approx
 
 
-@media screen and(max-width:479px) 
-	.square 
+@media screen and(max-width:479px)
+	.square
 		position: relative
 		display: block
 		overflow: hidden
 
-	.small-square 
+	.small-square
 		position: relative
 		display: block
 		overflow: hidden
-		img 
+		img
 			position: relative
 			display: block
 			max-height: 98%
@@ -269,7 +270,7 @@ nav
 			margin: 0 auto
 
 
-	.inner-square 
+	.inner-square
 		position: relative
 		display: block
 		width: 100%
@@ -277,7 +278,7 @@ nav
 		left: 0
 		text-align: center
 
-	.sign-square 
+	.sign-square
 		position: relative
 		display: block
 		width: 98%
@@ -288,7 +289,7 @@ nav
 		border-radius: 15px
 		border: 5px solid $color_salem_approx
 
-	.sign-inner-square 
+	.sign-inner-square
 		position: relative
 		display: block
 		width: 100%
@@ -302,23 +303,23 @@ nav
 		background-color: $color_salem_approx
 
 
-.centered 
+.centered
 	text-align: center
 
-.rounded 
+.rounded
 	padding: 8px 15px
 	//If you use compass, instead of the line below you could use +border-radius($radius, $vertical-radius)
 	border-radius: 10px
 
-.shadow 
+.shadow
 	//If you use compass, instead of the line below you could use +box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
 	box-shadow: 4px 4px 5px 0 $black_40
 
-.blue-square 
+.blue-square
 	background-color: $color_endeavour_approx
 	color: $white
 
-.select-circle 
+.select-circle
 	position: relative
 	display: inline-block
 	vertical-align: middle
@@ -329,51 +330,54 @@ nav
 	border-radius: 50%
 	cursor: pointer
 
-.green 
-	background-color: $color_rio_grande_approx
+.dummy
+	max-height: 100%
 
-.red 
+.green
+	background-color: $color_lima_approx
+
+.red
 	background-color: $color_alizarin_crimson_approx
 
-.dark-text 
+.dark-text
 	color: $color_fuscous_gray_approx
-	h3 
+	h3
 		font-size: 1.5em
 		text-align: center
 
-	p 
+	p
 		font-size: .75em
 
 
-@media(max-width: 50em) 
-	.navy-border 
+@media(max-width: 50em)
+	.navy-border
 		border: 0
 
 
-@media(min-width:50.1em) 
-	.navy-border 
+@media(min-width:50.1em)
+	.navy-border
 		border-right: 1px solid $color_endeavour_approx
 
 
-.lightblue 
+.lightblue
 	min-height: 170px
 	font-size: .8em
 	background-color: $color_mystic_approx
-	h3 
+	h3
 		text-align: center
 		margin: 8px auto 5px auto
 		width: 80%
 
 
-.red-link 
+.red-link
 	color: $color_red_approx
 	text-decoration: none
 	font-weight: bold
 
-.dark-border 
+.dark-border
 	border: 1px solid $color_gunsmoke_approx
 
-.footer-img 
+.footer-img
 	padding: 26px 15px
 	text-align: right
 	height: 85px
@@ -383,43 +387,43 @@ nav
 	background-position: right top
 	background-size: contain
 	background-image: url(../images/assets/redes_footer.png)
-	img 
+	img
 		height: 30px
 		width: auto
-		&:first-child 
+		&:first-child
 			margin-right: 10px
 
 
 
-.footer-links 
+.footer-links
 	padding-top: 12px
 	font-size: .9em
-	a 
+	a
 		color: $color_endeavour_approx
 		text-decoration: none
 
 
-.legales 
+.legales
 	position: relative
 	display: block
 	text-align: center
 	margin: 5px auto 0 auto
 	background-color: $color_pumice_approx
-	img 
+	img
 		max-height: 35px
 		width: auto
 
-	a 
+	a
 		color: $color_endeavour_approx
 		font-size: .8em
 
-	p 
+	p
 		font-size: .6em
 		margin: 10px 0 0
 		color: $color_tapa_approx
 
 
-.contacto 
+.contacto
 	position: relative
 	display: block
 	text-align: center
@@ -427,135 +431,135 @@ nav
 	padding: 20px 0
 	font-size: .8em
 	background-color: $color_storm_dust_approx
-	a 
+	a
 		color: $white
 
 
-.purple-text 
+.purple-text
 	color: $color_medium_red_violet_approx
-	ul 
+	ul
 		margin: 0 15px
 
 
-.big-shadow 
+.big-shadow
 	text-align: center
 	font-size: 1.2em
 	//If you use compass, instead of the line below you could use +text-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
 	text-shadow: 3px 3px 3px $color_black_30_approx
 
-.red-background 
+.red-background
 	color: $white
 	background-color: $color_alizarin_crimson_approx
 	position: relative
 	display: block
 	width: 100%
 	margin: 0 auto
-	h3 
+	h3
 		position: relative
 		display: block
 		width: 95%
 		margin: 5px auto
 
 
-.bottom-circle 
+.bottom-circle
 	margin: 0 auto
 	padding: 10px 0
 	text-align: center
-	img 
+	img
 		width: 10%
 		height: auto
 		display: inline-block
 		position: relative
 		vertical-align: middle
 
-	p 
+	p
 		display: inline-block
 		width: 70%
 		text-align: left
 		vertical-align: middle
 
 
-.yellow 
+.yellow
 	padding: 10px 8px
 	color: $color_fuscous_gray_approx
 	background-color: $color_manz_approx
-	img 
+	img
 		max-width: 40%
 		height: auto
 		display: inline-block
 
 
-.light-yellow 
+.light-yellow
 	padding: 10px 8px
 	color: $color_fuscous_gray_approx
 	background-color: $color_tusk_approx
 
-.light-gray 
+.light-gray
 	padding: 10px 8px
 	color: $color_fuscous_gray_approx
 	background-color: $color_quill_gray_approx
 
-.gray 
+.gray
 	padding: 10px 8px
 	color: $color_fuscous_gray_approx
 	background-color: $color_cloudy_approx
 
-.gif-set 
+.gif-set
 	text-align: right
-	img 
+	img
 		margin: 0 5px
 		position: relative
 		vertical-align: middle
 
 
-.green-dots 
+.green-dots
 	margin: 10px 0
 	border-top: 4px dotted $color_rio_grande_approx
 	border-bottom: 4px dotted $color_rio_grande_approx
 
-table 
+table
 	width: 100%
 
-td 
+td
 	width: 50%
 
-.source 
+.source
 	font-size: .7em
 
-.tips 
+.tips
 	text-align: center
 	font-size: .8em
 	font-weight: bold
-	p 
+	p
 		min-height: 70px
 		display: block
 		position: relative
 		vertical-align: bottom
 
 
-.blue-dotted 
+.blue-dotted
 	border-bottom: 2px dotted $color_endeavour_approx
 	margin: 0 0 10px 0
 
-.related 
+.related
 	//If you use compass, instead of the line below you could use +border-top-left-radius($radius)
 	border-top-left-radius: 8px
 	//If you use compass, instead of the line below you could use +border-top-right-radius($radius)
 	border-top-right-radius: 8px
 	border-spacing: 0
 	overflow: hidden
-	thead 
+	thead
 		color: $white
 		background-color: $color_cello_approx
 
-	th 
+	th
 		padding: .7em 1em
 		text-align: center
 
-	a 
+	a
 		color: $color_endeavour_approx
 
-	td:last-child 
+	td:last-child
 		overflow: hidden
 		//If you use compass, instead of the line below you could use +border-bottom-left-radius($radius)
 		border-bottom-left-radius: 8px
@@ -563,13 +567,13 @@ td
 		border-bottom-right-radius: 8px
 
 
-.pink-text 
+.pink-text
 	color: $color_maroon_flush_approx
 
-.lightblue-text 
+.lightblue-text
 	color: $color_pelorous_approx
 
-.large-background 
+.large-background
 	min-height: 260px
 	margin: 0 0 10px 0
 	padding: 20px 80px 0 20px
@@ -577,45 +581,45 @@ td
 	background-position: top center
 	background-size: cover
 
-.darkblue 
-	padding: 20px 0
+.darkblue
+	padding: 0
 	text-align: center
-	color: $color_chenin_approx
-	background-color: $color_bay_of_many_approx
-	img 
+	color: $white
+	background-color: $color_catalina_blue_approx
+	img
 		max-height: 190px
 		width: auto
 
 
-.roadsign 
+.roadsign
 	padding: 5px
 	text-align: left
 	color: $white
 	overflow: hidden
-	&:after 
+	&:after
 		content: ""
 		display: table
 		clear: both
 
-	img 
+	img
 		max-height: 150px
 		width: auto
 		margin: 3% 25px 0 0
 		padding: 0
 		vertical-align: middle
 
-	div 
+	div
 		height: 100%
 		min-height: 160px
 		background-color: $color_salem_approx
-		&:first-child 
+		&:first-child
 			padding: 3% 0 0 20px
 			//If you use compass, instead of the line below you could use +border-top-left-radius($radius)
 			border-top-left-radius: 10px
 			//If you use compass, instead of the line below you could use +border-bottom-left-radius($radius)
 			border-bottom-left-radius: 10px
 
-		&:last-child 
+		&:last-child
 			//If you use compass, instead of the line below you could use +border-top-right-radius($radius)
 			border-top-right-radius: 10px
 			//If you use compass, instead of the line below you could use +border-bottom-right-radius($radius)
@@ -623,28 +627,29 @@ td
 
 
 
-@media(max-width: 30em) 
-	.first-sign 
+@media(max-width: 30em)
+	.first-sign
 		min-height: 220px !important
-		img 
+		img
 			padding: 50px 0 0 0 !important
 
-		&:first-child 
+		&:first-child
 			padding: 15px 0 0 10px !important
 
 
-	.roadsign img 
+	.roadsign img
 		padding: 40px 0 0
 
 
-.dark-pink 
+.dark-pink
 	text-decoration: none
 	color: $color_amaranth_approx
 
-.graytext 
+.graytext
+	text-align: justify
 	color: $color_fuscous_gray_approx
 
-.warning-1 
+.warning-1
 	color: $color_alizarin_crimson_approx
 	padding: 40px 0 30px 30px
 	min-height: 180px
@@ -653,7 +658,7 @@ td
 	background-repeat: no-repeat
 	background-position: top center
 
-.warning-2 
+.warning-2
 	margin: 10px 0 0
 	color: $color_alizarin_crimson_approx
 	padding: 40px 0 30px 30px
@@ -663,18 +668,18 @@ td
 	background-repeat: no-repeat
 	background-position: top center
 
-.red-text 
+.red-text
 	text-decoration: none
 	text-align: center
 	color: $color_alizarin_crimson_approx
 
-.skyblue 
+.skyblue
 	font-size: 1.2em
 	color: $white
 	background-color: $color_shakespeare_approx
 	padding: 20px
 
-.olive 
+.olive
 	background-image: url(../images/assets/olive_back.png)
 	background-position: top left
 	background-repeat: repeat-x
@@ -683,7 +688,7 @@ td
 	padding: 0 20px
 	background-color: $color_hot_toddy_approx
 
-.babyblue-back 
+.babyblue-back
 	background-image: url(../images/assets/babyblue-back.png)
 	background-position: top left
 	background-repeat: repeat-x
@@ -692,32 +697,32 @@ td
 	padding: 0 20px
 	background-color: $color_shakespeare_approx
 
-.quiz 
+.quiz
 	position: relative
 	display: block
 	overflow: hidden
 	width: 100%
 	height: 270px
 
-.quiz-slides 
+.quiz-slides
 	position: absolute
 	display: block
 	top: 0
 	left: 0
 	height: 500px
-	&:after 
+	&:after
 		content: '.'
 		height: 0
 		position: relative
 		clear: both
 
 
-.quiz-slide 
+.quiz-slide
 	position: relative
 	display: inline-block
 	float: left
 	margin: 20px 0
-	ul 
+	ul
 		position: relative
 		display: block
 		width: 40%
@@ -725,11 +730,11 @@ td
 		margin: 20px auto 0 auto
 		list-style-type: none
 
-	li 
+	li
 		margin: 10px 0
 		vertical-align: middle
 
-	input 
+	input
 		border: 1px solid $alto
 		background-color: $white
 		height: 20px
@@ -737,7 +742,7 @@ td
 		margin: 0 10px 0 0
 		vertical-align: middle
 
-	h2 
+	h2
 		position: relative
 		display: block
 		width: 80%
@@ -745,7 +750,7 @@ td
 		text-align: center
 		color: $boulder
 
-	img 
+	img
 		position: relative
 		display: inline-block
 		top: 0
@@ -755,42 +760,42 @@ td
 		vertical-align: middle
 
 
-.quiz-header 
+.quiz-header
 	position: relative
 	display: block
 	margin: 0 0 10px 0
 	padding: 20px 0
 	text-align: center
 	background-color: $concrete
-	img 
+	img
 		width: 100%
 		max-width: 500px
 		height: auto
 
 
-.apps-table 
+.apps-table
 	width: 80%
 	display: table
 	position: relative
 	margin: 0 auto
-	img 
+	img
 		width: 100%
 		height: auto
 
-	.buttons 
+	.buttons
 		text-align: right
-		img 
+		img
 			display: inline-block
 			max-width: 150px
 
 
 
-.options-2 p 
+.options-2 p
 	position: relative
 	display: inline-block
 	width: 49%
 	margin: 10px 0
 	text-align: center
 	font-size: 1.7em
-	&:first-child 
+	&:first-child
 		border-right: 1px solid $color_lochmara_approx
