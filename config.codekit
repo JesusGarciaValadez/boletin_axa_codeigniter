@@ -635,6 +635,42 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/enero-2015-auto.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/enero-2015-auto.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/enero-2015-futuro.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/enero-2015-futuro.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/enero-2015-hogar.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/enero-2015-hogar.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/enero-2015-salud.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/enero-2015-salud.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/enero-2015.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -649,6 +685,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/lemonade.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/main.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/main.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1056,7 +1101,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/auto_files\/aqui.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/auto_files\/banner_3.png": {
 		"fileType": 32768,
@@ -1067,7 +1112,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/auto_files\/banner_3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/auto_files\/banner_azul.jpg": {
 		"fileType": 16384,
@@ -1078,7 +1123,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/auto_files\/banner_azul.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/auto_files\/btn_landing.png": {
 		"fileType": 32768,
@@ -1089,7 +1134,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/auto_files\/btn_landing.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/auto_files\/crash_dummy.png": {
 		"fileType": 32768,
@@ -1100,7 +1145,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/auto_files\/crash_dummy.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/auto_files\/face_header.png": {
 		"fileType": 32768,
@@ -1111,7 +1156,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/auto_files\/face_header.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/auto_files\/facebook.png": {
 		"fileType": 32768,
@@ -1122,7 +1167,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/auto_files\/facebook.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/auto_files\/footer_temporal.jpg": {
 		"fileType": 16384,
@@ -1133,7 +1178,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/auto_files\/footer_temporal.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/auto_files\/grafica.png": {
 		"fileType": 32768,
@@ -1144,7 +1189,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/auto_files\/grafica.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/auto_files\/head_temporal.jpg": {
 		"fileType": 16384,
@@ -1155,7 +1200,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/auto_files\/head_temporal.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/auto_files\/header.png": {
 		"fileType": 32768,
@@ -1166,7 +1211,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/auto_files\/header.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/auto_files\/ico_coment.png": {
 		"fileType": 32768,
@@ -1177,7 +1222,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/auto_files\/ico_coment.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/auto_files\/icono_escribenos.png": {
 		"fileType": 32768,
@@ -1188,7 +1233,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/auto_files\/icono_escribenos.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/auto_files\/icono_No_1.png": {
 		"fileType": 32768,
@@ -1199,7 +1244,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/auto_files\/icono_No_1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/auto_files\/icono_No_2.png": {
 		"fileType": 32768,
@@ -1210,7 +1255,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/auto_files\/icono_No_2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/auto_files\/icono_No_3.png": {
 		"fileType": 32768,
@@ -1221,7 +1266,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/auto_files\/icono_No_3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/auto_files\/icono_No_4.png": {
 		"fileType": 32768,
@@ -1232,7 +1277,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/auto_files\/icono_No_4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/auto_files\/icono_No_5.png": {
 		"fileType": 32768,
@@ -1243,7 +1288,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/auto_files\/icono_No_5.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/auto_files\/iconos_amarillos.png": {
 		"fileType": 32768,
@@ -1254,7 +1299,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/auto_files\/iconos_amarillos.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/auto_files\/logo_header.jpg": {
 		"fileType": 16384,
@@ -1265,7 +1310,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/auto_files\/logo_header.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/auto_files\/switch_footer.png": {
 		"fileType": 32768,
@@ -1276,7 +1321,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/auto_files\/switch_footer.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/auto_files\/twitter.png": {
 		"fileType": 32768,
@@ -1287,7 +1332,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/auto_files\/twitter.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/auto_files\/twitter_header.png": {
 		"fileType": 32768,
@@ -1298,7 +1343,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/auto_files\/twitter_header.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/auto_icono_1.jpg": {
 		"fileType": 16384,
@@ -1749,7 +1794,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/btn_hazclicaqui.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/btn_landing.png": {
 		"fileType": 32768,
@@ -2035,7 +2080,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/futuro_files\/ahorro.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/futuro_files\/aqui.png": {
 		"fileType": 32768,
@@ -2046,7 +2091,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/futuro_files\/aqui.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/futuro_files\/banner_principal.png": {
 		"fileType": 32768,
@@ -2057,7 +2102,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/futuro_files\/banner_principal.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/futuro_files\/btn_landing.png": {
 		"fileType": 32768,
@@ -2068,7 +2113,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/futuro_files\/btn_landing.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/futuro_files\/calculadora.png": {
 		"fileType": 32768,
@@ -2079,7 +2124,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/futuro_files\/calculadora.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/futuro_files\/calendario.png": {
 		"fileType": 32768,
@@ -2090,7 +2135,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/futuro_files\/calendario.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/futuro_files\/face_header.png": {
 		"fileType": 32768,
@@ -2101,7 +2146,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/futuro_files\/face_header.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/futuro_files\/facebook.png": {
 		"fileType": 32768,
@@ -2112,7 +2157,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/futuro_files\/facebook.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/futuro_files\/grafica.png": {
 		"fileType": 32768,
@@ -2123,7 +2168,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/futuro_files\/grafica.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/futuro_files\/header.png": {
 		"fileType": 32768,
@@ -2134,7 +2179,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/futuro_files\/header.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/futuro_files\/ico_coment.png": {
 		"fileType": 32768,
@@ -2145,7 +2190,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/futuro_files\/ico_coment.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/futuro_files\/icono_escribenos.png": {
 		"fileType": 32768,
@@ -2156,7 +2201,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/futuro_files\/icono_escribenos.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/futuro_files\/logo_header.jpg": {
 		"fileType": 16384,
@@ -2167,7 +2212,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/futuro_files\/logo_header.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/futuro_files\/monitos.png": {
 		"fileType": 32768,
@@ -2178,7 +2223,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/futuro_files\/monitos.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/futuro_files\/nueve.png": {
 		"fileType": 32768,
@@ -2189,7 +2234,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/futuro_files\/nueve.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/futuro_files\/pesos.png": {
 		"fileType": 32768,
@@ -2200,7 +2245,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/futuro_files\/pesos.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/futuro_files\/proyector.png": {
 		"fileType": 32768,
@@ -2211,7 +2256,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/futuro_files\/proyector.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/futuro_files\/switch_footer.png": {
 		"fileType": 32768,
@@ -2222,7 +2267,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/futuro_files\/switch_footer.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/futuro_files\/twitter.png": {
 		"fileType": 32768,
@@ -2233,7 +2278,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/futuro_files\/twitter.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/futuro_files\/twitter_header.png": {
 		"fileType": 32768,
@@ -2244,7 +2289,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/futuro_files\/twitter_header.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/futuro_icono_1.png": {
 		"fileType": 32768,
@@ -2332,7 +2377,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/hogar_files\/acci_1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/hogar_files\/acci_2.png": {
 		"fileType": 32768,
@@ -2343,7 +2388,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/hogar_files\/acci_2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/hogar_files\/acci_3.png": {
 		"fileType": 32768,
@@ -2354,7 +2399,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/hogar_files\/acci_3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/hogar_files\/acci_4.png": {
 		"fileType": 32768,
@@ -2365,7 +2410,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/hogar_files\/acci_4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/hogar_files\/acci_5.png": {
 		"fileType": 32768,
@@ -2376,7 +2421,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/hogar_files\/acci_5.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/hogar_files\/acci_6.png": {
 		"fileType": 32768,
@@ -2387,7 +2432,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/hogar_files\/acci_6.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/hogar_files\/aqui.png": {
 		"fileType": 32768,
@@ -2398,7 +2443,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/hogar_files\/aqui.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/hogar_files\/banner_header.png": {
 		"fileType": 32768,
@@ -2409,7 +2454,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/hogar_files\/banner_header.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/hogar_files\/banner_horgar.jpg": {
 		"fileType": 16384,
@@ -2420,7 +2465,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/hogar_files\/banner_horgar.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/hogar_files\/btn_landing.png": {
 		"fileType": 32768,
@@ -2431,7 +2476,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/hogar_files\/btn_landing.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/hogar_files\/face_header.png": {
 		"fileType": 32768,
@@ -2442,7 +2487,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/hogar_files\/face_header.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/hogar_files\/facebook.png": {
 		"fileType": 32768,
@@ -2453,7 +2498,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/hogar_files\/facebook.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/hogar_files\/header.png": {
 		"fileType": 32768,
@@ -2464,7 +2509,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/hogar_files\/header.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/hogar_files\/hogar1.png": {
 		"fileType": 32768,
@@ -2475,7 +2520,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/hogar_files\/hogar1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/hogar_files\/hogar2.png": {
 		"fileType": 32768,
@@ -2486,7 +2531,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/hogar_files\/hogar2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/hogar_files\/ico_coment.png": {
 		"fileType": 32768,
@@ -2497,7 +2542,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/hogar_files\/ico_coment.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/hogar_files\/ico_morado_1.png": {
 		"fileType": 32768,
@@ -2508,7 +2553,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/hogar_files\/ico_morado_1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/hogar_files\/ico_morado_2.png": {
 		"fileType": 32768,
@@ -2519,7 +2564,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/hogar_files\/ico_morado_2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/hogar_files\/ico_morado_3.png": {
 		"fileType": 32768,
@@ -2530,7 +2575,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/hogar_files\/ico_morado_3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/hogar_files\/ico_morado_4.png": {
 		"fileType": 32768,
@@ -2541,7 +2586,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/hogar_files\/ico_morado_4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/hogar_files\/ico_verde_1.png": {
 		"fileType": 32768,
@@ -2552,7 +2597,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/hogar_files\/ico_verde_1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/hogar_files\/ico_verde_2.png": {
 		"fileType": 32768,
@@ -2563,7 +2608,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/hogar_files\/ico_verde_2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/hogar_files\/ico_verde_3.png": {
 		"fileType": 32768,
@@ -2574,7 +2619,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/hogar_files\/ico_verde_3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/hogar_files\/ico_verde_4.png": {
 		"fileType": 32768,
@@ -2585,7 +2630,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/hogar_files\/ico_verde_4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/hogar_files\/ico_verde_5.png": {
 		"fileType": 32768,
@@ -2596,7 +2641,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/hogar_files\/ico_verde_5.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/hogar_files\/ico_verde_6.png": {
 		"fileType": 32768,
@@ -2607,7 +2652,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/hogar_files\/ico_verde_6.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/hogar_files\/ico_verde_7.png": {
 		"fileType": 32768,
@@ -2618,7 +2663,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/hogar_files\/ico_verde_7.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/hogar_files\/ico_verde_8.png": {
 		"fileType": 32768,
@@ -2629,7 +2674,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/hogar_files\/ico_verde_8.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/hogar_files\/icono_escribenos.png": {
 		"fileType": 32768,
@@ -2640,7 +2685,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/hogar_files\/icono_escribenos.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/hogar_files\/logo_header.jpg": {
 		"fileType": 16384,
@@ -2651,7 +2696,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/hogar_files\/logo_header.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/hogar_files\/switch_footer.png": {
 		"fileType": 32768,
@@ -2662,7 +2707,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/hogar_files\/switch_footer.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/hogar_files\/twitter.png": {
 		"fileType": 32768,
@@ -2673,7 +2718,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/hogar_files\/twitter.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/hogar_files\/twitter_header.png": {
 		"fileType": 32768,
@@ -2684,7 +2729,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/hogar_files\/twitter_header.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/ico_coment.png": {
 		"fileType": 32768,
@@ -3102,7 +3147,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/salud_files\/100kg.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/salud_files\/banner_depresion.png": {
 		"fileType": 32768,
@@ -3113,7 +3158,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/salud_files\/banner_depresion.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/salud_files\/banner_principal.jpg": {
 		"fileType": 16384,
@@ -3124,7 +3169,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/salud_files\/banner_principal.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/salud_files\/btn_landing.png": {
 		"fileType": 32768,
@@ -3135,7 +3180,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/salud_files\/btn_landing.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/salud_files\/correr.png": {
 		"fileType": 32768,
@@ -3146,7 +3191,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/salud_files\/correr.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/salud_files\/descanso.png": {
 		"fileType": 32768,
@@ -3157,7 +3202,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/salud_files\/descanso.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/salud_files\/ejercicio.png": {
 		"fileType": 32768,
@@ -3168,7 +3213,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/salud_files\/ejercicio.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/salud_files\/face_header.png": {
 		"fileType": 32768,
@@ -3179,7 +3224,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/salud_files\/face_header.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/salud_files\/facebook.png": {
 		"fileType": 32768,
@@ -3190,7 +3235,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/salud_files\/facebook.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/salud_files\/gordura.png": {
 		"fileType": 32768,
@@ -3201,7 +3246,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/salud_files\/gordura.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/salud_files\/grafica.jpg": {
 		"fileType": 16384,
@@ -3212,7 +3257,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/salud_files\/grafica.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/salud_files\/grafica.png": {
 		"fileType": 32768,
@@ -3223,7 +3268,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/salud_files\/grafica.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/salud_files\/header.png": {
 		"fileType": 32768,
@@ -3234,7 +3279,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/salud_files\/header.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/salud_files\/ico_coment.png": {
 		"fileType": 32768,
@@ -3245,7 +3290,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/salud_files\/ico_coment.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/salud_files\/icono_escribenos.png": {
 		"fileType": 32768,
@@ -3256,7 +3301,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/salud_files\/icono_escribenos.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/salud_files\/logo_header.jpg": {
 		"fileType": 16384,
@@ -3267,7 +3312,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/salud_files\/logo_header.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/salud_files\/peso.png": {
 		"fileType": 32768,
@@ -3278,7 +3323,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/salud_files\/peso.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/salud_files\/rosa_1.png": {
 		"fileType": 32768,
@@ -3289,7 +3334,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/salud_files\/rosa_1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/salud_files\/rosa_2.png": {
 		"fileType": 32768,
@@ -3300,7 +3345,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/salud_files\/rosa_2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/salud_files\/rosa_3.png": {
 		"fileType": 32768,
@@ -3311,7 +3356,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/salud_files\/rosa_3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/salud_files\/rosa_4.png": {
 		"fileType": 32768,
@@ -3322,7 +3367,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/salud_files\/rosa_4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/salud_files\/rosa_5.png": {
 		"fileType": 32768,
@@ -3333,7 +3378,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/salud_files\/rosa_5.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/salud_files\/sillon.png": {
 		"fileType": 32768,
@@ -3344,7 +3389,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/salud_files\/sillon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/salud_files\/switch_footer.png": {
 		"fileType": 32768,
@@ -3355,7 +3400,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/salud_files\/switch_footer.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/salud_files\/tv.png": {
 		"fileType": 32768,
@@ -3366,7 +3411,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/salud_files\/tv.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/salud_files\/twitter.png": {
 		"fileType": 32768,
@@ -3377,7 +3422,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/salud_files\/twitter.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/salud_files\/twitter_header.png": {
 		"fileType": 32768,
@@ -3388,7 +3433,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/salud_files\/twitter_header.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/secciones_azules.png": {
 		"fileType": 32768,
@@ -3614,65 +3659,49 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/source\/sass\/boletin-axa-auto.sass": {
+	"\/source\/sass\/custom-styles\/2015\/enero\/auto.sass": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 2,
 		"fileType": 2,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/source\/sass\/boletin-axa-auto.sass",
-		"outputAbbreviatedPath": "\/css\/boletin-axa-auto.css",
+		"inputAbbreviatedPath": "\/source\/sass\/custom-styles\/2015\/enero\/auto.sass",
+		"outputAbbreviatedPath": "\/css\/enero-2015-auto.css",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
 		"useLibsass": false
 		},
-	"\/source\/sass\/boletin-axa-futuro.sass": {
+	"\/source\/sass\/custom-styles\/2015\/enero\/futuro.sass": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 2,
 		"fileType": 2,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/source\/sass\/boletin-axa-futuro.sass",
-		"outputAbbreviatedPath": "\/css\/boletin-axa-futuro.css",
+		"inputAbbreviatedPath": "\/source\/sass\/custom-styles\/2015\/enero\/futuro.sass",
+		"outputAbbreviatedPath": "\/css\/enero-2015-futuro.css",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
 		"useLibsass": false
 		},
-	"\/source\/sass\/boletin-axa-hogar.sass": {
+	"\/source\/sass\/custom-styles\/2015\/enero\/hogar.sass": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 2,
 		"fileType": 2,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/source\/sass\/boletin-axa-hogar.sass",
-		"outputAbbreviatedPath": "\/css\/boletin-axa-hogar.css",
+		"inputAbbreviatedPath": "\/source\/sass\/custom-styles\/2015\/enero\/hogar.sass",
+		"outputAbbreviatedPath": "\/css\/enero-2015-hogar.css",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
-		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 1,
-		"useLibsass": false
-		},
-	"\/source\/sass\/boletin-axa-salud.sass": {
-		"createSourceMap": 1,
-		"debugStyle": 0,
-		"decimalPrecision": 2,
-		"fileType": 2,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/source\/sass\/boletin-axa-salud.sass",
-		"outputAbbreviatedPath": "\/css\/boletin-axa-salud.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
@@ -3689,6 +3718,22 @@
 		"outputAbbreviatedPath": "\/css\/home.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"useLibsass": false
+		},
+	"\/source\/sass\/custom-styles\/2015\/enero\/salud.sass": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 2,
+		"fileType": 2,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/sass\/custom-styles\/2015\/enero\/salud.sass",
+		"outputAbbreviatedPath": "\/css\/enero-2015-salud.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
