@@ -20,7 +20,7 @@
     </ul>
 </nav>
 
-<div class="container">
+<div class="container futuro">
  <?=($this->session->flashdata('msg') ? '<p style="color:red;font-size:.8em;">'.$this->session->flashdata('msg').'</p>' : '');?>
     <div class="frame skyblue">
     <div class="bit-2" style="padding:0"><br>

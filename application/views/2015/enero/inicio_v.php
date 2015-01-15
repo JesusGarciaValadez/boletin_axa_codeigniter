@@ -27,7 +27,7 @@
             <h2 class="white-text">Un propósito de Año Nuevo</h2>
             <p class="bit-1 white-text">Una nueva forma de conducir nuestros coches, es un gran propósito para iniciar el año.</p>
             <p class="bit-20 clearfix centered">
-                <?=anchor('futuro', img('images/assets/2015/inicio/leer_mas_1.png'), 'class="clearfix"' );?>
+                <?=anchor('/2015/enero/auto', img('images/assets/2015/inicio/leer_mas_1.png'), 'class="clearfix"' );?>
             </p>
             <div class="bit-80">
                 <ul class="clearfix bit-1">
@@ -75,7 +75,7 @@
                     </p>
                     <p class="bit-60">¿Sabías que el 90% de los accidentes que ocurren en el hogar se pueden evitar?</p>
                     <p class="bit-60 centered">
-                        <?=anchor('hogar', img('images/assets/btn_leerMas.png'));?>
+                        <?=anchor('/2015/enero/hogar', img('images/assets/btn_leerMas.png'));?>
                     </p>
                 </div>
             </div>
@@ -90,7 +90,7 @@
                     </p>
                     <p class="bit-60">El 80% de los mexicanos ha padecido de dolores agudos en la espalda.</p>
                     <p class="bit-60 centered">
-                        <?=anchor('salud', img('images/assets/btn_leerMas.png'));?>
+                        <?=anchor('/2015/enero/salud', img('images/assets/btn_leerMas.png'));?>
                     </p>
                 </div>
             </div>
@@ -103,7 +103,7 @@
                         <?=img( 'images/assets/2015/inicio/cerdo_art3.png' );?>
                     </p>
                     <p class="bit-60">Que la cuesta de enero, no cueste tanto.</p>
-                    <p class="bit-60 centered"><?=anchor('auto', img('images/assets/btn_leerMas.png'));?></p>
+                    <p class="bit-60 centered"><?=anchor('/2015/enero/futuro', img('images/assets/btn_leerMas.png'));?></p>
                 </div>
             </div>
         </div>
@@ -113,12 +113,12 @@
             <div class="small-square">
                 <div class="bit-1 inner-square first" style="background-color:#e8e7e5;">
                     <h3 class="bit-1 centered">¡Ya puedes pagar tu póliza desde dispositivos móviles!</h3>
-                    <h4 class="bit-80 centered">Fácil y en todo momento</h4>
+                    <h4 class="bit-80 centered">Fácil y en todo momento.</h4>
                     <p class="bit-40 centered">
                         <?=img( 'images/assets/2015/inicio/dispositivos.png' );?>
                     </p>
                     <p class="bit-60 centered">
-                        <?=anchor('apps', img('images/assets/btn_descubremas.png'));?>
+                        <?=anchor('https://cajaaxa.mitec.com.mx/cua/inicio.do?method=loginAgente&perfil=cliente', img('images/assets/btn_descubremas.png'));?>
                     </p>
                 </div>
             </div>
@@ -131,7 +131,7 @@
                     </p>
                     <h3 class="bit-60 centered">¿Insatisfecho con nuestro servicio?</h3>
                     <p class="bit-60 centered">
-                        <?=anchor( 'http://axa.mx/Personas/perfiladores/Salud911/Paginas/default.aspx',
+                        <?=anchor( 'http://axa.mx/Personas/ServicioAXA/Contactanos/Paginas/Quejas.aspx',
                         img('images/assets/btn_hazclicaqui.png'),
                         array(
                             'anchor'=>'_blank',
@@ -150,7 +150,7 @@
                     <h3 class="bit-60">Blog Mirada X</h3>
                     <p class="bit-60">Tecnología, prevención y la industria de seguros en una sola plataforma.</p>
                     <p class="bit-60 centered">
-                        <?=anchor('http://promociones-axa.com.mx/?utm_medium=email+AXA/Touch&utm_campaign=AXA/Touch+Boletin+septiembre+2014+Escoge+y+estrena&utm_source=Boletin+septiembre+2014', img('images/assets/btn_descubremas.png'), array('target'=>'_blank'));?>
+                        <?=anchor('http://axainforma.com/blog/miradaX/', img('images/assets/btn_descubremas.png'), array('target'=>'_blank'));?>
                     </p>
                 </div>
             </div>

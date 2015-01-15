@@ -20,7 +20,7 @@
     </ul>
 </nav>
 
-<div class="container">
+<div class="container salud">
  <?=($this->session->flashdata('msg') ? '<p style="color:red;font-size:.8em;">'.$this->session->flashdata('msg').'</p>' : '');?>
 
 

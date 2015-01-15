@@ -20,7 +20,7 @@
     </ul>
 </nav>
 
-<div class="container">
+<div class="container hogar">
  <?=($this->session->flashdata('msg') ? '<p style="color:red;font-size:.8em;">'.$this->session->flashdata('msg').'</p>' : '');?>
 
     <div class="frame">
