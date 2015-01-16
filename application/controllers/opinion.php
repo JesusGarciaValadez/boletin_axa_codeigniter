@@ -26,7 +26,7 @@ class Opinion extends CI_Controller
                     'tel'       => $this->input->get( 'agentetel', true ),
                     'mail'      => $this->input->get( 'agentemail', true )
                 ) );
-                redirect( 'opinion' );
+                //redirect( 'opinion' );
             }
             else
             {

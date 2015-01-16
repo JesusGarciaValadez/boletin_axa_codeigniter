@@ -68,7 +68,7 @@ class Enero extends CI_Controller
                     'tel'       => $this->input->get('agentetel', true),
                     'mail'      => $this->input->get('agentemail', true)
                 ));
-                redirect('inicio');
+                //redirect('inicio');
             }else{
                 $this->session->set_userdata(array(
                     'email'     => 'guest@axa.mx'
