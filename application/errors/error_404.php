@@ -4,6 +4,7 @@
 <title>404 Page Not Found</title>
 
     <link rel="stylesheet" type="text/css" href="css/boletin-axa.css">
+
     <link rel="stylesheet" type="text/css" href="css/lemonade.css">
 
 </head>
@@ -16,6 +17,8 @@
             <h2>BOLET&Iacute;N AXA</h2>
             <h3>Septiembre 2014 <strong>N. 10</strong></h3>
             <p>Consulta los n&uacute;mero anteriores <a href="http://www.boletinaxa.com.mx/historico.html"><img src="images/assets/btn_landing.png" /></a></p>
+            <h3>Enero 2015 <strong>N. 11</strong></h3>
+            <p>Consulta los n&uacute;meros anteriores <a href="http://www.boletinaxa.com.mx/anterior/historico.html" title="Histórico"><img src="images/assets/btn_landing.png" alt="Historico" /></p>
         </div>
     </header>
 
@@ -27,6 +30,12 @@
             <li><?=anchor('2015/enero/auto', 'TU AUTO');?></li>
             <li><?=anchor('2015/enero/hogar', 'TU HOGAR');?></li>
             <li><?=anchor('opinion?email='.$this->session->userdata('email'), 'TU OPINI&Oacute;N');?></li>
+            <li><a href="http://www.boletinaxa.com.mx/" title="INICIO">INICIO</a></li>
+            <li><a href="2015/enero/salud" title="Tu Salud">TU SALUD</a></li>
+            <li><a href="2015/enero/futuro" title="tu Futuro">TU FUTURO</a></li>
+            <li><a href="2015/enero/auto" title="Tu Auto">TU AUTO</a></li>
+            <li><a href="2015/enero/hogar" title="Tu Hogar">TU HOGAR</a></li>
+            <li><a href="opinion?email=<?php echo $_GET['email']; ?>" title="Tu Opinión">TU OPINI&Oacute;N</a></li>
         </ul>
     </nav>
 
