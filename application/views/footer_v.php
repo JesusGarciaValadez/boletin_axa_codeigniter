@@ -8,7 +8,7 @@
                 <? if(!$this->session->userdata('agente') || !$this->session->userdata('tel')){ ?>
                     <? if($this->input->get('agentenom')){ ?>
                         <?=$this->input->get('agentenom');?><br />
-                        <?=$this->input->get('agentetl');?><br />
+                        <?=$this->input->get('agentetel');?><br />
                         <?=mailto($this->input->get('agentemail'), $this->input->get('agentemail'));?>
                     <? }else{ ?>
                     <div class="bit-1" style="padding-top:10px;">
