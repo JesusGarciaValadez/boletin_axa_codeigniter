@@ -2,12 +2,12 @@
 
 class Enero extends CI_Controller
 {
-    public $_data       = array(
-                            'mes'       => 'Enero',
-                            'anio'      => '2015',
-                            'numero'    => '11',
-                            'stylesheet'=> 'enero-2015'
-                            );
+    public $_data   = array(
+                        'mes'           => 'Enero',
+                        'anio'          => '2015',
+                        'numero'        => '11',
+                        'stylesheet'    => 'enero-2015'
+                        );
     public $_userData;
 
     public function index ()
