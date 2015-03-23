@@ -6,7 +6,7 @@ class Abril extends CI_Controller
                         'mes'           => 'Abril',
                         'anio'          => '2015',
                         'numero'        => '12',
-                        'stylesheet'    => 'abril-2015'
+                        'stylesheet'    => 'enero-2015'
                         );
     public $_userData;
 
