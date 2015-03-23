@@ -15,7 +15,7 @@
         <li><?=anchor('2015/abril/futuro', 'TU FUTURO');?></li>
         <li><?=anchor('2015/abril/auto', 'TU AUTO');?></li>
         <li><?=anchor('2015/abril/hogar', 'TU HOGAR');?></li>
-        <li><?=anchor('opinion?email='.$this->session->userdata('email'), 'TU OPINI&Oacute;N');?></li>
+        <li><?=anchor('opinion', 'TU OPINI&Oacute;N');?></li>
     </ul>
 </nav>
 
@@ -30,10 +30,10 @@
     <div class="quiz-slides" style="width:<?=(count($poll)+1)*100;?>%;">
         <? foreach($poll as $key => $value){ ?>
         <div class="quiz-slide" style="width:<?=100/(count($poll)+1);?>%;">
-            <?=form_open('opinion/submit', '',array('question'=>$value['id'], 'email'=>$this->input->get('email', true)));?>
-            <h2><?=img('images/assets/'.$value['id'].'.jpg');?> <?=$value['question'];?></h2>
+            <?=form_open( 'opinion/submit', '',[ 'question' => $value[ 'id' ], 'form_id' => $form_id ] );?>
+            <h2><?=img( 'images/assets/' . $value[ 'id' ] . '.jpg' );?> <?=$value[ 'question' ];?></h2>
                 <ul>
-                <? foreach($value['answers'] as $id => $answer){ ?>
+                <? foreach( $value[ 'answers' ] as $id => $answer ) { ?>
                     <li><input type="radio" id="answer<?=$id;?>" name="answer" value="<?=$answer['id'];?>" /> <?=$answer['answer'];?></li>
                 <? } ?>
                 </ul>
@@ -48,21 +48,21 @@
 </div>
 
 <script>
-    $(document).ready(function(){
-        var w = $('.quiz').width();
-        $('input[name=answer]').click(function(){
-            var l = $('.quiz-slides').position();
-            $('.quiz-slides').animate({
-                left: (l.left-w)+'px'
-            });
+    $( document ).ready( function() {
+        var w = $( '.quiz' ).width();
+        $( 'input[name=answer]' ).on( 'click', function( e ) {
+            var l = $( '.quiz-slides' ).position();
+            $( '.quiz-slides' ).animate( {
+                left:      ( l.left - w ) + 'px'
+            } );
 
-            $.post('<?=base_url("opinion/submit");?>', {
-                question: $(this).parent().parent().parent().find('input[name=question]').val(),
-                email: $('input[name=email').val(),
-                answer: $(this).parent().find('input[name=answer]').val()
-            }).done(function(data){
-                console.log(data);
-            });
+            $.post( '<?=base_url("opinion/submit");?>', {
+                question:  $( e.currentTarget ).parents( 'form' ).find( 'input[name=question]' ).val(),
+                answer:    $( e.currentTarget ).parents( 'form' ).find( 'input[name=answer]' ).val(),
+                form_id:   $( e.currentTarget ).parents( 'form' ).find( 'input[name=form_id]' ).val()
+            } ).done( function ( data ) {
+                console.log( data );
+            } );
         });
     });
 </script>

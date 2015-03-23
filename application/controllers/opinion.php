@@ -85,6 +85,7 @@ class Opinion extends CI_Controller
         }
 
         $this->_data[ 'poll' ]  = $poll;
+        $this->_data[ 'form_id' ]  = rand( 0, 999 );
 
         $this->load->library('parser');
 
@@ -97,11 +98,12 @@ class Opinion extends CI_Controller
     {
         $question   = $this->input->post( 'question', true );
         $answer     = $this->input->post( 'answer', true );
-        $email      = $this->input->post( 'email', true );
+        $form       = $this->input->post( 'form_id', true );
+        $date       = date( 'd-m-Y H:i:s' );
 
         //echo 'email => '.$email.'<br /> answer => '.$answer.'<br /> question => '.$question;
 
-        if( $this->functions->submitAnswer( $question, $answer, $email ) )
+        if( $this->functions->submitAnswer( $question, $answer, $form, $date ) )
         {
             echo 'ingresado';
         }
