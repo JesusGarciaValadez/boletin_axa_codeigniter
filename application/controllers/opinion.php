@@ -3,10 +3,10 @@
 class Opinion extends CI_Controller
 {
     public $_data   = array(
-                            'mes'       => 'Enero',
+                            'mes'       => 'Abril',
                             'anio'      => '2015',
-                            'numero'    => '11',
-                            'stylesheet'=> 'enero-2015'
+                            'numero'    => '12',
+                            'stylesheet'=> 'abril-2015'
                             );
     function __construct( )
     {
@@ -56,15 +56,15 @@ class Opinion extends CI_Controller
 
     public function index( )
     {
-        $this->_processClientData();
+        //$this->_processClientData();
 
-        $email      = $this->session->userdata( 'email' );
+        // $email      = $this->session->userdata( 'email' );
 
-        if( !$email || !$this->functions->validateMail( $email ) )
-        {
-            $this->session->set_flashdata( 'msg', 'Suscribete al bolet&iacute;n de AXA.' );
-            redirect( 'inicio' );
-        }
+        // if( !$email || !$this->functions->validateMail( $email ) )
+        // {
+        //     $this->session->set_flashdata( 'msg', 'Suscribete al bolet&iacute;n de AXA.' );
+        //     redirect( 'inicio' );
+        // }
 
         $questions  = $this->functions->getQuiz( );
 
