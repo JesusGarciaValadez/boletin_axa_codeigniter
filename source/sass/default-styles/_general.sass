@@ -1,0 +1,48 @@
+.frame
+    display: block
+    float: none !important
+    margin: 0 auto
+    max-width: 960px !important
+hr.rule-information
+    background-color: transparent
+    border: 0 none transparent
+    border-top: 3px dotted $horizontal-rule-more--information
+    box-sizing: border-box
+    margin: 1em auto
+    padding: 0
+.more--information
+    background-color: $more--information-background-color
+    box-sizing: border-box
+    display: block
+    float: left
+    h5
+        color: $more--information-firts-title
+        display: block
+        font-size: em( 20, 16 )
+        text-align: center
+        &:nth-child( 2n )
+            color: $more--information-second-title
+.related
+    .bit-3
+        display: block
+        float: none
+        margin: 1em auto 0
+        padding: 0
+        h6
+            background-color: $related-title-background-color
+            border-radius: 10px 10px 0 0
+            color: $white-color
+            font-size: em( 20, 16 )
+            margin: 0 auto
+            text-align: center
+        ul
+            border: 1px solid $related-title-background-color
+            border-radius: 0 0 10px 10px
+            li
+                box-sizing: border-box
+                color: $related-bullet
+                font-size: em( 13, 16 )
+                list-style-position: inside
+                padding: 5px 10px
+                a
+                    color: $related-link
