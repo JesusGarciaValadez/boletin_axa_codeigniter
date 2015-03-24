@@ -6,7 +6,7 @@ class Abril extends CI_Controller
                         'mes'           => 'Abril',
                         'anio'          => '2015',
                         'numero'        => '12',
-                        'stylesheet'    => 'enero-2015'
+                        'stylesheet'    => 'abril-2015'
                         );
     public $_userData;
 
@@ -15,47 +15,47 @@ class Abril extends CI_Controller
         //$this->_initPage( 'inicio' );
 
         $this->parser->parse( 'header_v', $this->_data );
-        $this->parser->parse( '2015/enero/inicio_v', $this->_data );
+        $this->parser->parse( '2015/abril/inicio_v', $this->_data );
         $this->load->view( 'footer_v' );
     }
 
     public function salud ()
     {
-        //$this->_initPage( '/2015/enero/salud' );
+        //$this->_initPage( '/2015/abril/salud' );
         $this->_data[ 'stylesheet' ]    = 'enero-2015-salud';
 
         $this->parser->parse( 'header_v', $this->_data );
-        $this->parser->parse( '2015/enero/salud_v', $this->_data );
+        $this->parser->parse( '2015/abril/salud_v', $this->_data );
         $this->load->view( 'footer_v' );
     }
 
     public function futuro ()
     {
-        //$this->_initPage( '/2015/enero/futuro' );
+        //$this->_initPage( '/2015/abril/futuro' );
         $this->_data[ 'stylesheet' ]    = 'enero-2015-futuro';
 
         $this->parser->parse( 'header_v', $this->_data );
-        $this->parser->parse( '2015/enero/futuro_v', $this->_data );
+        $this->parser->parse( '2015/abril/futuro_v', $this->_data );
         $this->load->view( 'footer_v' );
     }
 
     public function auto ( )
     {
-        //$this->_initPage( '/2015/enero/auto' );
+        //$this->_initPage( '/2015/abril/auto' );
         $this->_data[ 'stylesheet' ]    = 'enero-2015-auto';
 
         $this->parser->parse( 'header_v', $this->_data );
-        $this->parser->parse( '2015/enero/auto_v', $this->_data );
+        $this->parser->parse( '2015/abril/auto_v', $this->_data );
         $this->load->view( 'footer_v' );
     }
 
     public function hogar ()
     {
-        //$this->_initPage( '/2015/enero/hogar' );
+        //$this->_initPage( '/2015/abril/hogar' );
         $this->_data[ 'stylesheet' ]    = 'enero-2015-hogar';
 
         $this->parser->parse( 'header_v', $this->_data );
-        $this->parser->parse( '2015/enero/hogar_v', $this->_data );
+        $this->parser->parse( '2015/abril/hogar_v', $this->_data );
         $this->load->view( 'footer_v' );
     }
 
