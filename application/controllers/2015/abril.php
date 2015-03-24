@@ -12,8 +12,6 @@ class Abril extends CI_Controller
 
     public function index ()
     {
-        //$this->_initPage( 'inicio' );
-
         $this->parser->parse( 'header_v', $this->_data );
         $this->parser->parse( '2015/abril/inicio_v', $this->_data );
         $this->load->view( 'footer_v' );
@@ -21,9 +19,6 @@ class Abril extends CI_Controller
 
     public function salud ()
     {
-        //$this->_initPage( '/2015/abril/salud' );
-        $this->_data[ 'stylesheet' ]    = 'enero-2015-salud';
-
         $this->parser->parse( 'header_v', $this->_data );
         $this->parser->parse( '2015/abril/salud_v', $this->_data );
         $this->load->view( 'footer_v' );
@@ -31,9 +26,6 @@ class Abril extends CI_Controller
 
     public function futuro ()
     {
-        //$this->_initPage( '/2015/abril/futuro' );
-        $this->_data[ 'stylesheet' ]    = 'enero-2015-futuro';
-
         $this->parser->parse( 'header_v', $this->_data );
         $this->parser->parse( '2015/abril/futuro_v', $this->_data );
         $this->load->view( 'footer_v' );
@@ -41,9 +33,6 @@ class Abril extends CI_Controller
 
     public function auto ( )
     {
-        //$this->_initPage( '/2015/abril/auto' );
-        $this->_data[ 'stylesheet' ]    = 'enero-2015-auto';
-
         $this->parser->parse( 'header_v', $this->_data );
         $this->parser->parse( '2015/abril/auto_v', $this->_data );
         $this->load->view( 'footer_v' );
@@ -51,9 +40,6 @@ class Abril extends CI_Controller
 
     public function hogar ()
     {
-        //$this->_initPage( '/2015/abril/hogar' );
-        $this->_data[ 'stylesheet' ]    = 'enero-2015-hogar';
-
         $this->parser->parse( 'header_v', $this->_data );
         $this->parser->parse( '2015/abril/hogar_v', $this->_data );
         $this->load->view( 'footer_v' );
