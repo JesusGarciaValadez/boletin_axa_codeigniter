@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "18270",
+"creatorBuild": "18493",
 "files": {
 	"\/404.html": {
 		"fileType": 8192,
@@ -226,6 +226,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/application\/controllers\/2014\/octubre.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/application\/controllers\/2015\/abril.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/application\/controllers\/2015\/abril.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -482,6 +491,69 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/application\/views\/2015\/abril\/auto_v.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/application\/views\/2015\/abril\/auto_v.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/application\/views\/2015\/abril\/futuro_v.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/application\/views\/2015\/abril\/futuro_v.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/application\/views\/2015\/abril\/hogar_v.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/application\/views\/2015\/abril\/hogar_v.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/application\/views\/2015\/abril\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/application\/views\/2015\/abril\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/application\/views\/2015\/abril\/inicio_v.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/application\/views\/2015\/abril\/inicio_v.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/application\/views\/2015\/abril\/inicio_v.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/application\/views\/2015\/abril\/inicio_v.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/application\/views\/2015\/abril\/salud_v.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/application\/views\/2015\/abril\/salud_v.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/application\/views\/2015\/enero\/auto_v.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -586,6 +658,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/application\/views\/opinion_v.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/abril-2015.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/abril-2015.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -739,6 +820,314 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/images\/assets\/2015\/abril\/salud\/1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1739,
+		"inputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/1.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/assets\/2015\/abril\/salud\/10.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2449,
+		"inputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/10.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/10.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/assets\/2015\/abril\/salud\/11.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1876,
+		"inputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/11.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/11.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/assets\/2015\/abril\/salud\/2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2351,
+		"inputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/2.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/assets\/2015\/abril\/salud\/3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2577,
+		"inputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/3.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/assets\/2015\/abril\/salud\/4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1864,
+		"inputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/4.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/assets\/2015\/abril\/salud\/5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2446,
+		"inputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/5.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/assets\/2015\/abril\/salud\/6.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2650,
+		"inputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/6.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/6.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/assets\/2015\/abril\/salud\/7.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1944,
+		"inputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/7.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/7.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/assets\/2015\/abril\/salud\/8.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2642,
+		"inputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/8.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/8.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/assets\/2015\/abril\/salud\/9.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2684,
+		"inputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/9.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/9.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/assets\/2015\/abril\/salud\/bicicleta.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7687,
+		"inputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/bicicleta.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/bicicleta.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/assets\/2015\/abril\/salud\/corazon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6662,
+		"inputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/corazon.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/corazon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/assets\/2015\/abril\/salud\/espermatozooides.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6749,
+		"inputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/espermatozooides.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/espermatozooides.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/assets\/2015\/abril\/salud\/estomago.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6286,
+		"inputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/estomago.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/estomago.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/assets\/2015\/abril\/salud\/fb.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2219,
+		"inputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/fb.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/fb.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/assets\/2015\/abril\/salud\/grafica.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5761,
+		"inputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/grafica.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/grafica.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/assets\/2015\/abril\/salud\/lapiz-globo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2113,
+		"inputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/lapiz-globo.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/lapiz-globo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/assets\/2015\/abril\/salud\/moneda.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8667,
+		"inputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/moneda.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/moneda.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/assets\/2015\/abril\/salud\/muela.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6911,
+		"inputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/muela.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/muela.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/assets\/2015\/abril\/salud\/no-fumar.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23860,
+		"inputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/no-fumar.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/no-fumar.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/assets\/2015\/abril\/salud\/persona.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6005,
+		"inputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/persona.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/persona.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/assets\/2015\/abril\/salud\/presion.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8905,
+		"inputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/presion.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/presion.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/assets\/2015\/abril\/salud\/pulmones.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7024,
+		"inputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/pulmones.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/pulmones.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/assets\/2015\/abril\/salud\/slash-footer.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1894,
+		"inputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/slash-footer.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/slash-footer.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/assets\/2015\/abril\/salud\/tw.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1535,
+		"inputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/tw.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/tw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/assets\/2015\/abril\/salud\/txt_head.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8157,
+		"inputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/txt_head.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/txt_head.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/assets\/2015\/abril\/salud\/viejita.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6862,
+		"inputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/viejita.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2015\/abril\/salud\/viejita.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/images\/assets\/2015\/inicio\/back_anuncios.png": {
 		"fileType": 32768,
@@ -3659,6 +4048,38 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/source\/sass\/abril-2015.sass": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 2,
+		"fileType": 2,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/sass\/abril-2015.sass",
+		"outputAbbreviatedPath": "\/css\/abril-2015.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"useLibsass": false
+		},
+	"\/source\/sass\/custom-styles\/2015\/abril\/salud.sass": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 2,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/sass\/custom-styles\/2015\/abril\/salud.sass",
+		"outputAbbreviatedPath": "\/css\/salud.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"useLibsass": false
+		},
 	"\/source\/sass\/custom-styles\/2015\/enero\/auto.sass": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
@@ -6459,6 +6880,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"ensure_comprehensions": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"indentation": {
 			"active": 1,
 			"flagValue": 2
@@ -6550,6 +6975,10 @@
 		"space_operators": {
 			"active": 0,
 			"flagValue": -1
+			},
+		"spacing_after_comma": {
+			"active": 1,
+			"flagValue": -1
 			}
 		},
 	"coffeeMinifyOutput": 1,
@@ -6606,6 +7035,10 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"browserify": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"camelcase": {
 			"active": 0,
 			"flagValue": -1
@@ -6628,6 +7061,10 @@
 			},
 		"dojo": {
 			"active": 0,
+			"flagValue": -1
+			},
+		"elision": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"eqeqeq": {
@@ -6682,6 +7119,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"jasmine": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"jquery": {
 			"active": 1,
 			"flagValue": -1
@@ -6725,6 +7166,10 @@
 		"maxstatements": {
 			"active": 0,
 			"flagValue": 4
+			},
+		"mocha": {
+			"active": 0,
+			"flagValue": -1
 			},
 		"mootools": {
 			"active": 0,
@@ -6791,6 +7236,10 @@
 			"flagValue": -1
 			},
 		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"qunit": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -7018,6 +7467,7 @@
 	"slimAutoOutputPathStyle": 0,
 	"slimCompileOnly": 0,
 	"slimLogicless": 0,
+	"slimOutputFormat": 0,
 	"slimOutputStyle": 1,
 	"slimRailsCompatible": 0,
 	"stylusAutoOutputPathEnabled": 1,
@@ -7042,8 +7492,9 @@
 	"typescriptMinifyOutput": 0,
 	"typescriptModuleType": 0,
 	"typescriptNoImplicitAny": 0,
-	"typescriptNoResolve": 0,
+	"typescriptPreserveConstEnums": 0,
 	"typescriptRemoveComments": 0,
+	"typescriptSuppressImplicitAnyIndexErrors": 0,
 	"typescriptTargetECMAVersion": 0,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
@@ -7080,6 +7531,10 @@
 			"flagValue": -1
 			},
 		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_console": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -7123,6 +7578,10 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"keep_fargs": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"loops": {
 			"active": 1,
 			"flagValue": -1
@@ -7135,8 +7594,16 @@
 			"active": 1,
 			"flagValue": 32000
 			},
+		"negate_iife": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"properties": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"pure_getters": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"quote-keys": {
