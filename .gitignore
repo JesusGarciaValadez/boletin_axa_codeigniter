@@ -1,13 +1,9 @@
-css/*
+css
 application/config/database.php
 application/models/functions_m.php
 index.php
 source/sass/.sass-cache
 application/logs/log-2015-01-14.php
 application/logs/log-*.php
-<<<<<<< HEAD
-=======
 config.codekit
->>>>>>> master
-boletin-axa-cms.sublime-project
-boletin-axa-cms.sublime-workspace
+boletin-axa-cms.sublime-*
