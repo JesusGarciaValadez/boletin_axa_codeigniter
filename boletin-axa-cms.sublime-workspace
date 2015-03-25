@@ -161,9 +161,14 @@
 	[
 	],
 	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
 	"command_palette":
 	{
 		"height": 107.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -546,6 +551,7 @@
 	{
 		"height": 0.0
 	},
+	"pinned_build_system": "",
 	"project": "boletin-axa-cms.sublime-project",
 	"replace":
 	{
@@ -555,6 +561,7 @@
 	"select_file":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -563,14 +570,20 @@
 	"select_project":
 	{
 		"height": 500.0,
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"/Applications/MAMP/htdocs/axa-santander/axa-santander.sublime-project"
+			]
 		],
 		"width": 380.0
 	},
 	"select_symbol":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
