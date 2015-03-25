@@ -11,10 +11,10 @@
 <nav class="frame">
     <ul>
         <li><?=anchor('/', 'INICIO');?></li>
-        <li><?=anchor('2015/enero/salud', 'TU SALUD');?></li>
-        <li><?=anchor('2015/enero/futuro', 'TU FUTURO');?></li>
-        <li><?=anchor('2015/enero/auto', 'TU AUTO');?></li>
-        <li><?=anchor('2015/enero/hogar', 'TU HOGAR');?></li>
+        <li><?=anchor('2015/abril/salud', 'TU SALUD');?></li>
+        <li><?=anchor('2015/abril/futuro', 'TU FUTURO');?></li>
+        <li><?=anchor('2015/abril/auto', 'TU AUTO');?></li>
+        <li><?=anchor('2015/abril/hogar', 'TU HOGAR');?></li>
         <li><?=anchor('opinion?email='.$this->session->userdata('email'), 'TU OPINI&Oacute;N');?></li>
     </ul>
 </nav>
@@ -27,7 +27,7 @@
             <h2 class="white-text">Un propósito de Año Nuevo</h2>
             <p class="bit-1 white-text">Una nueva forma de conducir nuestros coches, es un gran propósito para iniciar el año.</p>
             <p class="bit-20 clearfix centered">
-                <?=anchor('/2015/enero/auto', img('images/assets/2015/inicio/leer_mas_1.png'), 'class="clearfix"' );?>
+                <?=anchor('/2015/abril/auto', img('images/assets/2015/inicio/leer_mas_1.png'), 'class="clearfix"' );?>
             </p>
             <div class="bit-80">
                 <ul class="clearfix bit-1">
@@ -75,7 +75,7 @@
                     </p>
                     <p class="bit-60">¿Sabías que el 90% de los accidentes que ocurren en el hogar se pueden evitar?</p>
                     <p class="bit-60 centered">
-                        <?=anchor('/2015/enero/hogar', img('images/assets/btn_leerMas.png'));?>
+                        <?=anchor('/2015/abril/hogar', img('images/assets/btn_leerMas.png'));?>
                     </p>
                 </div>
             </div>
@@ -90,7 +90,7 @@
                     </p>
                     <p class="bit-60">El 80% de los mexicanos ha padecido de dolores agudos en la espalda.</p>
                     <p class="bit-60 centered">
-                        <?=anchor('/2015/enero/salud', img('images/assets/btn_leerMas.png'));?>
+                        <?=anchor('/2015/abril/salud', img('images/assets/btn_leerMas.png'));?>
                     </p>
                 </div>
             </div>
@@ -103,7 +103,7 @@
                         <?=img( 'images/assets/2015/inicio/cerdo_art3.png' );?>
                     </p>
                     <p class="bit-60">Que la cuesta de enero, no cueste tanto.</p>
-                    <p class="bit-60 centered"><?=anchor('/2015/enero/futuro', img('images/assets/btn_leerMas.png'));?></p>
+                    <p class="bit-60 centered"><?=anchor('/2015/abril/futuro', img('images/assets/btn_leerMas.png'));?></p>
                 </div>
             </div>
         </div>
