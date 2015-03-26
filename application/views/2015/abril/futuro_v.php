@@ -8,7 +8,6 @@
         <p>Consulta los n&uacute;meros anteriores <?=anchor('http://www.boletinaxa.com.mx/anterior/historico.html', img('images/assets/btn_landing.png'));?></p>
     </div>
 </header>
-
 <nav class="frame">
     <ul>
         <li><?=anchor('/', 'INICIO');?></li>
@@ -19,173 +18,88 @@
         <li><?=anchor('opinion?email='.$this->session->userdata('email'), 'TU OPINI&Oacute;N');?></li>
     </ul>
 </nav>
-
-<div class="container futuro">
- <?=($this->session->flashdata('msg') ? '<p style="color:red;font-size:.8em;">'.$this->session->flashdata('msg').'</p>' : '');?>
-    <div class="frame skyblue">
-    <div class="bit-2" style="padding:0"><br>
-        <?=img('images/assets/futuro_files/banner_principal.png');?> <br>
-<br>
-
-  </div><br>
-<div class="bit-2">
-        <br>        <h1>¿Cómo recuperarte <br>de los gastos de diciembre?</h1><br>
-        <p style="font-size:1.1em">Tras las compras de último minuto
-de los regalos de Navidad, los
-gastos de la cena de fin de año y
-los Reyes Magos, generalmente, el
-presupuesto familiar experimenta
-momentos de tensión los primeros
-meses del año.</p>
+<div class="container future">
+    <div class="frame clearfix bit-1 title">
+        <div class="bit-60">
+            <h1 class="bit-1">Falta cultura del ahorro en México.</h1>
+            <h2 class="bit-1">Sólo el 16% de los mexicanos ahorra.</h2>
+        </div>
+        <div class="bit-40">
+            <?=img( 'images/assets/2015/abril/futuro/alcancia.png' );?>
+        </div>
+        <div class="bit-1">
+            <?=img( 'images/assets/2015/abril/futuro/dibujos-relacionados-con-dinero.png' );?>
+        </div>
     </div>
-
-  </div>
-
-<div class="frame graytext">
-    <div class="bit-60"><br>
-
-      <p style="text-align:left; font-size:1.1em;">La famosa cuesta de enero, llamada así por la escasa o nula
-planeación patrimonial al momento de efectuar los gastos
-decembrinos, se convierte en una carga para la economía
-personal de los mexicanos.
-        <br>
-        <br>
-        A final de año los indicadores económicos son favorables para la
-mayoría de las familias, sin embargo una parte importante de la
-población no lleva un registro puntual de estos ingresos y gastos,
-lo que provoca que al finalizar las fiestas exista un déficit o los
-recursos sean insuficientes para solventar los gastos de enero.
-        </hp>
+    <div class="bit-1 clearfix frame section-1">
+        <p>Los beneficios de ahorrar son inmejorables y perdurables. Y tú, <strong>¿ya tienes un plan eficaz de ahorro?</strong></p>
+        <p>Habituarte a ahorrar puede resultar complejo, sobre todo si no sueles pensar en tus finanzas personales o en cómo maximizar tus ingresos. Por ello, te damos algunos tips para preservar tu dinero óptimamente:</p>
     </div>
-
-    <div class="bit-40">
-        <?=img('images/assets/futuro_files/calendario.png');?>
+    <div class="bit-1 clearfix frame section-2">
+        <div class="bit-1 clearfix sub-section-1">
+            <div class="bit-2">
+                <?=img( 'images/assets/2015/abril/futuro/uno.png' );?>
+                <h3>Controla y registra tus gastos.</h3>
+                <p>Puedes anotar el monto de tus ingresos y egresos, así como tus gastos de manutención, vivienda y transporte, así tendrás más claro qué parte puedes destinar al ahorro. (Si tienes deudas, es importante que no descuides la cantidad destinada para cubrir éstas.)</p>
+            </div>
+            <div class="bit-2">
+                <?=img( 'images/assets/2015/abril/futuro/dos.png' );?>
+                <h3>Aprende a decir no.</h3>
+                <p>En la medida de lo posible, evita hacer uso de tu aportación al ahorro. Es aconsejable la deposites en algún tipo de cuenta de ahorro; ya que ésta frecuentemente ofrece mecanismos útiles de fomento y protección al ahorro</p>
+            </div>
+        </div>
+        <div class="bit-1 clearfix sub-section-2">
+            <div class="bit-2">
+                <?=img( 'images/assets/2015/abril/futuro/tres.png' );?>
+                <h3>Identifica tus necesidades y prioridades.</h3>
+                <p>Procura cubrir sólo aspectos básicos de tu vida cotidiana. Evita gastar cuando no sea realmente necesario y no lleves dinero que puedas gastar en exceso o tarjetas de crédito si no las requieres</p>
+            </div>
+            <div class="bit-2">
+                <?=img( 'images/assets/2015/abril/futuro/cuatro.png' );?>
+                <h3>Apóyate en la tecnología.</h3>
+                <p>Usa algún software o app que te permita administrar y vigilar tus finanzas de manera precisa y continúa</p>
+            </div>
+        </div>
+        <div class="bit-1 clearfix sub-section-3">
+            <div class="bit-2">
+                <?=img( 'images/assets/2015/abril/futuro/cinco.png' );?>
+                <h3>Ahorra en compañía.</h3>
+                <p>Si tienes clara tu meta, pero se te dificulta el hábito del ahorro, puedes apoyarte involucrando a alguien cercano y confiable. Compartir tus metas y avances te motiva y reduce gastos innecesarios.</p>
+                <ul>
+                    <li><strong>El ahorro en pareja es mejor</strong>, pues conjunta la meta en un plan mutuo y la confianza de la relación se fortalece.</li>
+                    <li><strong>El ahorro en familia</strong> enseña a los niños a valorar el ahorro-recompensa tras cumplir una meta</li>
+                </ul>
+            </div>
+            <div class="bit-2">
+                <?=img( 'images/assets/2015/abril/futuro/seis.png' );?>
+                <h3>Fíjate objetivos y metas realistas.</h3>
+                <p>Destina una parte de tu ahorro para cubrir un objetivo prioritario a corto o mediano plazo pero prevé que esta operación no impacte tus metas a largo plazo, como el ahorro para tu retiro. Para ello, puedes apoyarte en seguros de vida que además de protegerte, son un mecanismo eficaz para ahorrar</p>
+            </div>
+        </div>
     </div>
-
-
-</div>
-
-<div class="frame light-yellow">
- <div class="bit-20">
-        <?=img('images/assets/futuro_files/grafica.png');?> </div>
-    <div class="bit-80">
-
-      <p><span style="font-size:3.8em; color:#F00"><strong>57</strong>%</span><span style="font-size:1.5em; color:#F00"> de los mexicanos ya tenían previsto padecer la cuesta de enero desde diciembre.</span></p>
+    <div class="bit-1 clearfix frame section-3">
+        <p><sup>*</sup> Tu objetivo de ahorro es personal, puede variar desde comprar algún artículo de novedad, viajar a algún destino anhelado, estudiar una maestría, comprar una vivienda, adquirir tu propio auto, hasta el pago de una deuda: el secreto radica en ser constante para cumplir tu meta</p>
     </div>
-
-<div class="bit-1">
-
-        <p align="left"  style="font-size:1.5em; color:#039">Es cierto que no todos llegan a endeudarse para solventar los gastos decembrinos, pero parece que una gran parte sí prefiere gastar que planear y ahorrar para el futuro.</p>
-  <div><span class="source" align="center"  style="color:#039">Fuente: Encuesta Nacional de Vivienda- Parametría 2013 (www.parametría.com.mx)</span></div>
-  </div>
-  </div>
-
-
-
-
-<div class="frame graytext">
-    <div class="bit-1">
-
-        <p style="font-size:1.5em">A continuación, encontrarás algunas recomendaciones que te ayudarán a tomar las medidas necesarias para superar esta etapa, pero sobre todo, para planificar tu economía el resto del año:</p><br>
+    <div class="bit-1 clearfix frame section-4">
+        <div class="bit-3 clearfix"><?=img( 'images/assets/2015/abril/futuro/nota.png' );?></div>
+        <div class="bit-666">
+            <p class="bit-1"><strong>Ten muy presente que para compensar el retraso de ahorro de 10 años, requerirás un 50% adicional. Por eso, la edad ideal para comenzar el ahorro voluntario es desde los 20 años; aunque la mayoría comienza en promedio a los 30 años.</strong></p>
+            <h4 class="bit-1">¡No postergues más tu ahorro: asegura y brinda tranquilidad a tu vida futura!</h4>
+        </div>
+        <p class="bit-1"><sup>*</sup> Fuente: axainforma.com / Análisis Axa México con datos OCDE</p>
     </div>
-
-</div>
-
-
-<div class="frame graytext">
-    <div class="bit-2">
-
-      <div style="height:60px">
-        <h2 style="text-align:center; color:#6CF">&#8226; Analiza tu capacidad de pago</h2></div>
-        <div style="min-height:100px"><p style="text-align:left; padding-left:10px">Resta de tu ingreso mensual todos tus gastos fijos, así como el pago a tarjetas de crédito. Debes de considerar que al menos debes ahorrar el 10% de tu ingreso mensual. Haciendo este
-cálculo identifica aquellos gastos de los que puedes prescindir.</p></div>
-<div align="center"><?=img('images/assets/futuro_files/calculadora.png');?>        </div>
+    <hr class="bit-1 rule-information bit-1" />
+    <div class="frame more--information bit-1">
+        <h5 class="bit-1">Si necesitas más información</h5>
+        <h5 class="bit-1">¡Contacta a tu agente!</h5>
     </div>
-
-
-
-   <div class="bit-2">
-
-      <div style="height:60px"><h2 style="text-align:center; color:#6CF">&#8226; Liquida tus créditos de forma
-inteligente</h2></div>
-        <div style="min-height:100px"> <p style="text-align:left; padding-left:10px">Si tienes varias deudas, determina cuál es la más alta o la que te genera mayores intereses y concéntrate en liquidar una por una.</p><br></div>
-<div align="center"><?=img('images/assets/futuro_files/proyector.png');?>        </div>
+    <div class="frame related bit-1">
+        <div class="bit-3 clearfix">
+            <h6 class="bit-1">Artículos relacionados</h6>
+            <ul class="bit-1">
+                <li class="bit-1"><?=anchor( 'http://www.boletinaxa.com.mx/anterior/tu-salud-junio-2014.html','Tú puedes ser tu propio jefe.' );?></li>
+                <li class="bit-1"><?=anchor( 'http://www.boletinaxa.com.mx/anterior/tu-salud-marzo-2014.html','México carece de una cultura del ahorro.' );?></li>
+            </ul>
+        </div>
     </div>
- </div>
-
-
-
-
-<div class="frame graytext">
-    <div class="bit-2">
-
-      <div style="min-height:60px">
-       <h2 style="text-align:center; color:#6CF">&#8226; Piensa dos veces antes de pagar el mínimo</h2>
-
-    </div>
-       <div style="min-height:110px">  <p style="text-align:left; padding-left:10px">Las tarjetas de crédito no son una extensión de tu
-capital. Si sólo pagas el mínimo requerido, tu deuda nunca disminuirá y los intereses  absorberán el dinero que podrías ahorrar. Paga un poco más de tu deuda e investiga sobre planes de financiamiento con menos interés. En la medida que disminuyas el pago de intereses, aumentará tu capacidad de ahorro.</p></div><br>
-<div align="center"><?=img('images/assets/futuro_files/nueve.png');?>       </div>
-    </div>
-
-
-
-   <div class="bit-2">
-
-      <div style="height:60px">
-            <h2 style="text-align:center; color:#6CF">&#8226; Genera un ahorro permanente</h2>
-
-    </div>
-         <div style="min-height:110px">
-           <p style="text-align:left; padding-left:10px">Utiliza mecanismos de ahorro que no te permitan
-retirar el dinero fácilmente o invierte a largo plazo.
-Aunque sea una cantidad pequeña, ese dinero te
-generará rendimientos. Una excelente opción son
-los seguros de vida ya que, además de ayudarte
-a ahorrar, te protegen a ti y a tu familia en caso
-de que llegaras a faltar.</p></div><br>
-<div align="center"><?=img('images/assets/futuro_files/ahorro.png');?>        </div>
-    </div>
- </div>
-
-
-
-
-
-<div class="frame">
-    <div class="bit-1 blue-dotted">
-        <h3>En AXA contamos con una amplia gama de productos que se
-adaptan a tus necesidades y estilo de vida con los que podrás
-maximizar el valor de tu dinero.<br>
-<br>
-Comienza el año con el pie derecho y cuida tu dinero. Platica con
-tu agente y juntos busquen la mejor opción.</h3>
-    </div>
-</div>
-
-<div class="frame">
-    <div class="bit-3"></div>
-
-    <div class="bit-3">
-        <table class="related">
-            <thead>
-            <tr>
-                <th>Artículos relacionados</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td><span class="pink-text">•</span> <?=anchor('http://www.boletinaxa.com.mx/anterior/tu-futuro-marzo-2014.html','La mujer independiente en México');?><br>
-                    <span class="pink-text">•</span> <?=anchor('http://www.boletinaxa.com.mx/anterior/tu-futuro-diciembre-2013.html','Situación de las familias tradicionales en México');?>                </td>
-            </tr>
-            </tbody>
-        </table>
-    </div>
-
-    <div class="bit-3"></div>
-</div>
-
-<div class="frame light-gray" style="text-align:center;margin-bottom:8px;">
-    <h2 class="lightblue-text">Si necesitas más información</h2>
-    <h2 class="pink-text">¡Contacta a tu agente!</h2>
 </div>
