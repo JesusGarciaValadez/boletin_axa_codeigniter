@@ -3,10 +3,10 @@
 class Inicio extends CI_Controller
 {
     private $_data   = array(
-        'mes'           => 'Enero',
+        'mes'           => 'Abril',
         'anio'          => '2015',
-        'numero'        => '11',
-        'stylesheet'    => 'enero-2015'
+        'numero'        => '12',
+        'stylesheet'    => 'abril-2015'
     );
 
     private function _processClientData()
@@ -51,10 +51,10 @@ class Inicio extends CI_Controller
 
     public function index( )
     {
-        $this->_processClientData();
+        //$this->_processClientData();
 
         $this->parser->parse( 'header_v', $this->_data );
-        $this->parser->parse( '2015/enero/inicio_v', $this->_data );
+        $this->parser->parse( '2015/abril/inicio_v', $this->_data );
         $this->load->view( 'footer_v' );
     }
 }

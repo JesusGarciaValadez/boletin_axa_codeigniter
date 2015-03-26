@@ -12,10 +12,10 @@
 <nav class="frame">
     <ul>
         <li><?=anchor('/', 'INICIO');?></li>
-        <li><?=anchor('2015/enero/salud', 'TU SALUD');?></li>
-        <li><?=anchor('2015/enero/futuro', 'TU FUTURO');?></li>
-        <li><?=anchor('2015/enero/auto', 'TU AUTO');?></li>
-        <li><?=anchor('2015/enero/hogar', 'TU HOGAR');?></li>
+        <li><?=anchor('2015/abril/salud', 'TU SALUD');?></li>
+        <li><?=anchor('2015/abril/futuro', 'TU FUTURO');?></li>
+        <li><?=anchor('2015/abril/auto', 'TU AUTO');?></li>
+        <li><?=anchor('2015/abril/hogar', 'TU HOGAR');?></li>
         <li><?=anchor('opinion?email='.$this->session->userdata('email'), 'TU OPINI&Oacute;N');?></li>
     </ul>
 </nav>
