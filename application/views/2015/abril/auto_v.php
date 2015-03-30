@@ -1,3 +1,4 @@
+<script src="js/main.min.js" type="text/javascript"></script>
 <header class="frame">
     <div class="bit-2">
         <?=img('images/assets/header.png');?>
@@ -157,7 +158,7 @@
         </div>
     </div>
     <div class="bit1 frame clearfix section-10">
-        <h3>Recuerda: la clave para unas vacaciones felices está en ir y re gresar sano y salvo. Prevé y protege tu vida y la de tu familia.</h3>
+        <h3>Recuerda: la clave para unas vacaciones felices está en ir y regresar sano y salvo. Prevé y protege tu vida y la de tu familia.</h3>
         <p><sup>*</sup> Fuentes: noticias.universia.cl / gq.com.mx</p>
     </div>
     <hr class="bit-1 rule-information bit-1" />
@@ -175,4 +176,23 @@
         </div>
     </div>
 </div>
-
+<div class="bit-3 clearfix qualify frame">
+    <p class="bit-20">Califica</p>
+    <ul class="bit-80 stars">
+        <li>
+            <a href="#" target="_self" data-quality="1" class="clearfix Star-2">Una estrella</a>
+        </li>
+        <li>
+            <a href="#" target="_self" data-quality="2" class="clearfix Star-2">Dos estrellas</a>
+        </li>
+        <li>
+            <a href="#" target="_self" data-quality="3" class="clearfix Star-2">Tres estrellas</a>
+        </li>
+        <li>
+            <a href="#" target="_self" data-quality="4" class="clearfix Star-2">Cuatro estrellas</a>
+        </li>
+        <li>
+            <a href="#" target="_self" data-quality="5" class="clearfix Star-2">Cinco estrellas</a>
+        </li>
+    </ul>
+</div>
