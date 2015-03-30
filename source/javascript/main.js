@@ -10,7 +10,7 @@
  */
 ( function ( $, window, document, undefined ) {
     //  Revisa la disponibilidad de localStorage
-    var storage, deviceWidth, isPortable, typeOfDevice, minDeviceWidth  = 320, maxDeviceWidth = 568, timeLapseOfCarrousel    = 6000;
+    var storage;
     if( 'localStorage' in window && window.localStorage !== null ) {
         storage = localStorage;
     } else {
@@ -24,25 +24,33 @@
     }
 
     //  When DOM is loaded
-    $( function ( ) {
+    // $( function ( ) {
 
-        window.navigator.userAgent = userAgent    = ( window.navigator.userAgent );
-        //( deviceWidth >= minDeviceWidth && deviceWidth <= maxDeviceWidth ) ? isPortable  = true : isPortable  = false;
-        ( userAgent.indexOf( 'iPhone ' ) || userAgent.indexOf( 'Android' ) ) ? isPortable  = true : isPortable  = false;
-
-        window.typeOfDevice = typeOfDevice  = ( isPortable ) ? "mobile" : "desktop";
-
-        window.isPortable   = isPortable;
-
-        if ( isPortable ) { //  Si es un móvil...
-
-
-        } //  Si es un móvil...
-    } );
+    // } );
 
     //  When page is finished loaded
-    $( 'document' ).ready( function ( e ) {
+    $( document ).ready( function () {
+        if ( $( '.stars li' ).exists() ) {
+            $( '.stars li' ).on( 'click', 'a', function ( e ) {
+                e.preventDefault();
+                e.stopPropagation();
 
-        
+                $( '.stars li a' ).removeClass('Star-1').addClass('Star-2');
+
+                var _quality = $( e.currentTarget ).data( 'quality' );
+                $( '.stars li' ).each( function ( index ) {
+                    if ( _quality >= ( index + 1 ) ) {
+                        console.log( true );
+                        $( '.stars li' ).eq( index ).children('a').removeClass('Star-2').addClass('Star-1');
+                    } else {
+                        return;
+                        console.log( false );
+                    }
+                    console.log( $( '.stars li' ).eq( index ) );
+                } );
+                /*$.ajax( '', {
+                } );*/
+            } );
+        }
     } );
 } ) ( jQuery, window, document );
