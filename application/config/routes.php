@@ -39,8 +39,8 @@
 */
 
 $route[ 'default_controller' ]  = "inicio";
-//$route[ '(:num)/(:any)/(:any)' ]  = "$1/$2/$3";
 $route[ '404_override' ]        = '';
+$route[ 'inicio/starPost' ]     = "inicio/starPost";
 
 
 /* End of file routes.php */
