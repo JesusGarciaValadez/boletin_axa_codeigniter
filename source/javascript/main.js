@@ -37,19 +37,35 @@
 
                 $( '.stars li a' ).removeClass('Star-1').addClass('Star-2');
 
-                var _quality = $( e.currentTarget ).data( 'quality' );
+                var _quality = $( e.currentTarget ).data( 'quality' ),
+                    _section = $( e.currentTarget ).parents( 'ul' ).data( 'section' ),
+                    _month   = $( e.currentTarget ).parents( 'ul' ).data( 'month' ),
+                    _year    = $( e.currentTarget ).parents( 'ul' ).data( 'year' ),
+                    _options = {
+                        data: {
+                            star:    _quality,
+                            section: _section,
+                            month:   _month,
+                            year:    _year,
+                        },
+                        type: 'POST'
+                    };
                 $( '.stars li' ).each( function ( index ) {
                     if ( _quality >= ( index + 1 ) ) {
-                        console.log( true );
                         $( '.stars li' ).eq( index ).children('a').removeClass('Star-2').addClass('Star-1');
                     } else {
                         return;
-                        console.log( false );
                     }
-                    console.log( $( '.stars li' ).eq( index ) );
                 } );
-                /*$.ajax( '', {
-                } );*/
+                $.ajax( 'inicio/starPost', _options )
+                 .done( function () { } )
+                 .then( function ( response ) {
+                    response = $.parseJSON( response );
+                    if ( response.code === 'fail' ) {
+                        $( '.stars li a' ).removeClass('Star-1').addClass('Star-2');
+                    }
+                 } )
+                 .fail( function () { $( '.stars li a' ).removeClass('Star-1').addClass('Star-2'); } );
             } );
         }
     } );
