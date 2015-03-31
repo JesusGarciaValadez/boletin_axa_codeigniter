@@ -178,7 +178,7 @@
 </div>
 <div class="bit-3 clearfix qualify frame">
     <p class="bit-20">Califica</p>
-    <ul class="bit-80 stars">
+    <ul class="bit-80 stars" data-section="auto" data-month="abril" data-year="2015">
         <li>
             <a href="#" target="_self" data-quality="1" class="clearfix Star-2">Una estrella</a>
         </li>
