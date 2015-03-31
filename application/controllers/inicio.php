@@ -2,12 +2,18 @@
 
 class Inicio extends CI_Controller
 {
-    private $_data   = array(
+    private $_data    = array(
         'mes'           => 'Abril',
         'anio'          => '2015',
         'numero'        => '12',
         'stylesheet'    => 'abril-2015'
     );
+
+    function __construct( )
+    {
+        parent::__construct();
+        $this->load->model( 'functions_m', 'functions' );
+    }
 
     private function _processClientData()
     {
@@ -56,5 +62,19 @@ class Inicio extends CI_Controller
         $this->parser->parse( 'header_v', $this->_data );
         $this->parser->parse( '2015/abril/inicio_v', $this->_data );
         $this->load->view( 'footer_v' );
+    }
+
+    public function starPost( )
+    {
+        $questions  = $this->functions->startPost( $_POST['star'], $_POST['section'], $_POST['month'], $_POST['year'], $_SERVER['REMOTE_ADDR'] );
+        if ( $questions )
+        {
+            $response = array( 'code' => 'success' ) ;
+        }
+        else
+        {
+            $response = array( 'code' => 'fail' ) ;
+        }
+        echo json_encode( $response );
     }
 }
