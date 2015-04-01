@@ -9,3 +9,4 @@ application/logs/log-2015-01-14.php
 application/logs/log-*.php
 config.codekit
 *.sublime-*
+.DS_Store
