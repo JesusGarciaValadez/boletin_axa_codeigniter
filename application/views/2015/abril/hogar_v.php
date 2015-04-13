@@ -20,23 +20,92 @@
 </nav>
 <div class="container hogar">
     <div class="bit-1 frame clearfix title">
-      <h1>Invertir para darle valor a tu hogar</h1>
-      <p>Equipar tu casa o departamento, además de darle personalidad a tu espacio, es la mejor forma de conservar o incrementar el valor de tu propiedad a través del tiempo.</p>
-      <ul class="clearfix bit-1">
-        <li class="bit-20"><?= img( [ 'src' => 'images/assets/2015/abril/hogar/cama.png', 'alt' => 'Cama', 'class' => 'bit-1' ] ); ?></li>
-        <li class="bit-20"><?= img( [ 'src' => 'images/assets/2015/abril/hogar/refrigerador.png', 'alt' => 'Refrigerador', 'class' => 'bit-1' ] ); ?></li>
-        <li class="bit-20"><?= img( [ 'src' => 'images/assets/2015/abril/hogar/lampara.png', 'alt' => 'Lampara', 'class' => 'bit-1' ] ); ?></li>
-        <li class="bit-20"><?= img( [ 'src' => 'images/assets/2015/abril/hogar/lavadora.png', 'alt' => 'Lavadora', 'class' => 'bit-1' ] ); ?></li>
-        <li class="bit-20"><?= img( [ 'src' => 'images/assets/2015/abril/hogar/bocinas.png', 'alt' => 'Bocinas', 'class' => 'bit-1' ] ); ?></li>
-      </ul>
+        <h1 class="bit-1">Invertir para darle valor a tu hogar</h1>
+        <p class="bit-1">Equipar tu casa o departamento, además de darle personalidad a tu espacio, es la mejor forma de conservar o incrementar el valor de tu propiedad a través del tiempo.</p>
+        <ul class="clearfix bit-1">
+            <li class="bit-20"><?= img( [ 'src' => 'images/assets/2015/abril/hogar/cama.png', 'alt' => 'Cama', 'class' => 'bit-50' ] ); ?></li>
+            <li class="bit-20"><?= img( [ 'src' => 'images/assets/2015/abril/hogar/refrigerador.png', 'alt' => 'Refrigerador', 'class' => 'bit-50' ] ); ?></li>
+            <li class="bit-20"><?= img( [ 'src' => 'images/assets/2015/abril/hogar/lampara.png', 'alt' => 'Lampara', 'class' => 'bit-50' ] ); ?></li>
+            <li class="bit-20"><?= img( [ 'src' => 'images/assets/2015/abril/hogar/lavadora.png', 'alt' => 'Lavadora', 'class' => 'bit-50' ] ); ?></li>
+            <li class="bit-20"><?= img( [ 'src' => 'images/assets/2015/abril/hogar/bocinas.png', 'alt' => 'Bocinas', 'class' => 'bit-50' ] ); ?></li>
+        </ul>
     </div>
     <div class="bit-1 clearfix section-1 frame">
-      <hr class="bit-80">
-      <h2 class="bit-70">Un inmueble puede aumentar alrededor del 5% de su valor con una pequeña inversión.</h2>
-      <p class="bit-70">Fuente: TINSA México</p>
-      <hr class="bit-80">
+        <hr class="bit-90">
+        <h2 class="bit-90">Un inmueble puede aumentar alrededor del 5% de su valor con una pequeña inversión.</h2>
+        <p class="bit-70">Fuente: TINSA México</p>
+        <hr class="bit-90">
+        <p class="bit-90">La industria inmobiliaria recomienda para añadir valor a la vivienda y recuperar casi entre el 95% y el 100% de la inversión realizada, mejorar las siguientes áreas del hogar:</p>
+        <div class="bit-3 clearfix">
+            <?= img( [ 'src' => 'images/assets/2015/abril/hogar/maceta.png', 'alt' => 'Maceta', 'class' => 'bit-3' ] ); ?>
+            <p class="bit-80"><strong>Jardines y áreas verdes</strong></p>
+            <ul class="bit-80 clearfix">
+                <li>Contar con un jardín bien cuidado y con plantas puede aumentar hasta un 10% el valor de la vivienda.</li>
+            </ul>
+        </div>
+        <div class="bit-3 clearfix">
+            <?= img( [ 'src' => 'images/assets/2015/abril/hogar/plato.png', 'alt' => 'Plato', 'class' => 'bit-2' ] ); ?>
+            <p class="bit-80"><strong>Cocina</strong></p>
+            <ul class="bit-80 clearfix">
+                <li>Eliminar rastros de grasa o humo en paredes y techos.</li>
+                <li>Vigilar que el piso luzca impecable.</li>
+            </ul>
+        </div>
+        <div class="bit-3 clearfix">
+            <?= img( [ 'src' => 'images/assets/2015/abril/hogar/regadera.png', 'alt' => 'Regadera', 'class' => 'bit-40' ] ); ?>
+            <p class="bit-80"><strong>Baño:</strong></p>
+            <ul class="bit-80 clearfix">
+                <li>Asegurarse que no haya goteras en llaves y regadera.</li>
+            </ul>
+        </div>
     </div>
-    <hr class="bit-1 rule-information bit-1" />
+    <div class="bit-1 clearfix section-2 frame pink">
+        <p class="bit-1">Fuente: TINSA México</p>
+    </div>
+    <div class="bit-1 clearfix section-3 frame">
+        <p class="bit-1">También es recomendable invertir con sencillas mejoras en la imagen de cada espacio en el hogar como:</p>
+        <div class="bit-3 clearfix">
+            <?= img( [ 'src' => 'images/assets/2015/abril/hogar/rodillo.png', 'alt' => 'Rodillo' ] ); ?>
+            <p class="bit-80">Pintar el interior y exterior de la casa</p>
+        </div>
+        <div class="bit-3 clearfix">
+            <?= img( [ 'src' => 'images/assets/2015/abril/hogar/ventana.png', 'alt' => 'Ventana' ] ); ?>
+            <p class="bit-80">Mantener limpias y sin rayones todas las ventanas</p>
+        </div>
+        <div class="bit-3 clearfix">
+            <?= img( [ 'src' => 'images/assets/2015/abril/hogar/herramientas.png', 'alt' => 'Herramientas' ] ); ?>
+            <p class="bit-80">Resanar grietas y huecos de clavos en la pared</p>
+        </div>
+        <div class="bit-3 clearfix">
+            <?= img( [ 'src' => 'images/assets/2015/abril/hogar/refrigerador-morado.png', 'alt' => 'Refrigerador' ] ); ?>
+            <p class="bit-80">Invertir en tecnología inteligente: como grifos de agua, refrigeradores, etcétera.</p>
+        </div>
+        <div class="bit-3 clearfix">
+            <?= img( [ 'src' => 'images/assets/2015/abril/hogar/puerta.png', 'alt' => 'Puerta' ] ); ?>
+            <p class="bit-80">Utilizar el mismo tipo de cerraduras en todas las puertas de la casa</p>
+        </div>
+        <div class="bit-3 clearfix pink">
+            <p class="bit-90">Protege tu inversión y tu patrimonio, pregunta a tu agente cómo puedes asegurar que tu hogar no pierda su valor a causa de catástrofes naturales o robo. </p>
+        </div>
+    </div>
+    <div class="bit-1 clearfix section-4 frame pink">
+        <p>Además, con nuestra oferta también adquieres servicios de asistencia como:</p>
+        <ul class="clearfix bit-1">
+            <li class="bit-3">
+                <?= img( [ 'src' => 'images/assets/2015/abril/hogar/doctor.png', 'alt' => 'Doctor' ] ); ?>
+                <p class="bit-80">Asistencia médica telefónica</p>
+            </li>
+            <li class="bit-3">
+                <?= img( [ 'src' => 'images/assets/2015/abril/hogar/ambulancia.png', 'alt' => 'Ambulancia' ] ); ?>
+                <p class="bit-80">Servicio de ambulancia sin costo</p>
+            </li>
+            <li class="bit-3">
+                <?= img( [ 'src' => 'images/assets/2015/abril/hogar/computadora.png', 'alt' => 'Computadora' ] ); ?>
+                <p class="bit-80">Asistencia a Mascotas y equipo de cómputo</p>
+            </li>
+        </ul>
+    </div>
+    <div class="bit-1 clearfix section-5 frame"></div>
     <div class="frame more--information bit-1">
         <h5 class="bit-1">Si necesitas más información</h5>
         <h5 class="bit-1">¡Contacta a tu agente!</h5>
