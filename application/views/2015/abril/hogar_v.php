@@ -37,14 +37,14 @@
         <hr class="bit-90">
         <p class="bit-90">La industria inmobiliaria recomienda para añadir valor a la vivienda y recuperar casi entre el 95% y el 100% de la inversión realizada, mejorar las siguientes áreas del hogar:</p>
         <div class="bit-3 clearfix">
-            <?= img( [ 'src' => 'images/assets/2015/abril/hogar/maceta.png', 'alt' => 'Maceta', 'class' => 'bit-3' ] ); ?>
+            <?= img( [ 'src' => 'images/assets/2015/abril/hogar/maceta.png', 'alt' => 'Maceta' ] ); ?>
             <p class="bit-80"><strong>Jardines y áreas verdes</strong></p>
             <ul class="bit-80 clearfix">
                 <li>Contar con un jardín bien cuidado y con plantas puede aumentar hasta un 10% el valor de la vivienda.</li>
             </ul>
         </div>
         <div class="bit-3 clearfix">
-            <?= img( [ 'src' => 'images/assets/2015/abril/hogar/plato.png', 'alt' => 'Plato', 'class' => 'bit-2' ] ); ?>
+            <?= img( [ 'src' => 'images/assets/2015/abril/hogar/plato.png', 'alt' => 'Plato' ] ); ?>
             <p class="bit-80"><strong>Cocina</strong></p>
             <ul class="bit-80 clearfix">
                 <li>Eliminar rastros de grasa o humo en paredes y techos.</li>
@@ -52,7 +52,7 @@
             </ul>
         </div>
         <div class="bit-3 clearfix">
-            <?= img( [ 'src' => 'images/assets/2015/abril/hogar/regadera.png', 'alt' => 'Regadera', 'class' => 'bit-40' ] ); ?>
+            <?= img( [ 'src' => 'images/assets/2015/abril/hogar/regadera.png', 'alt' => 'Regadera' ] ); ?>
             <p class="bit-80"><strong>Baño:</strong></p>
             <ul class="bit-80 clearfix">
                 <li>Asegurarse que no haya goteras en llaves y regadera.</li>
