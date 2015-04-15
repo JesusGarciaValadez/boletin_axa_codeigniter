@@ -1,89 +1,72 @@
 .auto
-    p, ul li
-        @include font-mask( normal, em( 16, 16 ), 1.5em, $asap-regular, $dark-grey )
-    ul li
-        list-style: disc inside
     .title
-        img
-    .section-1
-        p
-            font-size: em( 25.5, 16 )
-            strong
-    .section-2, .section-5
+        background-color: $axa-blue-color
+        .bit-80
+            h1
+                @include font-mask( bold, em( 75, 16 ), em( 65, 75 ), $helvetica, $papyrus )
+                margin: 10px auto 0
+                text-align: right
+                span
+                    color: $white-color
+                    font-size: em( 42, 75 )
+                    font-weight: normal
+                    line-height: em( 10, 42 )
+                    strong
         .bit-20
             img
                 display: block
-                margin: 1em auto
-        .bit-80
-            h1, h2
-                font-size: em( 50, 16 )
-                margin: 0.5em auto
-            ul
-                li
-    .section-3, .section-4
-        .bit-2
-            img
-                display: block
-                margin: 1em auto
-            ul
-                background-color: #DDCD69
-                display: flex
                 float: none
-                margin: 1em auto
-                li
-                    align-self: center
-    .section-3
-        .bit-2
-            &:first-child
-                img
-                    margin-top: 30px
-    .section-4
-        .bit-2
-            &:last-child
-                img
-                    margin-top: 30px
-                    margin-bottom: 40px
-            ul
-                height: 88px
-    .section-6, .section-7, .section-8, .section-9
-        display: flex
-        padding: 0.125em 0.5em
-        .bit-3
-            img
-                display: block
-                margin: 1em auto
-            ul
+                margin: 0 auto
+    .section-1
+        .bit-60
+            p
+                @include font-mask( normal, em( 25, 16 ), 1.3em, $helvetica, $dark-grey )
                 display: block
                 float: none
-                margin: 1em auto
-                li
-                    line-height: 1.2em
-    .section-6, .section-8
-        .bit-3
-            &:nth-child( odd )
-                background-color: #E7EAF3
-            &:nth-child( even )
-                background-color: #D0D6E7
-    .section-7, .section-9
-        .bit-3
-            &:nth-child( odd )
-                background-color: #D0D6E7
-            &:nth-child( even )
-                background-color: #E7EAF3
-    .section-10
-        h3, p
-            color: $axa-blue-color
-        h3
-            font-size: em( 24, 16 )
-            font-weight: normal
-            margin: 1em auto 0
-        p
-            margin: 1em auto
-            sup
-@media only screen and (max-width: 30em)
-    .auto
-        .section-6, .section-7, .section-8, .section-9
+                text-align: justify
+        .bit-40
+            img
+    .section-2, .section-4, .section-5
+        box-sizing: border-box
+        hr
+            border-top: 1px solid $axa-blue-color
+            box-sizing: border-box
             display: block
-            .bit-3
-                float: none
-@media only screen and (max-width: em( 568, 16 ))
+            float: none
+            height: 0
+            margin: 0 auto
+            padding: 0
+        p
+            @include font-mask( bold, em( 25, 16 ), 1.3em, $helvetica, $axa-blue-color )
+            display: block
+            float: none
+            margin: 0 auto
+    .section-3
+        h2, p
+            @include font-mask( bold, em( 28, 16 ), 1.3em, $helvetica, $dark-grey )
+            display: block
+            float: none
+            text-align: justify
+        h2
+            text-align: center
+        img
+        p
+            font-weight: normal
+    .section-6
+        background-color: $papyrus
+        margin-top: 10px
+        .bit-80
+            p
+                @include font-mask( normal, em( 25, 16 ), 1.3em, $helvetica, $axa-blue-color )
+                text-align: justify
+        .bit-20
+            img
+        p
+            @include font-mask( bold, em( 25, 16 ), 1.3em, $helvetica, $related-bullet )
+            text-align: center
+    .section-7
+        .bit-80
+            p
+                @include font-mask( bold, em( 25, 16 ), 1.3em, $helvetica, $axa-blue-color )
+        .bit-20
+            img
