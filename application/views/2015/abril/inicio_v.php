@@ -1,6 +1,5 @@
         <header class="frame">
             <div class="bit-2">
-
                 <?=img('images/assets/header.png');?>
 
             </div>
@@ -56,7 +55,7 @@
                     <div class="bit-3 navy-border">
                         <div class="square dark-text shadow gray-border ">
                             <div class="bit-1 dark-text inner-square first">
-                                <?=heading('11 razones para dejar de fumar', 2, 'class="bit-1 centered"' );?>
+                                <?=heading('<span>11</span> razones para dejar de fumar', 2, 'class="bit-1 centered"' );?>
                                 <p class="bit-40"><?=img('images/assets/2015/abril/home/no-fumar.png', 'No fumar', [ 'class' => 'bit-1' ] );?></p>
                                 <p class="bit-60">El hábito de fumar es la principal causa evitable de enfermedades y provoca la muerte prematura.</p>
                                 <p class="bit-2"><?=anchor( '2015/abril/salud', img( 'images/assets/2015/abril/home/leer-mas.png', 'Leer más' ) );?></p>
