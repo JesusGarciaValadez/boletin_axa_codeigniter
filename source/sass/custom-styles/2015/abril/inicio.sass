@@ -4,10 +4,25 @@
             #two-row-span
                 .bit-40
                     img
+                        position: relative
+                        &:nth-child( odd )
+                            clear: left
+                            float: left
+                            margin: 20px 0 0 30px
+                        &:nth-child( even )
+                            clear: right
+                            float: right
+                            margin: 20px 30px 0 0
                 .bit-60
                     h1
+                        font-size: 80px
+                        line-height: 80px
+                        padding: 0
                     h2
+                        font-size: 25px
+                        padding: 0
                     p
+                        font-size: 14px
                         a
                             img
             .share-form
@@ -21,7 +36,7 @@
                     h3
                         font-size: em( 35, 16 )
                         line-height: 1em
-                        padding: 0
+                        padding: 0.5em 0 0
                         span
                             font-size: em( 45, 35 )
                     p
@@ -33,34 +48,40 @@
                 .square
                     .first
                         h2
-                            font-size: em( 25, 16 )
-                            line-height: em( 33, 25 )
+                            font-size: em( 24, 16 )
+                            line-height: em( 33, 24 )
+                            padding: 0.5em 0.5em 0
                             span
                                 float: left
-                                font-size: em( 80, 25 )
+                                font-size: em( 80, 24 )
                                 line-height: em( 70, 80 )
-                        p.bit-40
+                        p.bit-30
                             img
-                        p.bit-60
-                        p.bit-2
+                        p.bit-70
+                        p.bit-40
                             a
                                 img
                 .square
                     .second
                         h3
-                        p.bit-40
+                        p.bit-30
                             img
-                        p.bit-60
-                        p.bit-2
+                        p.bit-70
+                        p.bit-40
                             a
                                 img
                 .square
                     .third
                         h3
-                        p.bit-40
+                            font-size: em( 23, 16 )
+                            line-height: em( 33, 23 )
+                            padding: 0.2em 0.5em 0
+                        p.bit-30
                             img
-                        p.bit-60
-                        p.bit-2
+                        p.bit-70
+                            padding: 0.4em 0.5em
+                        p.bit-40
+                            padding: 0
                             a
                                 img
         .frame
@@ -68,6 +89,7 @@
                 .small-square
                     .first
                         h3
+                            padding: 0
                         h4
                         p.bit-40
                             img
@@ -82,10 +104,13 @@
                             a
                                 img
                     .third
-                        p.bit-2
+                        p.bit-40
                             img
                         h3
+                            font-size: 11px
+                            font-weight: normal
                             strong
-                        p.bit-1
+                        p.bit-60
+                            clear: both
                             a
                                 img
