@@ -24,17 +24,17 @@
                 <div class="frame">
                     <div class="bit-70 rounded shadow blue-square" id="two-row-span">
                         <div class="bit-40 clearfix">
-                            <?=img( 'images/assets/2015/abril/home/cama.png', 'Cama' );?>
-                            <?=img( 'images/assets/2015/abril/home/lampara.png', 'Lampara' );?>
-                            <?=img( 'images/assets/2015/abril/home/refrigerador.png', 'Refrigerador' );?>
-                            <?=img( 'images/assets/2015/abril/home/lavadora.png', 'Lavadora' );?>
-                            <?=img( 'images/assets/2015/abril/home/bocinas.png', 'Bocinas' );?>
+                            <?=img( [ 'src' => 'images/assets/2015/abril/home/cama.png', 'title' => 'Cama', 'class' => 'bit-30' ] );?>
+                            <?=img( [ 'src' => 'images/assets/2015/abril/home/lampara.png', 'title' => 'Lampara', 'class' => 'bit-30' ] );?>
+                            <?=img( [ 'src' => 'images/assets/2015/abril/home/refrigerador.png', 'title' => 'Refrigerador' ] );?>
+                            <?=img( [ 'src' => 'images/assets/2015/abril/home/lavadora.png', 'Lavadora', 'class' => 'bit-30' ] );?>
+                            <?=img( [ 'src' => 'images/assets/2015/abril/home/bocinas.png', 'Bocinas', 'class' => 'bit-30' ] );?>
                         </div>
                         <div class="bit-60 clearfix">
-                            <?=heading( 'Invertir', 1 );?>
-                            <?=heading( 'para darle valor al hogar', 2 );?>
+                            <?=heading( 'Invertir', 1, 'class="bit-1 centered"' );?>
+                            <?=heading( 'para darle valor al hogar', 2, 'class="bit-1"' );?>
                             <p class="bit-1">Equipar tu casa o departamento, además de darle personalidad a tu espacio, es la mejor forma de conservar o incrementar el valor de tu propiedad a través del tiempo.</p>
-                            <p class="bit-1"><?=anchor( '2015/abril/hogar', img( 'images/assets/2015/abril/home/leer-mas.png', 'Leer más' ) );?></p>
+                            <p class="bit-50"><?=anchor( '2015/abril/hogar', img( 'images/assets/2015/abril/home/leer-mas.png', 'Leer más' ) );?></p>
                         </div>
                     </div>
                     <div class="bit-30 clearfix share-form">
@@ -56,9 +56,9 @@
                         <div class="square dark-text shadow gray-border ">
                             <div class="bit-1 dark-text inner-square first">
                                 <?=heading('<span>11</span> razones para dejar de fumar', 2, 'class="bit-1 centered"' );?>
-                                <p class="bit-40"><?=img('images/assets/2015/abril/home/no-fumar.png', 'No fumar', [ 'class' => 'bit-1' ] );?></p>
-                                <p class="bit-60">El hábito de fumar es la principal causa evitable de enfermedades y provoca la muerte prematura.</p>
-                                <p class="bit-2"><?=anchor( '2015/abril/salud', img( 'images/assets/2015/abril/home/leer-mas.png', 'Leer más' ) );?></p>
+                                <p class="bit-30"><?=img('images/assets/2015/abril/home/no-fumar.png', 'No fumar', [ 'class' => 'bit-1' ] );?></p>
+                                <p class="bit-70">El hábito de fumar es la principal causa evitable de enfermedades y provoca la muerte prematura.</p>
+                                <p class="bit-40"><?=anchor( '2015/abril/salud', img( 'images/assets/2015/abril/home/leer-mas.png', 'Leer más' ) );?></p>
                             </div>
                         </div>
                     </div>
@@ -66,9 +66,9 @@
                         <div class="square dark-text shadow gray-border">
                             <div class="bit-1 dark-text inner-square second">
                                 <?=heading( 'Falta cultura del ahorro en México', 3, 'class="bit-1 centered"' );?>
-                                <p class="bit-40"><?=img( 'images/assets/2015/abril/home/marrano.png', 'Alcancia' );?></p>
-                                <p class="bit-60">Sólo el 16% de los mexicanos ahorra.</p>
-                                <p class="bit-2"><?=anchor( '2015/abril/futuro', img( 'images/assets/2015/abril/home/leer-mas.png', 'Leer más' ) );?></p>
+                                <p class="bit-30"><?=img( 'images/assets/2015/abril/home/marrano.png', 'Alcancia' );?></p>
+                                <p class="bit-70">Sólo el 16% de los mexicanos ahorra.</p>
+                                <p class="bit-40"><?=anchor( '2015/abril/futuro', img( 'images/assets/2015/abril/home/leer-mas.png', 'Leer más' ) );?></p>
                             </div>
                         </div>
                     </div>
@@ -76,9 +76,9 @@
                         <div class="square dark-text shadow gray-border">
                             <div class="bit-1 inner-square third">
                                 <?=heading( 'Por tu seguridad, evita el celular al volante.', 3, 'class="bit-1 centered"' );?>
-                                <p class="bit-40"><?=img( 'images/assets/2015/abril/home/no-telefono.png' );?></p>
-                                <p class="bit-60">Usar el celular al volante ha hecho que se registre un aumento en accidentes de tránsito.</p>
-                                <p class="bit-2"><?=anchor( '2015/abril/auto', img( 'images/assets/2015/abril/home/leer-mas.png', 'Leer más' ) );?></p>
+                                <p class="bit-30"><?=img( 'images/assets/2015/abril/home/no-telefono.png' );?></p>
+                                <p class="bit-70">Usar el celular al volante ha hecho que se registre un aumento en accidentes de tránsito.</p>
+                                <p class="bit-40"><?=anchor( '2015/abril/auto', img( 'images/assets/2015/abril/home/leer-mas.png', 'Leer más' ) );?></p>
                             </div>
                         </div>
                     </div>
@@ -88,7 +88,7 @@
                         <div class="small-square">
                             <div class="bit-1 inner-square first" style="background-color:#e8e7e5;">
                                 <h3 class="bit-1 centered">¡Ya puedes pagar tu póliza desde dispositivos móviles!</h3>
-                                <h4 class="bit-80 centered">Fácil y en todo momento.</h4>
+                                <h4 class="bit-60 centered">Fácil y en todo momento.</h4>
                                 <p class="bit-40 centered">
                                     <?=img( 'images/assets/2015/inicio/dispositivos.png' );?>
 
@@ -118,13 +118,13 @@
                     <div class="bit-3">
                         <div class="small-square" style="background-color:#e8e7e5;">
                             <div class="bit-1 inner-square third">
-                                <p class="bit-2 centered">
+                                <p class="bit-40 centered">
                                     <?=img( 'images/assets/2015/abril/home/indigena.png' );?>
 
                                 </p>
-                                <h3 class="bit-2"><strong>Fundación AXA</strong>, desarrolla el Primer Centro Integral Demostrativo y de Voluntariado, <strong>Casa de la Mujer de Ganzdá</strong>, en Acambay, México.</h3>
-                                <p class="bit-1 centered">
-                                    <?=anchor( 'http://axainforma.com/blog/miradaX/', img( 'images/assets/2015/april/home/conoce-mas-aqui.png' ), [ 'target' => '_blank' ] );?>
+                                <h3 class="bit-60"><strong>Fundación AXA</strong>, desarrolla el Primer Centro Integral Demostrativo y de Voluntariado, <strong>Casa de la Mujer de Ganzdá</strong>, en Acambay, México.</h3>
+                                <p class="bit-60 centered">
+                                    <?=anchor( 'http://axainforma.com/blog/miradaX/', img( 'images/assets/2015/abril/home/conoce-mas-aqui.png' ), [ 'target' => '_blank' ] );?>
 
                                 </p>
                             </div>
