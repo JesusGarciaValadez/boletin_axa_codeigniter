@@ -10,3 +10,4 @@ application/logs/log-*.php
 config.codekit
 *.sublime-*
 .DS_Store
+application/config/config.php
