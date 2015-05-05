@@ -3,7 +3,7 @@
 class Opinion extends CI_Controller
 {
     public $_data   = array(
-                            'mes'       => 'Abril',
+                            'mes'       => 'Mayo',
                             'anio'      => '2015',
                             'numero'    => '12',
                             'stylesheet'=> 'enero-2015'

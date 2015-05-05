@@ -6,35 +6,35 @@
             <div class="bit-5 header-details">
                 <h2>BOLET&Iacute;N AXA</h2>
                 <h3>{mes} {anio} <strong>N. {numero}</strong></h3>
-                <p>Consulta los n&uacute;meros anteriores <?=anchor('http://www.boletinaxa.com.mx/anterior/historico.html', img('images/assets/btn_landing.png'));?></p>
+                <p>Consulta los n&uacute;meros anteriores <?=anchor('https://www.boletinaxa.com.mx/anterior/historico.html', img('images/assets/btn_landing.png'));?></p>
             </div>
         </header>
         <nav class="frame">
             <ul>
                 <li><?=anchor('/', 'INICIO');?></li>
-                <li><?=anchor('2015/abril/salud', 'TU SALUD');?></li>
-                <li><?=anchor('2015/abril/futuro', 'TU FUTURO');?></li>
-                <li><?=anchor('2015/abril/auto', 'TU AUTO');?></li>
-                <li><?=anchor('2015/abril/hogar', 'TU HOGAR');?></li>
+                <li><?=anchor('2015/mayo/salud', 'TU SALUD');?></li>
+                <li><?=anchor('2015/mayo/futuro', 'TU FUTURO');?></li>
+                <li><?=anchor('2015/mayo/auto', 'TU AUTO');?></li>
+                <li><?=anchor('2015/mayo/hogar', 'TU HOGAR');?></li>
                 <li><?=anchor('opinion?email='.$this->session->userdata('email'), 'TU OPINI&Oacute;N');?></li>
             </ul>
         </nav>
         <div class="container home">
             <div class="bit-1 frame clearfix title">
                 <div class="frame">
-                    <div class="bit-70 rounded shadow blue-square" id="two-row-span">
+                    <div class="bit-70 rounded shadow blue-square clearfix" id="two-row-span">
                         <div class="bit-40 clearfix">
-                            <?=img( [ 'src' => 'images/assets/2015/abril/home/cama.png', 'title' => 'Cama', 'class' => 'bit-30' ] );?>
-                            <?=img( [ 'src' => 'images/assets/2015/abril/home/lampara.png', 'title' => 'Lampara', 'class' => 'bit-30' ] );?>
-                            <?=img( [ 'src' => 'images/assets/2015/abril/home/refrigerador.png', 'title' => 'Refrigerador' ] );?>
-                            <?=img( [ 'src' => 'images/assets/2015/abril/home/lavadora.png', 'Lavadora', 'class' => 'bit-30' ] );?>
-                            <?=img( [ 'src' => 'images/assets/2015/abril/home/bocinas.png', 'Bocinas', 'class' => 'bit-30' ] );?>
+                            <?=img( [ 'src' => 'images/assets/2015/mayo/home/cama.png', 'title' => 'Cama', 'class' => 'bit-30' ] );?>
+                            <?=img( [ 'src' => 'images/assets/2015/mayo/home/lampara.png', 'title' => 'Lampara', 'class' => 'bit-30' ] );?>
+                            <?=img( [ 'src' => 'images/assets/2015/mayo/home/refrigerador.png', 'title' => 'Refrigerador' ] );?>
+                            <?=img( [ 'src' => 'images/assets/2015/mayo/home/lavadora.png', 'Lavadora', 'class' => 'bit-30' ] );?>
+                            <?=img( [ 'src' => 'images/assets/2015/mayo/home/bocinas.png', 'Bocinas', 'class' => 'bit-30' ] );?>
                         </div>
                         <div class="bit-60 clearfix">
                             <?=heading( 'Invertir', 1, 'class="bit-1 centered"' );?>
                             <?=heading( 'para darle valor al hogar', 2, 'class="bit-1"' );?>
                             <p class="bit-1">Equipar tu casa o departamento, además de darle personalidad a tu espacio, es la mejor forma de conservar o incrementar el valor de tu propiedad a través del tiempo.</p>
-                            <p class="bit-50"><?=anchor( '2015/abril/hogar', img( 'images/assets/2015/abril/home/leer-mas.png', 'Leer más' ) );?></p>
+                            <p class="bit-50"><?=anchor( '2015/mayo/hogar', img( 'images/assets/2015/mayo/home/leer-mas.png', 'Leer más' ) );?></p>
                         </div>
                     </div>
                     <div class="bit-30 clearfix share-form">
@@ -56,9 +56,9 @@
                         <div class="square dark-text shadow gray-border ">
                             <div class="bit-1 dark-text inner-square first">
                                 <?=heading('<span>11</span> razones para dejar de fumar', 2, 'class="bit-1 centered"' );?>
-                                <p class="bit-30"><?=img('images/assets/2015/abril/home/no-fumar.png', 'No fumar', [ 'class' => 'bit-1' ] );?></p>
+                                <p class="bit-30"><?=img('images/assets/2015/mayo/home/no-fumar.png', 'No fumar', [ 'class' => 'bit-1' ] );?></p>
                                 <p class="bit-70">El hábito de fumar es la principal causa evitable de enfermedades y provoca la muerte prematura.</p>
-                                <p class="bit-40"><?=anchor( '2015/abril/salud', img( 'images/assets/2015/abril/home/leer-mas.png', 'Leer más' ) );?></p>
+                                <p class="bit-40"><?=anchor( '2015/mayo/salud', img( 'images/assets/2015/mayo/home/leer-mas.png', 'Leer más' ) );?></p>
                             </div>
                         </div>
                     </div>
@@ -66,9 +66,9 @@
                         <div class="square dark-text shadow gray-border">
                             <div class="bit-1 dark-text inner-square second">
                                 <?=heading( 'Falta cultura del ahorro en México', 3, 'class="bit-1 centered"' );?>
-                                <p class="bit-30"><?=img( 'images/assets/2015/abril/home/marrano.png', 'Alcancia' );?></p>
+                                <p class="bit-30"><?=img( 'images/assets/2015/mayo/home/marrano.png', 'Alcancia' );?></p>
                                 <p class="bit-70">Sólo el 16% de los mexicanos ahorra.</p>
-                                <p class="bit-40"><?=anchor( '2015/abril/futuro', img( 'images/assets/2015/abril/home/leer-mas.png', 'Leer más' ) );?></p>
+                                <p class="bit-40"><?=anchor( '2015/mayo/futuro', img( 'images/assets/2015/mayo/home/leer-mas.png', 'Leer más' ) );?></p>
                             </div>
                         </div>
                     </div>
@@ -76,9 +76,9 @@
                         <div class="square dark-text shadow gray-border">
                             <div class="bit-1 inner-square third">
                                 <?=heading( 'Por tu seguridad, evita el celular al volante.', 3, 'class="bit-1 centered"' );?>
-                                <p class="bit-30"><?=img( 'images/assets/2015/abril/home/no-telefono.png' );?></p>
+                                <p class="bit-30"><?=img( 'images/assets/2015/mayo/home/no-telefono.png' );?></p>
                                 <p class="bit-70">Usar el celular al volante ha hecho que se registre un aumento en accidentes de tránsito.</p>
-                                <p class="bit-40"><?=anchor( '2015/abril/auto', img( 'images/assets/2015/abril/home/leer-mas.png', 'Leer más' ) );?></p>
+                                <p class="bit-40"><?=anchor( '2015/mayo/auto', img( 'images/assets/2015/mayo/home/leer-mas.png', 'Leer más' ) );?></p>
                             </div>
                         </div>
                     </div>
@@ -119,12 +119,12 @@
                         <div class="small-square" style="background-color:#e8e7e5;">
                             <div class="bit-1 inner-square third">
                                 <p class="bit-40 centered">
-                                    <?=img( 'images/assets/2015/abril/home/indigena.png' );?>
+                                    <?=img( 'images/assets/2015/mayo/home/indigena.png' );?>
 
                                 </p>
                                 <h3 class="bit-60"><strong>Fundación AXA</strong>, desarrolla el Primer Centro Integral Demostrativo y de Voluntariado, <strong>Casa de la Mujer de Ganzdá</strong>, en Acambay, México.</h3>
                                 <p class="bit-60 centered">
-                                    <?=anchor( 'http://axainforma.com/blog/miradaX/', img( 'images/assets/2015/abril/home/conoce-mas-aqui.png' ), [ 'target' => '_blank' ] );?>
+                                    <?=anchor( 'http://axainforma.com/blog/miradaX/', img( 'images/assets/2015/mayo/home/conoce-mas-aqui.png' ), [ 'target' => '_blank' ] );?>
 
                                 </p>
                             </div>

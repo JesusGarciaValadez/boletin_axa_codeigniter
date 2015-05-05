@@ -25,11 +25,11 @@
 @import "default-styles/_general"
 @import "sprites/star"
 
-@import "custom-styles/2015/abril/inicio"
-@import "custom-styles/2015/abril/salud"
-@import "custom-styles/2015/abril/futuro"
-@import "custom-styles/2015/abril/auto"
-@import "custom-styles/2015/abril/hogar"
+@import "custom-styles/2015/mayo/inicio"
+@import "custom-styles/2015/mayo/salud"
+@import "custom-styles/2015/mayo/futuro"
+@import "custom-styles/2015/mayo/auto"
+@import "custom-styles/2015/mayo/hogar"
 
 /* ==========================================================================
    Helper classes
@@ -54,6 +54,37 @@
    ========================================================================== */
 @media only screen and (max-width: em( 568, 16 ))
     /* Style adjustments for viewports that meet the condition */
+    .home
+        .title
+            .frame
+                #two-row-span
+                    float: none
+                    margin-bottom: 10px
+                    .bit-40
+                        img
+                            clear: both !important
+                            float: none !important
+                            position: static
+                            width: auto !important
+                            margin: 10px auto !important
+                    .bit-60
+                        h1
+                            font-size: em( 70, 16 )
+                .share-form
+                    padding: 0
+    .auto
+        .title
+            .bit-80
+                h1
+                    font-size: em( 55, 16 )
+                    line-height: 1em
+                    margin: 10px auto 0
+                    text-align: left
+        .section-7
+            .bit-20
+                img
+                    display: block
+                    margin: 0 auto
 
 /* ==========================================================================
    iPhone 5/5S Landscape Orientation

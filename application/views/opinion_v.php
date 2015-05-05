@@ -5,17 +5,17 @@
     <div class="bit-5 header-details">
         <h2>BOLET&Iacute;N AXA</h2>
         <h3>{mes} {anio} <strong>N. {numero}</strong></h3>
-        <p>Consulta los n&uacute;meros anteriores <?=anchor('http://www.boletinaxa.com.mx/anterior/historico.html', img('images/assets/btn_landing.png'));?></p>
+        <p>Consulta los n&uacute;meros anteriores <?=anchor('https://www.boletinaxa.com.mx/anterior/historico.html', img('images/assets/btn_landing.png'));?></p>
     </div>
 </header>
 <nav class="frame">
     <ul>
         <li><?=anchor('/', 'INICIO');?></li>
-        <li><?=anchor('2015/abril/salud', 'TU SALUD');?></li>
-        <li><?=anchor('2015/abril/futuro', 'TU FUTURO');?></li>
-        <li><?=anchor('2015/abril/auto', 'TU AUTO');?></li>
-        <li><?=anchor('2015/abril/hogar', 'TU HOGAR');?></li>
-        <li><?=anchor('opinion', 'TU OPINI&Oacute;N');?></li>
+        <li><?=anchor('2015/mayo/salud', 'TU SALUD');?></li>
+        <li><?=anchor('2015/mayo/futuro', 'TU FUTURO');?></li>
+        <li><?=anchor('2015/mayo/auto', 'TU AUTO');?></li>
+        <li><?=anchor('2015/mayo/hogar', 'TU HOGAR');?></li>
+        <li><?=anchor('opinion?email='.$this->session->userdata('email'), 'TU OPINI&Oacute;N');?></li>
     </ul>
 </nav>
 
@@ -60,9 +60,7 @@
                 question:  $( e.currentTarget ).parents( 'form' ).find( 'input[name=question]' ).val(),
                 answer:    $( e.currentTarget ).parents( 'form' ).find( 'input[name=answer]' ).val(),
                 form_id:   $( e.currentTarget ).parents( 'form' ).find( 'input[name=form_id]' ).val()
-            } ).done( function ( data ) {
-                console.log( data );
-            } );
+            } ).done( function ( data ) {} );
         });
     });
 </script>
