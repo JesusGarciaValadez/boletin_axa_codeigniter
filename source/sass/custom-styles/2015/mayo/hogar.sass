@@ -4,14 +4,16 @@
     .title
         background-color: $green
         h1
-            @include font-mask( bold, em( 40, 16 ), 1.5em, $helvetica )
+            @include font-mask( bold, em( 50, 16 ), 1em, $helvetica )
+            margin: 15px auto 0
+            padding: 0
             text-align: center
         p
-            @include font-mask( normal, em( 28, 16 ), 1.2em, $helvetica )
+            @include font-mask( normal, em( 26, 16 ), 1.2em, $helvetica )
+            margin: 5px auto 14px
         h1,p
             color: $dark-grey
             float: none
-            margin: 14px auto
         ul
             margin: 0 auto
             li

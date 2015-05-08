@@ -23,7 +23,7 @@
         <div class="container hogar">
             <div class="bit-1 frame clearfix title">
                 <h1 class="bit-1">Invertir para darle valor a tu hogar</h1>
-                <p class="bit-1">Equipar tu casa o departamento, además de darle personalidad a tu espacio, es la mejor forma de conservar o incrementar el valor de tu propiedad a través del tiempo.</p>
+                <p class="bit-90">Equipar tu casa o departamento, además de darle personalidad a tu espacio, es la mejor forma de conservar o incrementar el valor de tu propiedad a través del tiempo.</p>
                 <ul class="clearfix bit-1">
                     <li class="bit-20"><?= img( [ 'src' => 'images/assets/2015/mayo/hogar/cama.png', 'alt' => 'Cama', 'class' => 'bit-50' ] ); ?></li>
                     <li class="bit-20"><?= img( [ 'src' => 'images/assets/2015/mayo/hogar/refrigerador.png', 'alt' => 'Refrigerador', 'class' => 'bit-50' ] ); ?></li>

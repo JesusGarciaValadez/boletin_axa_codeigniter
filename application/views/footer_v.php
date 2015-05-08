@@ -1,11 +1,8 @@
 
-            <div class="frame dark-border bit-1">
+            <div class="frame dark-border bit-1 social">
                 <div class="bit-60">
                     <div class="bit-5">
-                        <?=br(1);?>
-
                         <?=anchor('http://www.axa.mx/?utm_medium=email+AXA/Touch&utm_campaign=AXA/Touch+Boletin+septiembre+2014+Escoge+y+estrena&utm_source=Boletin+septiembre+2014', 'axa.mx', array('target'=>'_blank', 'class'=>'red-link'));?>
-
                     </div>
                     <div class="bit-80 footer-links">
 <? if(!$this->session->userdata('agente') || !$this->session->userdata('tel')) { ?>
