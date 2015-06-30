@@ -28,10 +28,9 @@
 
                         <div class="bit-40" id="two-rows">
                             <div class="bit-1 centered blue-square rounded shadow">
-                                <h4>Compartir: <?=nbs(4);?>
-                                    <?=anchor('http://www.facebook.com/sharer.php?u='.current_url(), img('images/assets/face.jpg'), array('target'=>'_blank'));?>
-                                    <?=anchor('http://twitter.com/?status='.urlencode('Boletín Septiembre 2014 ').current_url(), img('images/assets/twitter.jpg'), array('target'=>'_blank'));?>
-                                </h4>
+                                <h4 class="bit-60">Compartir: <?=nbs(4);?></h4>
+                                <p class="bit-20"><?=anchor('http://www.facebook.com/sharer.php?u='.current_url(), img('images/assets/face.jpg'), array('target'=>'_blank'));?></p>
+                                <p class="bit-20"><?=anchor('http://twitter.com/?status='.urlencode('Boletín Septiembre 2014 ').current_url(), img('images/assets/twitter.jpg'), array('target'=>'_blank'));?></p>
                             </div>
 
                             <div class="opinion bit-1 centered blue-square rounded shadow">

@@ -22,7 +22,7 @@ class Enero extends CI_Controller
     public function salud ()
     {
         $this->_initPage( '/2015/enero/salud' );
-        $this->_data[ 'stylesheet' ]    = 'enero-2015-salud';
+        $this->_data[ 'stylesheet' ]    = 'enero-2015';
 
         $this->parser->parse( 'header_v', $this->_data );
         $this->parser->parse( '2015/enero/salud_v', $this->_data );
@@ -32,7 +32,7 @@ class Enero extends CI_Controller
     public function futuro ()
     {
         $this->_initPage( '/2015/enero/futuro' );
-        $this->_data[ 'stylesheet' ]    = 'enero-2015-futuro';
+        $this->_data[ 'stylesheet' ]    = 'enero-2015';
 
         $this->parser->parse( 'header_v', $this->_data );
         $this->parser->parse( '2015/enero/futuro_v', $this->_data );
@@ -42,7 +42,7 @@ class Enero extends CI_Controller
     public function auto ( )
     {
         $this->_initPage( '/2015/enero/auto' );
-        $this->_data[ 'stylesheet' ]    = 'enero-2015-auto';
+        $this->_data[ 'stylesheet' ]    = 'enero-2015';
 
         $this->parser->parse( 'header_v', $this->_data );
         $this->parser->parse( '2015/enero/auto_v', $this->_data );
@@ -52,7 +52,7 @@ class Enero extends CI_Controller
     public function hogar ()
     {
         $this->_initPage( '/2015/enero/hogar' );
-        $this->_data[ 'stylesheet' ]    = 'enero-2015-hogar';
+        $this->_data[ 'stylesheet' ]    = 'enero-2015';
 
         $this->parser->parse( 'header_v', $this->_data );
         $this->parser->parse( '2015/enero/hogar_v', $this->_data );
