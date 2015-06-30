@@ -4,7 +4,7 @@
                             <h1>Por tu seguridad,<br /> <span><strong>evita el celular</strong> <br />al volante</span></h1>
                         </div>
                         <div class="bit-20 clearfix">
-                            <?=img( [ 'src' => 'images/assets/2015/mayo/auto/telefono-prohibido.png', 'alt' => 'Vacaciones sobre ruedas' ] );?>
+                            <?=img( [ 'src' => 'images/assets/2015/julio/auto/telefono-prohibido.png', 'alt' => 'Vacaciones sobre ruedas' ] );?>
                         </div>
                     </div>
                     <div class="frame bit-1 section-1 clearfix">
@@ -12,7 +12,7 @@
                             <p>El uso del celular al volante ha hecho que se registre un importante aumento en accidentes de tránsito, todo debido a la falta de atención de los conductores.</p>
                         </div>
                         <div class="bit-40 clearfix">
-                            <?=img( [ 'src' => 'images/assets/2015/mayo/auto/choque.png', 'alt' => 'Choque entre automóviles' ] );?>
+                            <?=img( [ 'src' => 'images/assets/2015/julio/auto/choque.png', 'alt' => 'Choque entre automóviles' ] );?>
                         </div>
                     </div>
                     <div class="frame bit-1 section-2 clearfix">
@@ -22,7 +22,7 @@
                     </div>
                     <div class="frame bit-1 section-3 clearfix">
                         <h2>Principales distractores que causan accidentes</h2>
-                        <?=img( [ 'src' => 'images/assets/2015/mayo/auto/distractores-que-causan-accidentes.jpg', 'alt' => 'Principales distractores que causan accidentes' ] );?>
+                        <?=img( [ 'src' => 'images/assets/2015/julio/auto/distractores-que-causan-accidentes.jpg', 'alt' => 'Principales distractores que causan accidentes' ] );?>
                         <p class="bit-1">Investigaciones del Centro de Experimentación y Seguridad Vial México señalan que los accidentes que se habían reducido con el Programa Conduce Sin Alcohol, se vuelven a incrementar debido al uso de teléfonos frente al volante.</p>
                     </div>
                     <div class="frame bit-1 section-4 clearfix">
@@ -40,7 +40,7 @@
                             <p class="bit-1">El uso del manos libres tampoco es una solución segura, ya que aunque este dispositivo permite poner ambas manos sobre el volante, la falta de atención al camino sigue siendo la misma.</p>
                         </div>
                         <div class="bit-20">
-                            <?=img( [ 'src' => 'images/assets/2015/mayo/auto/audifonos.png', 'alt' => 'Audífonos' ] );?>
+                            <?=img( [ 'src' => 'images/assets/2015/julio/auto/audifonos.png', 'alt' => 'Audífonos' ] );?>
                         </div>
                         <p class="bit-1">¡No arriesgues tu vida y la de los demás por contestar el teléfono!</p>
                     </div>
@@ -49,7 +49,7 @@
                             <p class="bit-1">Recomendaciones:<br />Si recibes una llamada mientras conduces te sugerimos detenerte en un lugar seguro o pedir que te llamen después.</p>
                         </div>
                         <div class="bit-20">
-                            <?=img( [ 'src' => 'images/assets/2015/mayo/auto/alerta.png', 'alt' => 'Alerta', 'class' => 'centered' ] );?>
+                            <?=img( [ 'src' => 'images/assets/2015/julio/auto/alerta.png', 'alt' => 'Alerta', 'class' => 'centered' ] );?>
                         </div>
                     </div>
                     <hr class="bit-1 rule-information bit-1" />
@@ -68,7 +68,7 @@
                     </div>
                     <div class="bit-3 clearfix qualify frame">
                         <p class="bit-20">Califica</p>
-                        <ul class="bit-80 stars" data-section="auto" data-month="mayo" data-year="2015">
+                        <ul class="bit-80 stars" data-section="auto" data-month="julio" data-year="2015">
                             <li>
                                 <a href="#" target="_self" data-quality="1" class="clearfix Star-2">Una estrella</a>
                             </li>

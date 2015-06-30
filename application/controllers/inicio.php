@@ -3,10 +3,10 @@
 class Inicio extends CI_Controller
 {
     private $_data    = array(
-        'mes'           => 'Mayo',
+        'mes'           => 'Julio',
         'anio'          => '2015',
         'numero'        => '12',
-        'stylesheet'    => 'mayo-2015'
+        'stylesheet'    => 'julio-2015'
     );
 
     function __construct( )
@@ -60,7 +60,7 @@ class Inicio extends CI_Controller
         //$this->_processClientData();
 
         $this->parser->parse( 'header_v', $this->_data );
-        $this->parser->parse( '2015/mayo/inicio_v', $this->_data );
+        $this->parser->parse( '2015/julio/inicio_v', $this->_data );
         $this->load->view( 'footer_v' );
     }
 

@@ -110,6 +110,6 @@
                 <div class="clear"></div>
             </div>
         </div>
-        <script src="js/main.min.js"></script>
+        <script src="<?=base_url('js/main.min.js');?>"></script>
     </body>
 </html>

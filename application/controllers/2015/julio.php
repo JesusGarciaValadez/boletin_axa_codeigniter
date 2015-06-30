@@ -1,47 +1,47 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Mayo extends CI_Controller
+class Julio extends CI_Controller
 {
     public $_data   = array(
-                        'mes'           => 'Mayo',
+                        'mes'           => 'Julio',
                         'anio'          => '2015',
                         'numero'        => '12',
-                        'stylesheet'    => 'mayo-2015'
+                        'stylesheet'    => 'julio-2015'
                         );
     public $_userData;
 
     public function index ()
     {
         $this->parser->parse( 'header_v', $this->_data );
-        $this->parser->parse( '2015/mayo/inicio_v', $this->_data );
+        $this->parser->parse( '2015/julio/inicio_v', $this->_data );
         $this->load->view( 'footer_v' );
     }
 
     public function salud ()
     {
         $this->parser->parse( 'header_v', $this->_data );
-        $this->parser->parse( '2015/mayo/salud_v', $this->_data );
+        $this->parser->parse( '2015/julio/salud_v', $this->_data );
         $this->load->view( 'footer_v' );
     }
 
     public function futuro ()
     {
         $this->parser->parse( 'header_v', $this->_data );
-        $this->parser->parse( '2015/mayo/futuro_v', $this->_data );
+        $this->parser->parse( '2015/julio/futuro_v', $this->_data );
         $this->load->view( 'footer_v' );
     }
 
     public function auto ( )
     {
         $this->parser->parse( 'header_v', $this->_data );
-        $this->parser->parse( '2015/mayo/auto_v', $this->_data );
+        $this->parser->parse( '2015/julio/auto_v', $this->_data );
         $this->load->view( 'footer_v' );
     }
 
     public function hogar ()
     {
         $this->parser->parse( 'header_v', $this->_data );
-        $this->parser->parse( '2015/mayo/hogar_v', $this->_data );
+        $this->parser->parse( '2015/julio/hogar_v', $this->_data );
         $this->load->view( 'footer_v' );
     }
 

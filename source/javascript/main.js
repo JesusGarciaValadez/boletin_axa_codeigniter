@@ -1,4 +1,5 @@
 //  @codekit-prepend "plugins.js";
+//  @codekit-prepend "scripts.js";
 /**
  *
  *  @function
@@ -67,6 +68,22 @@
                  } )
                  .fail( function () { $( '.stars li a' ).removeClass('Star-1').addClass('Star-2'); } );
             } );
+        }
+
+        if( $( '.opinion' ).exists() ) {
+            var w = $( '.quiz' ).width();
+            $( 'input[name=answer]' ).on( 'click', function( e ) {
+                var l = $( '.quiz-slides' ).position();
+                $( '.quiz-slides' ).animate( {
+                    left:      ( l.left - w ) + 'px'
+                } );
+
+                $.post( 'opinion/submit', {
+                    question:  $( e.currentTarget ).parents( 'form' ).find( 'input[name=question]' ).val(),
+                    answer:    $( e.currentTarget ).parents( 'form' ).find( 'input[name=answer]' ).val(),
+                    form_id:   $( e.currentTarget ).parents( 'form' ).find( 'input[name=form_id]' ).val()
+                } ).done( function ( data ) {} );
+            });
         }
     } );
 } ) ( jQuery, window, document );

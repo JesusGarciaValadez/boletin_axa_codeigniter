@@ -25,17 +25,17 @@
             </div>
             <div class="bit-5 header-details">
                 <h2>BOLET&Iacute;N AXA</h2>
-                <h3>Mayo 2015 <strong>N. 12</strong></h3>
+                <h3>Julio 2015 <strong>N. 12</strong></h3>
                 <p>Consulta los n&uacute;meros anteriores <a href="https://www.boletinaxa.com.mx/anterior/historico.html" title="Histórico"><img src="images/assets/btn_landing.png" alt="Historico" /></a></p>
             </div>
         </header>
         <nav class="frame">
             <ul>
                 <li><a href="https://www.boletinaxa.com.mx/" title="INICIO">INICIO</a></li>
-                <li><a href="2015/mayo/salud" title="Tu Salud">TU SALUD</a></li>
-                <li><a href="2015/mayo/futuro" title="tu Futuro">TU FUTURO</a></li>
-                <li><a href="2015/mayo/auto" title="Tu Auto">TU AUTO</a></li>
-                <li><a href="2015/mayo/hogar" title="Tu Hogar">TU HOGAR</a></li>
+                <li><a href="2015/julio/salud" title="Tu Salud">TU SALUD</a></li>
+                <li><a href="2015/julio/futuro" title="tu Futuro">TU FUTURO</a></li>
+                <li><a href="2015/julio/auto" title="Tu Auto">TU AUTO</a></li>
+                <li><a href="2015/julio/hogar" title="Tu Hogar">TU HOGAR</a></li>
                 <li><a href="opinion?email=<?php if(!empty($_GET['email'])){echo $_GET['email'];} ?>" title="Tu Opinión">TU OPINI&Oacute;N</a></li>
             </ul>
         </nav>
