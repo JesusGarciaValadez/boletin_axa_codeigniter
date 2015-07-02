@@ -86,5 +86,10 @@
                             </li>
                         </ul>
                     </div>
+                    <div class="share bit-20 centered blue-square rounded shadow clearfix" style="display:block; float: none; margin: 0 auto;">
+                        <h4 class="bit-60 clearfix" style="float: left;">Compartir:</h4>
+                        <p class="bit-20"><?=anchor('http://www.facebook.com/sharer.php?u='.current_url(), img('images/assets/face.jpg'), array('target'=>'_blank'));?></p>
+                        <p class="bit-20"><?=anchor('http://twitter.com/?status='.urlencode('Boletín Septiembre 2014 ').current_url(), img('images/assets/twitter.jpg'), array('target'=>'_blank'));?></h4></p>
+                    </div>
                 </div>
                 <div class="axa_container_division"></div>
