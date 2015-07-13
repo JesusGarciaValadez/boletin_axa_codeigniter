@@ -63,7 +63,7 @@
                     <div class="bit-1 clearfix frame section-4">
                         <div class="bit-3 clearfix"><?=img( 'images/assets/2015/julio/futuro/nota.png' );?></div>
                         <div class="bit-666">
-                            <p class="bit-1"><strong>Ten muy presente que para compensar el retraso de ahorro de 10 años, requerirás un 50% adicional. Por eso, la edad ideal para comenzar el ahorro voluntario es desde los 20 años; aunque la julioría comienza en promedio a los 30 años.</strong></p>
+                            <p class="bit-1"><strong>Ten muy presente que para compensar el retraso de ahorro de 10 años, requerirás un 50% adicional. Por eso, la edad ideal para comenzar el ahorro voluntario es desde los 20 años; aunque la mayoría comienza en promedio a los 30 años.</strong></p>
                             <h4 class="bit-1">¡No postergues más tu ahorro: asegura y brinda tranquilidad a tu vida futura!</h4>
                         </div>
                         <p class="bit-1"><sup>*</sup> Fuente: axainforma.com / Análisis Axa México con datos OCDE</p>
