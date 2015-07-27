@@ -87,7 +87,7 @@
                                         </p>
                                         <h3 class="bit-60 centered">¿Insatisfecho con nuestro servicio?</h3>
                                         <p class="bit-60 centered">
-                                            <?=anchor( 'http://axa.mx/Personas/ServicioAXA/Contactanos/Paginas/Quejas.aspx', img('images/assets/btn_hazclicaqui.png'), [ 'anchor'=>'_blank', 'class' =>'clearfix' ] );?>
+                                            <?=anchor( 'http://portal.axa.mx/Personas/ServicioAXA/Contactanos/Paginas/Quejas.aspx', img('images/assets/btn_hazclicaqui.png'), [ 'anchor'=>'_blank', 'class' =>'clearfix' ] );?>
 
                                         </p>
                                     </div>
@@ -102,7 +102,7 @@
                                         </p>
                                         <h3 class="bit-60"><strong>Fundación AXA</strong>, desarrolla el Primer Centro Integral Demostrativo y de Voluntariado, <strong>Casa de la Mujer de Ganzdá</strong>, en Acambay, México.</h3>
                                         <p class="bit-60 centered">
-                                            <?=anchor( 'http://axainforma.com/blog/miradaX/', img( 'images/assets/2015/julio/home/conoce-mas-aqui.png' ), [ 'target' => '_blank' ] );?>
+                                            <?=anchor( 'https://youtu.be/NVWhGQIb04g', img( 'images/assets/2015/julio/home/conoce-mas-aqui.png' ), [ 'target' => '_blank' ] );?>
 
                                         </p>
                                     </div>

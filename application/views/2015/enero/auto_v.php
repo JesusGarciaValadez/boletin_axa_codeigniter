@@ -128,7 +128,7 @@
                                     <div class="frame">
                                         <div class="bit-1 blue-dotted"></div>
                                     </div>
-                                    <div class="frame">
+                                    <!--div class="frame">
                                         <div class="bit-3"></div>
                                         <div class="bit-3">
                                             <table class="related">
@@ -152,7 +152,7 @@
                                     <div class="frame light-gray" style="text-align:center;margin-bottom:8px;">
                                         <h2 class="lightblue-text">Si necesitas más información</h2>
                                         <h2 class="pink-text">¡Contacta a tu agente!</h2>
-                                    </div>
+                                    </div-->
                                 </div>
                             </div>
                             <div class="axa_container_division"></div>

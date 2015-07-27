@@ -69,7 +69,7 @@
                         <p class="bit-1"><sup>*</sup> Fuente: axainforma.com / Análisis Axa México con datos OCDE</p>
                     </div>
                     <hr class="bit-1 rule-information bit-1" />
-                    <div class="frame more--information bit-1">
+                    <!--div class="frame more--information bit-1">
                         <h5 class="bit-1">Si necesitas más información</h5>
                         <h5 class="bit-1">¡Contacta a tu agente!</h5>
                     </div>
@@ -81,7 +81,7 @@
                                 <li class="bit-1"><?=anchor( 'https://www.boletinaxa.com.mx/anterior/tu-salud-marzo-2014.html','México carece de una cultura del ahorro.' );?></li>
                             </ul>
                         </div>
-                    </div>
+                    </div-->
                     <div class="bit-3 clearfix qualify frame">
                         <p class="bit-20">Califica</p>
                         <ul class="bit-80 stars" data-section="futuro" data-month="abril" data-year="2015">

@@ -99,7 +99,7 @@
                                                 tu agente y juntos busquen la mejor opción.</h3>
                                             </div>
                                         </div>
-                                        <div class="frame">
+                                        <!--div class="frame">
                                             <div class="bit-3"></div>
                                             <div class="bit-3">
                                                 <table class="related">
@@ -122,7 +122,7 @@
                                         <div class="frame light-gray" style="text-align:center;margin-bottom:8px;">
                                             <h2 class="lightblue-text">Si necesitas más información</h2>
                                             <h2 class="pink-text">¡Contacta a tu agente!</h2>
-                                        </div>
+                                        </div-->
                                     </div>
                                 </div>
                             </div>

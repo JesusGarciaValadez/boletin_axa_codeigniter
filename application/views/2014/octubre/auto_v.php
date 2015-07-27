@@ -1,24 +1,3 @@
-<header class="frame">
-    <div class="bit-2">
-        <?=img('images/assets/header.png');?>
-    </div>
-    <div class="bit-5 header-details">
-        <h2>BOLET&Iacute;N AXA</h2>
-        <h3>{mes} {anio} <strong>N. {numero}</strong></h3>
-        <p>Consulta los n&uacute;meros anteriores <?=anchor('http://www.boletinaxa.com.mx/anterior/historico.html', img('images/assets/btn_landing.png'));?></p>
-    </div>
-</header>
-<nav class="frame">
-    <ul>
-        <li><?=anchor('/', 'INICIO');?></li>
-        <li><?=anchor('2014/octubre/salud', 'TU SALUD');?></li>
-        <li><?=anchor('2014/octubre/futuro', 'TU FUTURO');?></li>
-        <li><?=anchor('2014/octubre/auto', 'TU AUTO');?></li>
-        <li><?=anchor('2014/octubre/hogar', 'TU HOGAR');?></li>
-        <li><?=anchor('opinion?email='.$this->session->userdata('email'), 'TU OPINI&Oacute;N');?></li>
-    </ul>
-</nav>
-
 <div class="container">
     <?=($this->session->flashdata('msg') ? '<p style="color:red;font-size:.8em;">'.$this->session->flashdata('msg').'</p>' : '');?>
 <div class="frame large-background" style="background-image:url(<?=base_url('images/assets/banner_header.jpg');?>);">
@@ -148,13 +127,13 @@
     </div>
 </div><br />
 
-<div class="frame">
+<!--div class="frame">
     <div class="bit-1 blue-dotted">
         <?=anchor('http://promociones-axa.com.mx/?utm_medium=email+AXA/Touch&utm_campaign=AXA/Touch+Boletin+septiembre+2014+Escoge+y+estrena&utm_source=Boletin+septiembre+2014', img('images/assets/banner_estrena.png'));?>
     </div>
-</div>
+</div-->
 
-<div class="frame">
+<!--div class="frame">
     <div class="bit-3"></div>
 
     <div class="bit-3">
@@ -181,4 +160,4 @@
 <div class="frame light-gray" style="text-align:center;margin-bottom:8px;">
     <h2 class="lightblue-text">Si necesitas m&aacute;s informaci&oacute;n</h2>
     <h2 class="pink-text">&iexcl;Contacta a tu agente!</h2>
-</div>
+</div-->

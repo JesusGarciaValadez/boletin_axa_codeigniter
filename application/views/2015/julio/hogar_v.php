@@ -97,7 +97,7 @@
                         </ul>
                     </div>
                     <div class="bit-1 clearfix section-5 frame"></div>
-                    <div class="frame more--information bit-1">
+                    <!--div class="frame more--information bit-1">
                         <h5 class="bit-1">Si necesitas más información</h5>
                         <h5 class="bit-1">¡Contacta a tu agente!</h5>
                     </div>
@@ -109,7 +109,7 @@
                                 <li class="bit-1"><?=anchor( 'https://www.boletinaxa.com.mx/anterior/tu-salud-marzo-2014.html','Estrategias de ahorro para tu casa.' );?></li>
                             </ul>
                         </div>
-                    </div>
+                    </div-->
                     <div class="bit-3 clearfix qualify frame">
                         <p class="bit-20">Califica</p>
                         <ul class="bit-80 stars" data-section="auto" data-month="julio" data-year="2015">
