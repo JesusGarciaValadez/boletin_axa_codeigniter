@@ -109,16 +109,6 @@
                                 </div>
                             </div>
                         </div>
-                        <script>
-                            $(document).ready(function(){
-                                if($(window).width() > 480){
-                                    var h = $('#two-rows').height();
-                                    $('#two-row-span').css('height', (h+7)+'px');
-                                }else{
-                                    $('#two-row-span').css('margin-bottom', '10px');
-                                }
-                            });
-                        </script>
                     </div>
                 </div>
                 <div class="axa_container_division"></div>

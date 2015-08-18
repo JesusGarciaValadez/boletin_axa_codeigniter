@@ -31,6 +31,20 @@
 
     //  When page is finished loaded
     $( document ).ready( function () {
+        if ( $('#two-rows').exists() && $('#two-row-span').exists() ) {
+            $( window ).on( 'resize', function( e ){
+                e.preventDefault();
+                e.stopPropagation();
+
+                if( $( window ).width() > 480 ) {
+                    var h = $('#two-rows').height();
+                    $( '#two-row-span' ).css( 'height', ( h + 7 ) + 'px' );
+                } else {
+                    $( '#two-row-span' ).css( 'margin-bottom', '10px' );
+                }
+            } );
+        }
+
         if ( $( '.stars li' ).exists() ) {
             $( '.stars li' ).on( 'click', 'a', function ( e ) {
                 e.preventDefault();
@@ -82,7 +96,7 @@
                     question:  $( e.currentTarget ).parents( 'form' ).find( 'input[name=question]' ).val(),
                     answer:    $( e.currentTarget ).parents( 'form' ).find( 'input[name=answer]' ).val(),
                     form_id:   $( e.currentTarget ).parents( 'form' ).find( 'input[name=form_id]' ).val()
-                } ).done( function ( data ) {} );
+                } ).done( function ( ) {} );
             });
         }
     } );

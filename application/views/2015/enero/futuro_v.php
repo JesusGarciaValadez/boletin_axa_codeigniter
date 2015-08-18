@@ -58,17 +58,15 @@
                                             <div style="min-height:100px">
                                                 <p style="text-align:left; padding-left:10px">Resta de tu ingreso mensual todos tus gastos fijos, así como el pago a tarjetas de crédito. Debes de considerar que al menos debes ahorrar el 10% de tu ingreso mensual. Haciendo este cálculo identifica aquellos gastos de los que puedes prescindir.</p>
                                             </div>
-                                            <div align="center"><?=img('images/assets/futuro_files/calculadora.png');?></div>
-                                            <div class="bit-2">
-                                                <div style="height:60px">
-                                                    <h2 style="text-align:center; color:#6CF">&#8226; Liquida tus créditos de forma
-                                                inteligente</h2>
-                                                </div>
-                                                <div style="min-height:100px">
-                                                    <p style="text-align:left; padding-left:10px">Si tienes varias deudas, determina cuál es la más alta o la que te genera mayores intereses y concéntrate en liquidar una por una.</p><br>
-                                                </div>
-                                                <div align="center"><?=img('images/assets/futuro_files/proyector.png');?></div>
+                                            <div align="center" style="margin-bottom: 115px;"><?=img('images/assets/futuro_files/calculadora.png');?></div>
+                                            <div>
+                                                <h2 style="text-align:center; color:#6CF; margin: 1em auto;">&#8226; Liquida tus créditos de forma
+                                            inteligente</h2>
                                             </div>
+                                            <div style="min-height:100px">
+                                                <p style="text-align:left; padding-left:10px">Si tienes varias deudas, determina cuál es la más alta o la que te genera mayores intereses y concéntrate en liquidar una por una.</p><br>
+                                            </div>
+                                            <div align="center"><?=img('images/assets/futuro_files/proyector.png');?></div>
                                         </div>
                                         <div class="frame graytext">
                                             <div class="bit-2">
@@ -99,31 +97,6 @@
                                                 tu agente y juntos busquen la mejor opción.</h3>
                                             </div>
                                         </div>
-                                        <!--div class="frame">
-                                            <div class="bit-3"></div>
-                                            <div class="bit-3">
-                                                <table class="related">
-                                                    <thead>
-                                                        <tr>
-                                                            <th>Artículos relacionados</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                        <tr>
-                                                            <td><span class="pink-text">•</span> <?=anchor('http://www.boletinaxa.com.mx/anterior/tu-futuro-marzo-2014.html','La mujer independiente en México');?><br>
-                                                                <span class="pink-text">•</span> <?=anchor('http://www.boletinaxa.com.mx/anterior/tu-futuro-diciembre-2013.html','Situación de las familias tradicionales en México');?>
-                                                            </td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                            <div class="bit-3"></div>
-                                        </div>
-                                        <div class="frame light-gray" style="text-align:center;margin-bottom:8px;">
-                                            <h2 class="lightblue-text">Si necesitas más información</h2>
-                                            <h2 class="pink-text">¡Contacta a tu agente!</h2>
-                                        </div-->
                                     </div>
                                 </div>
                             </div>
-                            <div class="axa_container_division"></div>

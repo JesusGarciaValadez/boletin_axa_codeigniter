@@ -96,49 +96,5 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="bit-1 clearfix section-5 frame"></div>
-                    <!--div class="frame more--information bit-1">
-                        <h5 class="bit-1">Si necesitas más información</h5>
-                        <h5 class="bit-1">¡Contacta a tu agente!</h5>
-                    </div>
-                    <div class="frame related bit-1">
-                        <div class="bit-3 clearfix">
-                            <h6 class="bit-1">Artículos relacionados</h6>
-                            <ul class="bit-1">
-                                <li class="bit-1"><?=anchor( 'https://www.boletinaxa.com.mx/anterior/tu-salud-junio-2014.html','Evita accidentes y prevé gastos inesperados.' );?></li>
-                                <li class="bit-1"><?=anchor( 'https://www.boletinaxa.com.mx/anterior/tu-salud-marzo-2014.html','Estrategias de ahorro para tu casa.' );?></li>
-                            </ul>
-                        </div>
-                    </div-->
-                    <div class="bit-3 clearfix qualify frame">
-                        <p class="bit-20">Califica</p>
-                        <ul class="bit-80 stars" data-section="auto" data-month="julio" data-year="2015">
-                            <li>
-                                <?=anchor( '#', 'Una estrella', [ 'data-quality' => "1", 'class' => "clearfix Star-2" ] );?>
-
-                            </li>
-                            <li>
-                                <?=anchor( '#', 'Dos estrellas', [ 'data-quality' => "2", 'class' => "clearfix Star-2" ] );?>
-
-                            </li>
-                            <li>
-                                <?=anchor( '#', 'Tres estrellas', [ 'data-quality' => "3", 'class' => "clearfix Star-2" ] );?>
-
-                            </li>
-                            <li>
-                                <?=anchor( '#', 'Cuatro estrellas', [ 'data-quality' => "4", 'class' => "clearfix Star-2" ] );?>
-
-                            </li>
-                            <li>
-                                <?=anchor( '#', 'Cinco estrellas', [ 'data-quality' => "5", 'class' => "clearfix Star-2" ] );?>
-
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="share bit-20 centered blue-square rounded shadow clearfix" style="display:block; float: none; margin: 0 auto;">
-                        <h4 class="bit-60 clearfix" style="float: left;">Compartir:</h4>
-                        <p class="bit-20"><?=anchor('http://www.facebook.com/sharer.php?u='.current_url(), img('images/assets/face.jpg'), array('target'=>'_blank'));?></p>
-                        <p class="bit-20"><?=anchor('http://twitter.com/?status='.urlencode('Boletín Septiembre 2014 ').current_url(), img('images/assets/twitter.jpg'), array('target'=>'_blank'));?></h4></p>
-                    </div>
+                    <hr class="bit-1 rule-information bit-1" />
                 </div>
-                <div class="axa_container_division"></div>

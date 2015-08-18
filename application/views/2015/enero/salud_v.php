@@ -138,31 +138,5 @@
                                 <p>Cuando la lumbalgia no es tratada adecuadamente puede ocasionar recaídas frecuentes e impedir el regreso a las actividades cotidianas, provocando periodos prolongados de incapacidad. Por ello, en AXA contamos con programas de acompañamiento para este tipo de padecimientos.<br><br>Si requieres de atención pregunta a tu agente sobre el programa +Care Ortopedia o llámanos al <strong>01 800 AXA CARE (292 2273)</strong> o escríbenos a <strong>axacare@axa.com.mx</strong></p>
                             </div>
                         </div><br>
-                        <!--div class="frame">
-                            <div class="bit-3"></div>
-                            <div class="bit-3">
-                                <table class="related">
-                                    <thead>
-                                        <tr>
-                                            <th>Artículos relacionados</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                        <td>
-                                            <span class="pink-text">•</span> <?=anchor('http://www.boletinaxa.com.mx/anterior/tu-salud-junio-2014.html','Nutrición: pieza clave en la prevención');?><br>
-                                            <span class="pink-text">•</span> <?=anchor('http://www.boletinaxa.com.mx/anterior/tu-salud-marzo-2014.html','Enfermedades crónico degenerativa');?>
-                                        </td>
-                                    </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div class="bit-3"></div>
-                        </div>
-                        <div class="frame light-gray" style="text-align:center;margin-bottom:8px;">
-                            <h2 class="lightblue-text">Si necesitas más información</h2>
-                            <h2 class="pink-text">¡Contacta a tu agente!</h2>
-                        </div-->
                     </div>
                 </div>
-                <div class="axa_container_division"></div>

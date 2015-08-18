@@ -209,30 +209,4 @@
                             <h3>Toma en cuenta estas recomendaciones y no permitas ser parte de la estadística.<br> Recuerda que para todo aquello que no podemos controlar, siempre existe una alternativa que te permitirá vivir más tranquilo y preparado ante cualquier eventualidad.<br> Contacta a tu agente y juntos definan la protección que más se adapte a sus necesidades.</h3>
                         </div>
                     </div>
-                    <!--div class="frame">
-                        <div class="bit-3"></div>
-                        <div class="bit-3">
-                            <table class="related">
-                                <thead>
-                                    <tr>
-                                        <th>Artículos relacionados</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>
-                                            <span class="pink-text">•</span> <?=anchor('http://www.boletinaxa.com.mx/2014/octubre/hogar','¿Sabes cómo evitar un incendio en tu hogar?');?><br>
-                                            <span class="pink-text">•</span> <?=anchor('http://www.boletinaxa.com.mx/anterior/tu-hogar-marzo-2014.html','Estrategias de ahorro para tu casa');?>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div class="bit-3"></div>
-                    </div>
-                    <div class="frame light-gray" style="text-align:center;margin-bottom:8px;">
-                        <h2 class="lightblue-text">Si necesitas más información</h2>
-                        <h2 class="pink-text">¡Contacta a tu agente!</h2>
-                    </div-->
                 </div>
-                <div class="axa_container_division"></div>

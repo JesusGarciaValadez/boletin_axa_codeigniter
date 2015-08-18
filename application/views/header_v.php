@@ -1,7 +1,7 @@
 <?=doctype('html5');?>
 <html class="no-js" lang="es">
     <head>
-        <title>Bolet&iacute;n Axa - Prevencion 360</title>
+        <title>{title} - Bolet&iacute;n Axa</title>
         <meta charset='utf-8'>
         <?=meta('description', '');?>
         <meta property="og:title" content="Bolet&iacute;n AXA <?=$mes;?> <?=$anio;?>">
@@ -46,7 +46,7 @@
                 <div class="axa_container">
                     <div id="axa_logo">
                         <a href="http://axa.mx/">
-                            <img alt="AXA" src="http://www.boletinaxa.com.mx/prevencion-360/AXA-theme/images/axa/headerLogo.png">
+                            <img alt="AXA" src="https://boletinaxa.com.mx/prevencion-360/AXA-theme/images/axa/headerLogo.png">
                         </a>
                     </div>
                     <div class="visible_only_desktop_tablet" id="axa_region_links">
@@ -89,19 +89,19 @@
                         <nav id="axa_social_links">
                             <ul>
                                 <li>
-                                    <a target="_blank" href="https://www.facebook.com/axamexico"><img alt="Facebook" src="http://www.boletinaxa.com.mx/prevencion-360/documents/10928/11310/fbLogo.png" class="imgHover"></a>
+                                    <a target="_blank" href="https://www.facebook.com/axamexico"><img alt="Facebook" src="https://boletinaxa.com.mx/prevencion-360/documents/10928/11310/fbLogo.png" class="imgHover"></a>
                                 </li>
                                 <li>
-                                    <a target="_blank" href="https://twitter.com/AXAMexico"><img alt="Twitter" src="http://www.boletinaxa.com.mx/prevencion-360/documents/10928/11310/twLogo.png" class="imgHover"></a>
+                                    <a target="_blank" href="https://twitter.com/AXAMexico"><img alt="Twitter" src="https://boletinaxa.com.mx/prevencion-360/documents/10928/11310/twLogo.png" class="imgHover"></a>
                                 </li>
                                 <li>
-                                    <a target="_blank" href="https://www.youtube.com/user/MexicoSegurosAXA"><img alt="Youtube" src="http://www.boletinaxa.com.mx/prevencion-360/documents/10928/11310/ytLogo.png" class="imgHover"></a>
+                                    <a target="_blank" href="https://www.youtube.com/user/MexicoSegurosAXA"><img alt="Youtube" src="https://boletinaxa.com.mx/prevencion-360/documents/10928/11310/ytLogo.png" class="imgHover"></a>
                                 </li>
                                 <li>
-                                    <a target="_blank" href="https://plus.google.com/100855312887233336172/posts"><img alt="gplus" src="http://www.boletinaxa.com.mx/prevencion-360/documents/10928/11310/gplusLogo.png" class="imgHover"></a>
+                                    <a target="_blank" href="https://plus.google.com/100855312887233336172/posts"><img alt="gplus" src="https://boletinaxa.com.mx/prevencion-360/documents/10928/11310/gplusLogo.png" class="imgHover"></a>
                                 </li>
                                 <li>
-                                    <a target="_blank" href="https://www.linkedin.com/company/2221/careers?sid=12&amp;success=true"><img alt="LinkedIn" src="http://www.boletinaxa.com.mx/prevencion-360/documents/10928/11310/In-2C-28px-R.png" class="imgHover"></a>
+                                    <a target="_blank" href="https://www.linkedin.com/company/2221/careers?sid=12&amp;success=true"><img alt="LinkedIn" src="https://boletinaxa.com.mx/prevencion-360/documents/10928/11310/In-2C-28px-R.png" class="imgHover"></a>
                                 </li>
                             </ul>
                         </nav>
@@ -112,7 +112,7 @@
                         </div>
                     </div>
                     <div class="visible_only_mobile" id="axa_region_links_mobile">
-                        <a href="tel:018009001292"><img alt="Call" src="http://www.boletinaxa.com.mx/prevencion-360/documents/10928/0/headerPhone.png"></a> <img id="iconMainMenu" alt="Menú" src="http://www.boletinaxa.com.mx/prevencion-360/AXA-theme/images/axa/icon_header_menu.png"> </div>
+                        <a href="tel:018009001292"><img alt="Call" src="https://boletinaxa.com.mx/prevencion-360/documents/10928/0/headerPhone.png"></a> <img id="iconMainMenu" alt="Menú" src="https://boletinaxa.com.mx/prevencion-360/AXA-theme/images/axa/icon_header_menu.png"> </div>
                     <div class="clear"></div>
                 </div>
                 <div class="axa_separator_line"></div>
@@ -219,30 +219,30 @@
                         <ul class="axa_mainMenu">
                             <li class="iconoHome">
                                 <a href="/" title="Inicio" class="iconH visible_only_desktop">
-                                    <img width="17" src="http://www.boletinaxa.com.mx/prevencion-360/documents/10928/11346/icon_header_home.png" alt="Home" class="axa_imgHome">
+                                    <img width="17" src="https://boletinaxa.com.mx/prevencion-360/documents/10928/11346/icon_header_home.png" alt="Home" class="axa_imgHome">
                                 </a>
                                 <a href="#" title="Inicio" class="visible_only_mobile_tablet">Inicio</a>
                             </li>
                             <li id="axa_menu1" class="axa_dropdown">
-                                <a href="http://www.boletinaxa.com.mx/prevencion-360/" target="_self">Mujeres</a><span class="caret"></span>
+                                <a href="https://boletinaxa.com.mx/prevencion-360/" target="_self">Mujeres</a><span class="caret"></span>
                             </li>
                             <li id="axa_menu2" class="axa_dropdown">
-                                <a href="http://www.boletinaxa.com.mx/prevencion-360/" target="_self">Niños</a><span class="caret"></span>
+                                <a href="https://boletinaxa.com.mx/prevencion-360/" target="_self">Niños</a><span class="caret"></span>
                             </li>
                             <li id="axa_menu3" class="axa_dropdown">
-                                <a href="http://www.boletinaxa.com.mx/prevencion-360/" target="_self">Familias Jóvenes</a><span class="caret"></span>
+                                <a href="https://boletinaxa.com.mx/prevencion-360/" target="_self">Familias Jóvenes</a><span class="caret"></span>
                             </li>
                             <li id="axa_menu4" class="axa_dropdown">
-                                <a href="http://www.boletinaxa.com.mx/prevencion-360/" target="_self">Salud</a><span class="caret"></span>
+                                <a href="https://boletinaxa.com.mx/prevencion-360/" target="_self">Salud</a><span class="caret"></span>
                             </li>
                             <li id="axa_menu5" class="axa_dropdown">
-                                <a href="http://www.boletinaxa.com.mx/prevencion-360/" target="_self">Auto</a><span class="caret"></span>
+                                <a href="https://boletinaxa.com.mx/prevencion-360/" target="_self">Auto</a><span class="caret"></span>
                             </li>
                             <li id="axa_menu6" class="axa_dropdown">
-                                <a href="http://www.boletinaxa.com.mx/prevencion-360/" target="_self">Hogar</a><span class="caret"></span>
+                                <a href="https://boletinaxa.com.mx/prevencion-360/" target="_self">Hogar</a><span class="caret"></span>
                             </li>
                             <li id="axa_menu7" class="axa_dropdown">
-                                <a href="http://www.boletinaxa.com.mx/prevencion-360/" target="_self">Futuro</a><span class="caret"></span>
+                                <a href="https://boletinaxa.com.mx/prevencion-360/" target="_self">Futuro</a><span class="caret"></span>
                             </li>
                         </ul>
                     </div>

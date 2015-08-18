@@ -1,4 +1,4 @@
-
+                <div class="axa_container_division"></div>
             </div>
             <div class="axa_container" id="axa_footer">
                 <div class="axa_footer_column" id="axa_links_AxaAndYou">

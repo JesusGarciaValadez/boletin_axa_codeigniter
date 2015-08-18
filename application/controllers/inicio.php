@@ -3,10 +3,11 @@
 class Inicio extends CI_Controller
 {
     private $_data    = array(
-        'mes'           => 'Julio',
-        'anio'          => '2015',
-        'numero'        => '12',
-        'stylesheet'    => 'julio-2015'
+        'mes'                   => 'Julio',
+        'anio'                  => '2015',
+        'numero'                => '12',
+        'stylesheet'            => 'julio-2015',
+        'title'                 => 'Julio 2015'
     );
 
     function __construct( )

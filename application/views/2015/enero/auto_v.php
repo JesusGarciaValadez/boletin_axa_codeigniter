@@ -128,31 +128,5 @@
                                     <div class="frame">
                                         <div class="bit-1 blue-dotted"></div>
                                     </div>
-                                    <!--div class="frame">
-                                        <div class="bit-3"></div>
-                                        <div class="bit-3">
-                                            <table class="related">
-                                                <thead>
-                                                    <tr>
-                                                        <th>Artículos relacionados</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <td>
-                                                            <span class="pink-text">•</span> <?=anchor('http://www.boletinaxa.com.mx/anterior/tu-auto-diciembre-2013.html', 'Seguridad vial en México');?><br>
-                                                            <span class="pink-text">•</span> <?=anchor('http://www.boletinaxa.com.mx/2014/octubre/auto','Medidas preventivas en el funcionamiento de tu auto');?>
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                        <div class="bit-3"></div>
-                                    </div>
-                                    <div class="frame light-gray" style="text-align:center;margin-bottom:8px;">
-                                        <h2 class="lightblue-text">Si necesitas más información</h2>
-                                        <h2 class="pink-text">¡Contacta a tu agente!</h2>
-                                    </div-->
                                 </div>
                             </div>
-                            <div class="axa_container_division"></div>

@@ -1,0 +1,79 @@
+footer.footer
+    box-sizing: border-box
+    display: flex
+    flex-flow: row nowrap
+    padding: 20px
+.article-related
+    background: #008
+    border: 1px dashed white
+    border-radius: 0 0 10px 10px
+    box-sizing: border-box
+    padding: 0
+    h3, p
+        box-sizing: border-box
+    h3
+        @include font-mask( bold, em( 18, 16 ), 1.2em, $helvetica, navy )
+        background: white
+        margin: 0 auto
+        text-align: center
+        text-transform: uppercase
+    p
+        color: white
+        margin: 1em auto
+        padding: 0 0 0 15px
+        position: relative
+        &:before
+            content: "•"
+            left: 5px
+            position: absolute
+        a
+            @include font-mask( bold, em( 13, 16 ) !important, 1.2em, $helvetica, white )
+            display: block
+            float: left
+            padding: 0 5px 0 0
+            text-align: left
+            text-decoration: underline
+            width: 100%
+.qualify
+    display: flex
+    height: 60px
+    p
+        align-self: flex-start
+        color: #00559a
+        font-family: Helvetica,Arial,sans-serif
+        font-size: 100%
+        line-height: 28px
+        margin: 0 auto
+    ul
+        display: flex
+        li
+            align-self: flex-start
+            height: 26px
+            list-style: none outside
+            overflow: hidden
+            width: 28px
+            a
+                color: transparent
+                float: left
+                height: 100%
+                width: 100%
+                &:hover
+                    @extend .Star-1
+.share
+    box-sizing: border-box
+    display:flex
+    flex-flow: row wrap
+    float: none !important
+    height: 55px
+    margin: 0 auto !important
+    h4, p
+        box-sizing: border-box
+        margin: 0 auto
+    h4
+        float: left !important
+        text-align: left
+    p
+        &.share-icon
+            padding: 0
+        a
+            img
