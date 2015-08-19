@@ -209,4 +209,5 @@
                             <h3>Toma en cuenta estas recomendaciones y no permitas ser parte de la estadística.<br> Recuerda que para todo aquello que no podemos controlar, siempre existe una alternativa que te permitirá vivir más tranquilo y preparado ante cualquier eventualidad.<br> Contacta a tu agente y juntos definan la protección que más se adapte a sus necesidades.</h3>
                         </div>
                     </div>
+                    <hr class="bit-1 rule-information bit-1" />
                 </div>

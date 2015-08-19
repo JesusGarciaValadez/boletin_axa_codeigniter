@@ -21,36 +21,56 @@ class Octubre extends CI_Controller
     public function salud ()
     {
         $this->_initPage( '/2015/enero/salud' );
+        $this->_data[ 'title' ]                 = 'Tu sonrisa es reflejo de tu salud';
+        $this->_data[ 'related_article_title' ] = 'Protección dental incluida en los seguros de gastos médicos de AXA';
+        $this->_data[ 'related_article_link' ]  = 'http://www.boletinaxa.com.mx/prevencion-360/salud/dentalia-datos.html';
+        $this->_data[ 'rating_section' ]        = 'sonrisa-reflejo';
 
         $this->parser->parse( 'header_v', $this->_data );
         $this->parser->parse( '2014/octubre/salud_v', $this->_data );
+        $this->parser->parse( 'related_social_v', $this->_data );
         $this->load->view( 'footer_v' );
     }
 
     public function futuro ()
     {
         $this->_initPage( '/2015/enero/futuro' );
+        $this->_data[ 'title' ]                 = 'Haz de tu retiro una experiencia satisfactoria.';
+        $this->_data[ 'related_article_title' ] = 'Tú puedes ser tu propio jefe';
+        $this->_data[ 'related_article_link' ]  = 'http://www.boletinaxa.com.mx/anterior/tu-futuro-junio-2014.html';
+        $this->_data[ 'rating_section' ]        = 'retiro-experiencia';
 
         $this->parser->parse( 'header_v', $this->_data );
         $this->parser->parse( '2014/octubre/futuro_v', $this->_data );
+        $this->parser->parse( 'related_social_v', $this->_data );
         $this->load->view( 'footer_v' );
     }
 
     public function auto ( )
     {
         $this->_initPage( '/2015/enero/auto' );
+        $this->_data[ 'title' ]                 = '¡Que nada te impida llegar a tu destino!';
+        $this->_data[ 'related_article_title' ] = 'Conoce las estadísticas y toma precauciones (Los 5 estados...)';
+        $this->_data[ 'related_article_link' ]  = 'http://www.boletinaxa.com.mx/anterior/datos-sobre-robo-de-autom%C3%B3viles.html';
+        $this->_data[ 'rating_section' ]        = 'llegar-destino';
 
         $this->parser->parse( 'header_v', $this->_data );
         $this->parser->parse( '2014/octubre/auto_v', $this->_data );
+        $this->parser->parse( 'related_social_v', $this->_data );
         $this->load->view( 'footer_v' );
     }
 
     public function hogar ()
     {
         $this->_initPage( '/2015/enero/hogar' );
+        $this->_data[ 'title' ]                 = '¿Sabes cómo evitar un incendio en tu hogar?';
+        $this->_data[ 'related_article_title' ] = 'Conoce los accidentes más frecuentes en el hogar y toma tus precauciones';
+        $this->_data[ 'related_article_link' ]  = 'http://www.boletinaxa.com.mx/2015/enero/hogar';
+        $this->_data[ 'rating_section' ]        = 'evitar-incendio';
 
         $this->parser->parse( 'header_v', $this->_data );
         $this->parser->parse( '2014/octubre/hogar_v', $this->_data );
+        $this->parser->parse( 'related_social_v', $this->_data );
         $this->load->view( 'footer_v' );
     }
 

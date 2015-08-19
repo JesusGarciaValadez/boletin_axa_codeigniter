@@ -76,7 +76,7 @@
                             </p>
                             <p class="bit-20 share-icon">
                                 <?= anchor(
-                                    'http://twitter.com/?status='.urlencode( '{title}' ).current_url(),
+                                    'http://twitter.com/?status='. urlencode( $title ) . '+' . current_url(),
                                     img(
                                         [
                                             'src' => base_url( 'prevencion-360/images/twitter.jpg' ),

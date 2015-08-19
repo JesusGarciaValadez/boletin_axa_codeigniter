@@ -133,6 +133,7 @@
                             </div>
                         </div>
                     </div>
+                    <hr class="bit-1 rule-information bit-1" />
                     <script>
                         $(document).ready(function(){
                             if($(window).width() > 480){
@@ -144,4 +145,3 @@
                         });
                     </script>
                 </div>
-                <div class="axa_container_division"></div>

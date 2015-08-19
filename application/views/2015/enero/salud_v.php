@@ -137,6 +137,8 @@
                             <div class="bit-1 text"><br>
                                 <p>Cuando la lumbalgia no es tratada adecuadamente puede ocasionar recaídas frecuentes e impedir el regreso a las actividades cotidianas, provocando periodos prolongados de incapacidad. Por ello, en AXA contamos con programas de acompañamiento para este tipo de padecimientos.<br><br>Si requieres de atención pregunta a tu agente sobre el programa +Care Ortopedia o llámanos al <strong>01 800 AXA CARE (292 2273)</strong> o escríbenos a <strong>axacare@axa.com.mx</strong></p>
                             </div>
-                        </div><br>
+                        </div>
+                        <br />
+                        <hr class="bit-1 rule-information bit-1" />
                     </div>
                 </div>
