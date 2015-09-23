@@ -3,7 +3,7 @@
                     <div class="frame large-background" style="background-image:url(<?=base_url('images/assets/banner_header.jpg');?>);">
                         <div class="bit-80">
                             <br />
-                            <h1>&iexcl;Qu&eacute; nada te impida llegar a tu destino!</h1>
+                            <h1>&iexcl;Que nada te impida llegar a tu destino!</h1>
                             <br />
                             <h3>Tomar medidas preventivas en el funcionamiento de tu
                                 autom&oacute;vil previene posibles percances al viajar en carretera,

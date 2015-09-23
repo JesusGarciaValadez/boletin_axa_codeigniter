@@ -93,27 +93,7 @@
                         </div>
                         <div class="bit-1 bottom-circle">
                             <?=img('images/assets/porcentaje.png');?>
-                            <p><strong>La tasa de interés real que esperas ganar por el
-                                dinero que ahorrarás. Toma en cuenta la inflación, es
-                                decir, busca obtener al menos una tasa de interés
-                                equivalente o superior a la inflación, para que tu
-                                dinero no pierda poder adquisitivo con el tiempo.</strong></p>
-                        </div>
-                        <div class="frame">
-                            <div class="bit-1 blue-dotted">
-                                <h3>En AXA contamos con opciones para apoyarte a hacer de
-                                    tu retiro una experiencia satisfactoria, te recomendamos
-                                    considerar estos 3 factores para conseguir mejores
-                                    resultados:
-                                    <ol style="display:block;width:40%;position:relative;margin:10px auto;">
-                                        <li>Considera el tiempo</li>
-                                        <li>Crea una disciplina de ahorro</li>
-                                        <li>Busca asesor&iacute;a experta</li>
-                                    </ol><br />
-                                    Si deseas conocer cómo tener un retiro que se adapte a tu
-                                    estilo de vida actual, no dudes en contactar a tu agente.</h3>
-                                </div>
-                            </div>
+                            <p><strong>La tasa de interés real que esperas ganar por el dinero que ahorrarás. Toma en cuenta la inflación, es decir, busca obtener al menos una tasa de interés equivalente o superior a la inflación, para que tu dinero no pierda poder adquisitivo con el tiempo.</strong></p>
                         </div>
                     </div>
                 </div>

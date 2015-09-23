@@ -87,16 +87,5 @@
                                             <div align="center"><?=img('images/assets/futuro_files/ahorro.png');?></div>
                                         </div>
                                     </div>
-                                    <div class="frame">
-                                        <div class="bit-1 blue-dotted">
-                                            <h3>En AXA contamos con una amplia gama de productos que se
-                                                adaptan a tus necesidades y estilo de vida con los que podrás
-                                                maximizar el valor de tu dinero.<br>
-                                                <br>
-                                                Comienza el año con el pie derecho y cuida tu dinero. Platica con
-                                                tu agente y juntos busquen la mejor opción.</h3>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
