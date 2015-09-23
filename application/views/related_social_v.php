@@ -60,14 +60,14 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="share bit-4 centered blue-square rounded shadow clearfix">
+                        <div class="share bit-4 centered rounded shadow clearfix">
                             <h4 class="bit-2 clearfix">Compartir:</h4>
                             <p class="bit-20 share-icon">
                                 <?= anchor(
                                         'http://www.facebook.com/sharer.php?u='.current_url(),
                                         img(
                                             [
-                                                'src' => base_url( 'prevencion-360/images/face.jpg' ),
+                                                'src' => base_url( 'prevencion-360/images/face.png' ),
                                                 'alt' => 'Facebook'
                                             ]
                                         ),
@@ -79,7 +79,7 @@
                                     'http://twitter.com/?status='. urlencode( $title ) . '+' . current_url(),
                                     img(
                                         [
-                                            'src' => base_url( 'prevencion-360/images/twitter.jpg' ),
+                                            'src' => base_url( 'prevencion-360/images/twitter.png' ),
                                             'alt' => 'Twitter'
                                         ]
                                      ),
