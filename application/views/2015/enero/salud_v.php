@@ -125,7 +125,9 @@
                             </div>
                         </div>
                         <div class="frame">
-                            <div class="bit-80 purple-text"><br>
+                            <div class="bit-80 purple-text">
+                                <br />
+                                <br />
                                 <h3>5. Cuidar la postura al dormir</h3>
                                 <p>Es importante dormir lo suficiente (entre 6 y 8 horas al día), sobre todo dormir en una postura adecuada para que la columna esté relajada. La posición ideal es recostarte sobre tu costado, ya que así ejerces menos presión en la columna.</p>
                             </div>
@@ -133,12 +135,6 @@
                                 <div align="center"><?=img('images/assets/salud_files/rosa_5.png');?> </div>
                             </div>
                         </div>
-                        <div class="frame">
-                            <div class="bit-1 text"><br>
-                                <p>Cuando la lumbalgia no es tratada adecuadamente puede ocasionar recaídas frecuentes e impedir el regreso a las actividades cotidianas, provocando periodos prolongados de incapacidad. Por ello, en AXA contamos con programas de acompañamiento para este tipo de padecimientos.<br><br>Si requieres de atención pregunta a tu agente sobre el programa +Care Ortopedia o llámanos al <strong>01 800 AXA CARE (292 2273)</strong> o escríbenos a <strong>axacare@axa.com.mx</strong></p>
-                            </div>
-                        </div>
-                        <br />
                         <hr class="bit-1 rule-information bit-1" />
                     </div>
                 </div>
