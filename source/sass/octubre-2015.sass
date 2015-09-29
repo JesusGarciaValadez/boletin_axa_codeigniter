@@ -1,0 +1,96 @@
+@import "bourbon/_bourbon"
+//@import "default-styles/_normalize"
+
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+@import "default-styles/_boilerplate_styles"
+@import "default-styles/_lemonade"
+@import "default-styles/_boletin_axa"
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+@import "default-styles/_variables"
+@import "default-styles/_mixins"
+@import "default-styles/_lemonade"
+@import "default-styles/_aui"
+@import "default-styles/_axa"
+@import "default-styles/_general"
+@import "sprites/star"
+@import "default-styles/_related_social"
+
+// @import "custom-styles/2015/octubre/inicio"
+// @import "custom-styles/2015/octubre/salud"
+// @import "custom-styles/2015/octubre/futuro"
+// @import "custom-styles/2015/octubre/auto"
+@import "custom-styles/2015/octubre/hogar"
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+@import "default-styles/_helper_classes"
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+/* ==========================================================================
+   Desktop High Resolution
+   ========================================================================== */
+@media only screen and (min-width: em( 1919, 16 ))
+
+@media print, ( -webkit-min-device-pixel-ratio: 1.25 ), ( min-resolution: 1.25dppx ), ( min-resolution: 120dpi )
+
+/* ==========================================================================
+   iPad
+   ========================================================================== */
+@media only screen and ( max-width: em( 1024, 16 ) )
+
+@media only screen and ( max-width: em( 1024, 16 ) ) and ( orientation: portrait )
+
+/* ==========================================================================
+   iPhone 6 Plus Landscape Orientation
+   ========================================================================== */
+@media only screen and ( max-width: em( 736, 16 ) )
+
+@media only screen and ( max-width: em( 736, 16 ) ) and ( orientation: landscape )
+
+/* ==========================================================================
+   iPhone 6
+   ========================================================================== */
+@media only screen and ( max-width: em( 667, 16 ) ) and ( orientation: landscape )
+
+@media only screen and ( max-width: em( 667, 16 ) )
+
+/* ==========================================================================
+   iPhone 5/5S
+   ========================================================================== */
+@media only screen and ( max-width: em( 568, 16 ) ) and ( orientation: landscape )
+
+@media only screen and ( max-width: em( 568, 16 ) )
+
+/* ==========================================================================
+   iPhone 3GS/4/4S
+   ========================================================================== */
+@media only screen and ( max-width: em( 480, 16 ) )
+
+@media only screen and ( max-width: em( 480, 16 ) ) and ( orientation: landscape )
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+@media print
+  @import "default-styles/_print_stylesheet"
