@@ -1,128 +1,120 @@
-                <div class="container health clearfix">
-                    <div class="frame title clearfix bit-1">
-                        <div class="bit-1">
-                            <h1 class="bit-60"><strong><span>11</span> razones para <br />dejar de fumar</strong></h1>
-                        </div>
-                        <div class="bit-60">
-                            <p class="bit-1"><strong>El hábito de fumar es la principal causa evitable de enfermedades como cáncer y afecciones cardiorrespiratorias y provoca más fallecimientos prematuros que los que ocasionan en conjunto el SIDA, la drogadicción, el alcoholismo, los accidentes viales, los incendios e incluso los homicidios, según datos de la Organización Mundial de la Salud.</strong></p>
-                        </div>
-                        <div class="bit-40">
-                            <?=img('images/assets/2015/julio/salud/no-fumar.png');?>
-                        </div>
-                    </div>
-                    <div class="frame section-1 bit-1">
-                        <div class="bit-1">
-                            <h2 class="bit-1">¿Vale la pena poner en riesgo tu salud?</h2>
-                            <p class="bit-1">Te damos 11 razones para dejar de fumar y mejorar tu calidad de vida:</p>
-                        </div>
-                        <div class="bit-1">
-                            <ul class="bit-1 clearfix">
-                                <li class="bit-5"><?=img( 'images/assets/2015/julio/salud/1.png' );?></li>
-                                <li class="bit-60">
-                                    <p class="bit-1"><strong>Mejora tu presión arterial</strong>, aumentas la oxigenación al corazón y reduces el riesgo de sufrir un infarto. A los 10 años de abandonar este vicio la probabilidad de enfermedad coronaria es prácticamente la misma que la de cualquier persona que nunca haya fumado.</p>
-                                </li>
-                                <li class="bit-5"><?=img('images/assets/2015/julio/salud/presion.png');?></li>
-                            </ul>
-                        </div>
-                        <div class="bit-1">
-                            <ul class="bit-1 clearfix">
-                                <li class="bit-5"><?=img('images/assets/2015/julio/salud/2.png');?></li>
-                                <li class="bit-60">
-                                    <p class="bit-1"><strong>Reparas tu digestión</strong>, reduces las úlceras producidas por el tabaco e incluso percibes mejor el sabor de los alimentos y los olores.</p>
-                                </li>
-                                <li class="bit-5"><?=img('images/assets/2015/julio/salud/estomago.png');?></li>
-                            </ul>
-                        </div>
-                        <div class="bit-1">
-                            <ul class="bit-1 clearfix">
-                                <li class="bit-5"><?=img('images/assets/2015/julio/salud/3.png');?></li>
-                                <li class="bit-60">
-                                    <p class="bit-1"><strong>Tu piel se regenera</strong>: evitas el envejecimiento prematuro, arrugas, caída del cabello y el tono opaco.</p>
-                                </li>
-                                <li class="bit-5"><?=img('images/assets/2015/julio/salud/persona.png');?></li>
-                            </ul>
-                        </div>
-                        <div class="bit-1">
-                            <ul class="bit-1 clearfix">
-                                <li class="bit-5"><?=img('images/assets/2015/julio/salud/4.png');?></li>
-                                <li class="bit-60">
-                                    <p class="bit-1"><strong>Mejora el aspecto</strong> de tus dientes y encías, sobre todo, tu aliento.</p>
-                                </li>
-                                <li class="bit-5"><?=img('images/assets/2015/julio/salud/muela.png');?></li>
-                            </ul>
-                        </div>
-                        <div class="bit-1">
-                            <ul class="bit-1 clearfix">
-                                <li class="bit-5"><?=img('images/assets/2015/julio/salud/5.png');?></li>
-                                <li class="bit-60">
-                                    <p class="bit-1"><strong>Mejora la capacidad pulmonar</strong> y circulación, recuperando energía y vitalidad para realizar esfuerzos físicos.</p>
-                                </li>
-                                <li class="bit-5"><?=img('images/assets/2015/julio/salud/bicicleta.png');?></li>
-                            </ul>
-                        </div>
-                        <div class="bit-1">
-                            <ul class="bit-1 clearfix">
-                                <li class="bit-5"><?=img('images/assets/2015/julio/salud/6.png');?></li>
-                                <li class="bit-60">
-                                    <p class="bit-1"><strong>La posibilidad de contraer gripe</strong> y el riesgo de sufrir enfermedades coronarias se reduce a un 50%.</p>
-                                </li>
-                                <li class="bit-5"><?=img('images/assets/2015/julio/salud/corazon.png');?></li>
-                            </ul>
-                        </div>
-                        <div class="bit-1">
-                            <ul class="bit-1 clearfix">
-                                <li class="bit-5"><?=img('images/assets/2015/julio/salud/7.png');?></li>
-                                <li class="bit-60">
-                                    <p class="bit-1"><strong>Después de cinco años de no fumar,</strong> el riesgo de cáncer de pulmón se reduce a la mitad.</p>
-                                </li>
-                                <li class="bit-5"><?=img('images/assets/2015/julio/salud/pulmones.png');?></li>
-                            </ul>
-                        </div>
-                        <div class="bit-1">
-                            <ul class="bit-1 clearfix">
-                                <li class="bit-5"><?=img('images/assets/2015/julio/salud/8.png');?></li>
-                                <li class="bit-60">
-                                    <p class="bit-1"><strong>Disminuye el riesgo de sufrir cáncer</strong> de pulmón, laringe, vejiga, boca, esófago y riñón.</p>
-                                </li>
-                                <li class="bit-5"><?=img('images/assets/2015/julio/salud/grafica.png');?></li>
-                            </ul>
-                        </div>
-                        <div class="bit-1">
-                            <ul class="bit-1 clearfix">
-                                <li class="bit-5"><?=img('images/assets/2015/julio/salud/9.png');?></li>
-                                <li class="bit-60">
-                                    <p class="bit-1"><strong>El riesgo de padecer</strong> disfunción eréctil disminuye.</p>
-                                </li>
-                                <li class="bit-5"><?=img('images/assets/2015/julio/salud/espermatozooides.png');?></li>
-                            </ul>
-                        </div>
-                        <div class="bit-1">
-                            <ul class="bit-1 clearfix">
-                                <li class="bit-5"><?=img('images/assets/2015/julio/salud/10.png');?></li>
-                                <li class="bit-60">
-                                    <p class="bit-1"><strong>¡Ahorras!</strong> No sólo en la compra del tabaco, sino en medicinas, visitas al médico y gripes por tabaquismo.</p>
-                                </li>
-                                <li class="bit-5"><?=img('images/assets/2015/julio/salud/moneda.png');?></li>
-                            </ul>
-                        </div>
-                        <div class="bit-1">
-                            <ul class="bit-1 clearfix">
-                                <li class="bit-5"><?=img('images/assets/2015/julio/salud/11.png');?></li>
-                                <li class="bit-60">
-                                    <p class="bit-1"><strong>Al no fumar preservas la salud</strong> de los no fumadores</p>
-                                </li>
-                                <li class="bit-5"><?=img('images/assets/2015/julio/salud/viejita.png');?></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="frame section-2 bit-1">
-                        <h3 class="bit-1">Probablemente conocías los riesgos, ahora conoces algunos beneficios: <strong>mantenerlos es tu decisión</strong>.</h3>
-                    </div>
-                    <div class="frame section-3 bit-1">
-                        <h4 class="bit-1"><strong>¡Agrega días a tu vida y a la de los tuyos!</strong></h4>
-                    </div>
-                    <div class="frame section-4 bit-1">
-                        <p class="bit-3"><sup>*</sup> Fuente: <?=anchor( 'http://www.trendenciashombre.com' );?> <br /><?=anchor( 'http://bvs.sld.cu/revistas/med/' );?> <br />Organización Mundial de la Salud (OMS)</p>
-                    </div>
+                <div class="container health">
+                    <div class="bit-1 frame clearfix title">
+                        <?= img( [ 'src' => 'images/assets/2015/octubre/salud/se-una-mujer-a-la-vanguardia-de-tu-salud.png', 'alt' => 'Como conducir ante climas adversos', 'class' => 'bit-1' ] ); ?>
+                    </div><!-- Cómo conducir ante cliomas adversos -->
+                    <div class="bit-1 clearfix section-1 frame">
+                        <p class="bit-1 centered">
+                            <strong>Octubre</strong>, mundialmente, es el <strong>mes de la lucha contra el cáncer de mama</strong>, y tiene como objetivo <strong>incentivar la concientización y detección</strong> temprana, factor que <strong>mejora el pronóstico y la supervivencia de los casos.</strong>
+                        </p>
+                    </div><!-- Octubre, mundialmente, es el mes de la lucha contra el cáncer de mama, y tiene… -->
+                    <div class="bit-1 clearfix section-2 frame pink-bg">
+                        <h1 class="bit-1 centered">
+                            <strong class="text-pink">El cáncer de mamá es el más común entre todas las mujeres del mundo.</strong>
+                        </h1>
+                    </div><!-- El cáncer de mamá es el más común entre todas las mujeres del mundo. -->
+                    <hr class="bit-1 clearfix frame separation"></hr>
+                    <div class="bit-1 clearfix section-3 frame pink-bg">
+                        <ul class="clearfix bit-1">
+                            <li class="bit-3 centered">
+                                <?= img( [ 'src' => 'images/assets/2015/octubre/salud/femenino-icono.png', 'alt' => 'Simbolo femenino', 'class' => 'centered' ] ); ?>
+                                <p class="bit-80 centered">Representa el <strong class="text-wine">16%</strong> de todos los cánceres femeninos.</p>
+                            </li>
+                            <li class="bit-3 centered">
+                                <?= img( [ 'src' => 'images/assets/2015/octubre/salud/mujer-icono.png', 'alt' => 'Figura de mujer', 'class' => 'centered' ] ); ?>
+                                <p class="bit-80 centered">
+                                    En México, es la principal causa de muerte en mujeres mayores a <strong class="text-wine">25 años.</strong>
+                                </p>
+                            </li>
+                            <li class="bit-3 centered">
+                                <?= img( [ 'src' => 'images/assets/2015/octubre/salud/linea-mujeres.png', 'alt' => 'Linea de figuras de mujeres', 'class' => 'centered' ] ); ?>
+                                <p class="bit-80 centered">En promedio fallecen <strong class="text-wine">12</strong> mexicanas diariamente por este cáncer.</p>
+                            </li>
+                        </ul>
+                    </div><!-- Datos del cáncer -->
+                    <div class="bit-1 clearfix section-4 frame">
+                        <p class="bit-60 centered">
+                            Las <strong>causas exactas</strong> por las que se <strong>desarrolla el cáncer de mama,</strong> no se <strong>conocen con certeza</strong>. Sin embargo, hay <strong>algunos factores</strong> que <strong>aumentan el riesgo</strong> de adquirirlo:
+                        </p>
+                    </div><!-- Causas del cáucer -->
+                    <div class="bit-1 clearfix section-5 frame">
+                        <?= img( [ 'src' => 'images/assets/2015/octubre/salud/antecedentes-de-cancer.png', 'alt' => 'Antecedentes de cáncer', 'class' => 'centered bit-1' ] ); ?>
+                    </div><!-- Datos de causas del cáncer -->
+                    <div class="bit-1 clearfix section-6 frame pink-bg">
+                        <h2 class="bit-1 centered text-wine">CUÍDATE Y AUTOEXPLÓRATE</h2>
+                    </div><!-- Cuídate y autoexplorate -->
+                    <div class="bit-1 clearfix section-7 frame">
+                        <ul class="clearfix bit-1">
+                            <li class="bit-2">
+                                <?= img( [ 'src' => 'images/assets/2015/octubre/salud/manzana-icono.png', 'alt' => 'Manzana', 'class' => 'lefted' ] ); ?>
+                                <p class="bit-80">Mantén una alimentación baja en carbohidratos, grasas animales y alta en fibra.</p>
+                            </li>
+                            <li class="bit-2 centered">
+                                <?= img( [ 'src' => 'images/assets/2015/octubre/salud/bicicleta-icono.png', 'alt' => 'Bicicleta', 'class' => 'lefted' ] ); ?>
+                                <p class="bit-80">Ejercítate por lo menos 30 minutos diarios. Ayuda a tu físico y estado de ánimo.</p>
+                            </li>
+                            <li class="bit-2 centered">
+                                <?= img( [ 'src' => 'images/assets/2015/octubre/salud/cigarro-icono.png', 'alt' => 'Cigarro', 'class' => 'lefted' ] ); ?>
+                                <p class="bit-80">Evita el consumo de alcohol <br />y tabaco.</p>
+                            </li>
+                            <li class="bit-2 centered">
+                                <?= img( [ 'src' => 'images/assets/2015/octubre/salud/mastografia-icono.png', 'alt' => 'Mastografía', 'class' => 'lefted' ] ); ?>
+                                <p class="bit-80">Realízate anualmente: exploración clínica (desde los 25 años) y mastografía (después de los 40 años).</p>
+                            </li>
+                        </ul>
+                    </div><!-- Recomendaciones contra el cáncer -->
+                    <div class="bit-1 clearfix section-8 frame">
+                        <ul class="clearfix bit-1">
+                            <li class="bit-2">
+                                <?= img( [ 'src' => 'images/assets/2015/octubre/salud/liston-noviembre-contra-el-cancer.png', 'alt' => 'Listón rosa', 'class' => 'centered' ] ); ?>
+                                <p class="bit-1 centered text-pink"><strong>¡Autoexplórate!</strong></p>
+                                <p class="bit-80 centered">Siete días después del inicio de tu regla o en un día fijo del mes en caso de que ya no presentes menstruación.</p>
+                            </li>
+                            <li class="bit-2 centered">
+                                <?= img( [ 'src' => 'images/assets/2015/octubre/salud/liston-noviembre-contra-el-cancer.png', 'alt' => 'Listón rosa', 'class' => 'centered' ] ); ?>
+                                <p class="bit-1 centered text-pink"><strong>¡Un hábito que ayuda!</strong></p>
+                                <p class="bit-80 centered">Sólo el 30% de las mujeres se autoexploran y el 10% de los casos se logran identificar en etapa temprana.</p>
+                            </li>
+                        </ul>
+                    </div><!-- Hábitos contra el cáncer -->
+                    <div class="bit-1 clearfix section-9 frame pink-bg">
+                        <h3 class="bit-1 centered">
+                            <strong class="text-pink">La manera correcta de realizar una autoexploración, es:</strong>
+                        </h3>
+                    </div><!-- La manera correcta de realizar una autoexploración, es -->
+                    <hr class="bit-1 clearfix frame separation"></hr>
+                    <div class="bit-1 clearfix section-10 frame pink-bg">
+                        <p class="bit-90 centered">
+                            <strong class="text-wine">Frente al espejo: </strong>coloca tus manos detrás de la cabeza con los codos y hombros ligeramente hacia adelante. Busca cambios en la forma, tamaño o superficie de la piel; especialmente hundimientos, inflación, enrojecimiento o ulceraciones.
+                        </p>
+                    </div><!-- Manera 1 -->
+                    <hr class="bit-1 clearfix frame separation"></hr>
+                    <div class="bit-1 clearfix section-10 frame pink-bg">
+                        <p class="bit-90 centered">
+                            <strong class="text-wine">Frente al espejo: </strong>coloca tus manos detrás de la cabeza con los codos y hombros ligeramente hacia adelante. Busca cambios en la forma, tamaño o superficie de la piel; especialmente hundimientos, inflación, enrojecimiento o ulceraciones.
+                        </p>
+                    </div><!-- Frente al espejo -->
+                    <div class="bit-1 clearfix section-11 frame pink-bg">
+                        <p class="bit-90 centered">
+                            <strong class="text-wine">Explórate: </strong>busca bolitas, zonas dolorosas, abultamientos o consistencia diferente al resto del seno. Sigue estos procedimientos en una mama y luego en la otra:
+                        </p>
+                    </div><!-- Explórate -->
+                    <div class="bit-1 clearfix section-12 frame pink-bg">
+                        <ul class="clearfix bit-1">
+                            <li class="bit-2">
+                                <p class="bit-1 centered"><strong class="text-wine">1. De pie: </strong>la mano derecha en la nuca y con la izquierda toca el pecho derecho. Comienza desde arriba palpando alrededor de la mama, continúa en la parte del centro y finaliza revisando la axila. Como último paso aprieta el pazón para ver si hay salida anormal de líquido.</p>
+                                <?= img( [ 'src' => 'images/assets/2015/octubre/salud/pose-auto-exploracion-parada.png', 'alt' => 'Posición de pie para autoexploración mamaria', 'class' => 'centered' ] ); ?>
+                            </li>
+                            <li class="bit-2 centered">
+                                <p class="bit-1 centered"><strong class="text-wine">2. Acostada: </strong>coloca una almohada pequeña o toalla enrollada debajo del hombro derecho, pon la mano derecha en la nuca, con la mano izquierda revisa el pecho derecho, palpa de la misma manera que lo hiciste estando de pie.</p>
+                                <?= img( [ 'src' => 'images/assets/2015/octubre/salud/pose-auto-exploracion-acostada.png', 'alt' => 'Posición de pie para autoexploración mamaria', 'class' => 'centered' ] ); ?>
+                            </li>
+                        </ul>
+                    </div><!-- Instrucciones para realizar auto exploraciones -->
+                    <div class="bit-1 clearfix foot-notes frame pink-bg">
+                        <p class="bit-1">Fuente de información: Instituto de Salud del Estado de México, IMSS, boletín de la facultad de medicina de la UNAM.</p>
+                    </div><!-- Fuente de información: Instituto de Salud del Estado de México, IMSS, boletín de la… -->
+                    <div class="bit-1 clearfix section-13 frame">
+                        <?= img( [ 'src' => 'images/assets/2015/octubre/salud/conoce-plus-care.png', 'alt' => 'Conoce +Care. Es un programa integral multidisciplinario, diseñado para complementar el tratamiento médico de pacientes con cáncer.', 'class' => 'bit-1' ] ); ?>
+                    </div><!-- Conoce +Care. Es un programa integral multidisciplinario, diseñado para… -->
                     <hr class="bit-1 rule-information bit-1" />
                 </div>
