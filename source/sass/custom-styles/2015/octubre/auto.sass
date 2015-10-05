@@ -1,73 +1,74 @@
-.auto
+.hogar
+    p, h1, h2, h3, h4, h5, h6, ul li
+        color: $text-gray
+    ul
+        li
+            display: list-item
     .title
-        background-color: $axa-blue-color
-        .bit-80
-            h1
-                @include font-mask( bold, em( 75, 16 ), em( 65, 75 ), $helvetica, $papyrus )
-                margin: 10px auto 0
-                text-align: right
-                span
-                    color: $white-color
-                    font-size: em( 42, 75 )
-                    font-weight: normal
-                    line-height: em( 10, 42 )
-                    strong
-        .bit-20
-            img
-                display: block
-                float: none
-                margin: 0 auto
-    .section-1
-        .bit-60
-            p
-                @include font-mask( normal, em( 25, 16 ), 1.3em, $helvetica, $dark-grey )
-                display: block
-                float: none
-                text-align: justify
-        .bit-40
-            img
-    .section-2, .section-4, .section-5
-        box-sizing: border-box
-        hr
-            border-top: 1px solid $axa-blue-color
-            box-sizing: border-box
-            display: block
-            float: none
-            height: 0
-            margin: 0 auto
-            padding: 0
-        p
-            @include font-mask( bold, em( 25, 16 ), 1.3em, $helvetica, $axa-blue-color )
-            display: block
-            float: none
-            margin: 0 auto
-            text-align: center
-    .section-3
-        h2, p
-            @include font-mask( bold, em( 28, 16 ), 1.3em, $helvetica, $dark-grey )
-            display: block
-            float: none
-            text-align: justify
-        h2
-            text-align: center
         img
+    .section-1
         p
-            font-weight: normal
-    .section-6
-        background-color: $papyrus
-        margin-top: 10px
-        .bit-80
-            p
-                @include font-mask( normal, em( 25, 16 ), 1.3em, $helvetica, $axa-blue-color )
-                text-align: justify
-        .bit-20
-            img
+    .section-2 // LLuvia
         p
-            @include font-mask( bold, em( 25, 16 ), 1.3em, $helvetica, $related-bullet )
-            text-align: center
-    .section-7
-        .bit-80
+            float: none
+    .section-3 // Recomendaciones con lluvia
+        img
+            float: none
+        ul
+            li
+                p
+                    display: list-item
+                    list-style: url( '../images/assets/2015/octubre/auto/lluvia-icono.png' ) inside disc
+            &:first-child
+                li
+                    height: 170px
+            &:last-child
+                float: none
+    .section-4 // Viento
+        img
+            float: none
             p
-                @include font-mask( bold, em( 25, 16 ), 1.3em, $helvetica, $axa-blue-color )
-        .bit-20
+    .section-5 // Recomendaciones con viento
+        img
+            float: none
+        ul
+            li
+                p
+                    display: list-item
+                    list-style: url( '../images/assets/2015/octubre/auto/viento-icono.png' ) inside disc
+            &:first-child
+                li
+            &:last-child
+                float: none
+    .section-6 // Niebla
+    .section-7 // Recomendaciones con niebla
+        img
+            float: none
+        ul
+            li
+                p
+                    display: list-item
+                    list-style: url( '../images/assets/2015/octubre/auto/niebla-icono.png' ) inside disc
+    .section-8 // Recuerda que un camino seguro
+        img
+            float: none
+        ul
+            li
+                list-style: url( '../images/assets/2015/octubre/hogar/cono-de-seguridad.png' ) inside disc
+    .section-9 // Recomendaciones para un camino seguro
+        .light
             img
+                float: none
+            ul
+                li
+                    list-style: url( '../images/assets/2015/octubre/hogar/foco.png' ) inside disc
+        .water
+            img
+                float: none
+            ul
+                li
+                    list-style: url( '../images/assets/2015/octubre/hogar/llave-de-agua.png' ) inside disc
+    .foot-notes
+        p
+            @include font-mask( normal, em( 16, 16 ), 1em, $helvetica, $text-gray )
+            float: none
