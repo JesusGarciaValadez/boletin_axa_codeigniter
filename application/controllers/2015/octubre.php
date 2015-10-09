@@ -32,13 +32,13 @@ class Octubre extends CI_Controller
 
     public function vida ()
     {
-        $this->_data[ 'title' ]                 = 'Falta cultura del ahorro en México.';
+        $this->_data[ 'title' ]                 = 'El que ahorra más, vive mejor';
         $this->_data[ 'related_article_title' ] = 'Haz de tu retiro una experiencia satisfactoria';
         $this->_data[ 'related_article_link' ]  = 'http://www.boletinaxa.com.mx/2014/octubre/futuro';
-        $this->_data[ 'rating_section' ]        = 'falta-cultura';
+        $this->_data[ 'rating_section' ]        = 'ahorra-mas-vive-mejor';
 
         $this->parser->parse( 'header_v', $this->_data );
-        $this->parser->parse( '2015/octubre/futuro_v', $this->_data );
+        $this->parser->parse( '2015/octubre/vida_v', $this->_data );
         $this->parser->parse( 'related_social_v', $this->_data );
         $this->load->view( 'footer_v' );
     }
