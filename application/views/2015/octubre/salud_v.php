@@ -1,7 +1,7 @@
                 <div class="container health">
                     <div class="bit-1 frame clearfix title">
                         <?= img( [ 'src' => 'images/assets/2015/octubre/salud/se-una-mujer-a-la-vanguardia-de-tu-salud.png', 'alt' => 'Como conducir ante climas adversos', 'class' => 'bit-1' ] ); ?>
-                    </div><!-- Cómo conducir ante cliomas adversos -->
+                    </div><!-- Cómo conducir ante climas adversos -->
                     <div class="bit-1 clearfix section-1 frame">
                         <p class="bit-1 centered">
                             <strong>Octubre</strong>, mundialmente, es el <strong>mes de la lucha contra el cáncer de mama</strong>, y tiene como objetivo <strong>incentivar la concientización y detección</strong> temprana, factor que <strong>mejora el pronóstico y la supervivencia de los casos.</strong>
@@ -35,7 +35,7 @@
                         <p class="bit-60 centered">
                             Las <strong>causas exactas</strong> por las que se <strong>desarrolla el cáncer de mama,</strong> no se <strong>conocen con certeza</strong>. Sin embargo, hay <strong>algunos factores</strong> que <strong>aumentan el riesgo</strong> de adquirirlo:
                         </p>
-                    </div><!-- Causas del cáucer -->
+                    </div><!-- Causas del cáncer -->
                     <div class="bit-1 clearfix section-5 frame">
                         <?= img( [ 'src' => 'images/assets/2015/octubre/salud/antecedentes-de-cancer.png', 'alt' => 'Antecedentes de cáncer', 'class' => 'centered bit-1' ] ); ?>
                     </div><!-- Datos de causas del cáncer -->
