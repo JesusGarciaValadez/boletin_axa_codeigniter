@@ -30,7 +30,7 @@ class Octubre extends CI_Controller
         $this->load->view( 'footer_v' );
     }
 
-    public function vida ()
+    public function futuro ()
     {
         $this->_data[ 'title' ]                 = 'El que ahorra más, vive mejor';
         $this->_data[ 'related_article_title' ] = 'Haz de tu retiro una experiencia satisfactoria';
@@ -38,7 +38,7 @@ class Octubre extends CI_Controller
         $this->_data[ 'rating_section' ]        = 'ahorra-mas-vive-mejor';
 
         $this->parser->parse( 'header_v', $this->_data );
-        $this->parser->parse( '2015/octubre/vida_v', $this->_data );
+        $this->parser->parse( '2015/octubre/futuro_v', $this->_data );
         $this->parser->parse( 'related_social_v', $this->_data );
         $this->load->view( 'footer_v' );
     }
