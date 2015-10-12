@@ -1,6 +1,6 @@
                 <div class="container hogar">
                     <div class="bit-1 frame clearfix title">
-                        <?= img( [ 'src' => 'images/assets/2015/octubre/hogar/elabora-tu-plan-familiar.png', 'alt' => 'Cama', 'class' => 'bit-1' ] ); ?>
+                        <?= img( [ 'src' => 'images/assets/2015/octubre/hogar/elabora-tu-plan-familiar.png', 'alt' => 'Elabora tu plan familiar', 'class' => 'bit-1' ] ); ?>
                     </div><!-- Elabora tu plan familiar -->
                     <div class="bit-1 clearfix section-1 frame">
                         <p class="bit-1">Las <strong>afectaciones</strong> en el hogar <strong>provocadas</strong> por <strong>fenómenos naturales</strong> se pueden <strong>evitar</strong> o <strong>disminuir</strong> si se toma <strong>conciencia familiar</strong>. Debemos estar <strong>bien preparados</strong> para hacer <strong>frente a algún siniestro</strong> y así <strong>aminorar el impacto.</strong></p>

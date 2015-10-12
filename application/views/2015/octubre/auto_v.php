@@ -39,7 +39,7 @@
                         <ul class="clearfix bit-70 centered">
                             <li class="bit-1 centered">
                                 <?= img( [ 'src' => 'images/assets/2015/octubre/auto/persona-manejando.png', 'alt' => 'Persona manejando', 'class' => 'centered' ] ); ?>
-                                <p>En caso de "sentir" que el auto "flota", no frenes de golpe, solo deberás levantar el pie del acelerador hasta que se reestablezca el control direccional del mismo.</p>
+                                <p>En caso de "sentir" que el auto "flota", no frenes de golpe, solo deberás levantar el pie del acelerador hasta que se reestablezca <br />el control direccional del mismo.</p>
                             </li>
                         </ul>
                     </div><!-- Recomendaciones con lluvia -->
@@ -55,7 +55,7 @@
                             </li>
                             <li class="bit-3 centered">
                                 <?= img( [ 'src' => 'images/assets/2015/octubre/auto/volante.png', 'alt' => 'Volante', 'class' => 'centered' ] ); ?>
-                                <p>Mantente alerta ante objetos que pudieran obstruir tu visibilidad.</p>
+                                <p>Ambas manos siembre deben <br />ir firmes al volante <br />para mantener el control en <br />caso de ráfagas repentinas.</p>
                             </li>
                             <li class="bit-3 centered">
                                 <?= img( [ 'src' => 'images/assets/2015/octubre/auto/velocimetro.png', 'alt' => 'Velocímetro', 'class' => 'centered' ] ); ?>
@@ -106,7 +106,7 @@
                         <ul class="clearfix bit-1">
                             <li class="bit-2 centered">
                                 <?= img( [ 'src' => 'images/assets/2015/octubre/auto/cinturon-de-seguridad.png', 'alt' => 'Cinturón de seguridad', 'class' => 'centered' ] ); ?>
-                                Usa siempre el cinturón de seguridad
+                                Usa siempre el cinturón de seguridad.
                             </li>
                             <li class="bit-2 centered">
                                 <?= img( [ 'src' => 'images/assets/2015/octubre/auto/lista-y-carros.png', 'alt' => 'Checklist vehícular', 'class' => 'centered' ] ); ?>

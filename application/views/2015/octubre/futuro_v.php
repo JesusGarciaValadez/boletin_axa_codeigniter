@@ -1,72 +1,169 @@
                 <div class="container future">
-                    <div class="frame clearfix bit-1 title">
-                        <div class="bit-60">
-                            <h1 class="bit-1">Falta cultura del ahorro en México.</h1>
-                            <h2 class="bit-1">Sólo el 16% de los mexicanos ahorra.</h2>
-                        </div>
-                        <div class="bit-40">
-                            <?=img( 'images/assets/2015/julio/futuro/alcancia.png' );?>
-                        </div>
-                        <div class="bit-1">
-                            <?=img( 'images/assets/2015/julio/futuro/dibujos-relacionados-con-dinero.png' );?>
-                        </div>
-                    </div>
-                    <div class="bit-1 clearfix frame section-1">
-                        <p>Los beneficios de ahorrar son inmejorables y perdurables. Y tú, <strong>¿ya tienes un plan eficaz de ahorro?</strong></p>
-                        <p>Habituarte a ahorrar puede resultar complejo, sobre todo si no sueles pensar en tus finanzas personales o en cómo maximizar tus ingresos. Por ello, te damos algunos tips para preservar tu dinero óptimamente:</p>
-                    </div>
-                    <div class="bit-1 clearfix frame section-2">
-                        <div class="bit-1 clearfix sub-section-1">
-                            <div class="bit-2">
-                                <?=img( 'images/assets/2015/julio/futuro/uno.png' );?>
-                                <h3>Controla y registra tus gastos.</h3>
-                                <p>Puedes anotar el monto de tus ingresos y egresos, así como tus gastos de manutención, vivienda y transporte, así tendrás más claro qué parte puedes destinar al ahorro. (Si tienes deudas, es importante que no descuides la cantidad destinada para cubrir éstas).</p>
-                            </div>
-                            <div class="bit-2">
-                                <?=img( 'images/assets/2015/julio/futuro/dos.png' );?>
-                                <h3>Aprende a decir no.</h3>
-                                <p>En la medida de lo posible, evita hacer uso de tu aportación al ahorro. Es aconsejable la deposites en algún tipo de cuenta de ahorro; ya que ésta frecuentemente ofrece mecanismos útiles de fomento y protección al ahorro.</p>
-                            </div>
-                        </div>
-                        <div class="bit-1 clearfix sub-section-2">
-                            <div class="bit-2">
-                                <?=img( 'images/assets/2015/julio/futuro/tres.png' );?>
-                                <h3>Identifica tus necesidades y prioridades.</h3>
-                                <p>Procura cubrir sólo aspectos básicos de tu vida cotidiana. Evita gastar cuando no sea realmente necesario y no lleves dinero que puedas gastar en exceso o tarjetas de crédito si no las requieres.</p>
-                            </div>
-                            <div class="bit-2">
-                                <?=img( 'images/assets/2015/julio/futuro/cuatro.png' );?>
-                                <h3>Apóyate en la tecnología.</h3>
-                                <p>Usa algún software o app que te permita administrar y vigilar tus finanzas de manera precisa y continua.</p>
-                            </div>
-                        </div>
-                        <div class="bit-1 clearfix sub-section-3">
-                            <div class="bit-2">
-                                <?=img( 'images/assets/2015/julio/futuro/cinco.png' );?>
-                                <h3>Ahorra en compañía.</h3>
-                                <p>Si tienes clara tu meta, pero se te dificulta el hábito del ahorro, puedes apoyarte involucrando a alguien cercano y confiable. Compartir tus metas y avances te motiva y reduce gastos innecesarios.</p>
-                                <ul>
-                                    <li><strong>El ahorro en pareja es mejor</strong>, pues conjunta la meta en un plan mutuo y la confianza de la relación se fortalece.</li>
-                                    <li><strong>El ahorro en familia</strong> enseña a los niños a valorar el ahorro-recompensa tras cumplir una meta.</li>
-                                </ul>
-                            </div>
-                            <div class="bit-2">
-                                <?=img( 'images/assets/2015/julio/futuro/seis.png' );?>
-                                <h3>Fíjate objetivos y metas realistas.</h3>
-                                <p>Destina una parte de tu ahorro para cubrir un objetivo prioritario a corto o mediano plazo pero prevé que esta operación no impacte tus metas a largo plazo, como el ahorro para tu retiro. Para ello, puedes apoyarte en seguros de vida que además de protegerte, son un mecanismo eficaz para ahorrar.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bit-1 clearfix frame section-3">
-                        <p><sup>*</sup> Tu objetivo de ahorro es personal, puede variar desde comprar algún artículo de novedad, viajar a algún destino anhelado, estudiar una maestría, comprar una vivienda, adquirir tu propio auto, hasta el pago de una deuda: el secreto radica en ser constante para cumplir tu meta.</p>
-                    </div>
-                    <div class="bit-1 clearfix frame section-4">
-                        <div class="bit-3 clearfix"><?=img( 'images/assets/2015/julio/futuro/nota.png' );?></div>
-                        <div class="bit-666">
-                            <p class="bit-1"><strong>Ten muy presente que para compensar el retraso de ahorro de 10 años, requerirás un 50% adicional. Por eso, la edad ideal para comenzar el ahorro voluntario es desde los 20 años; aunque la mayoría comienza en promedio a los 30 años.</strong></p>
-                            <h4 class="bit-1">¡No postergues más tu ahorro: asegura y brinda tranquilidad a tu vida futura!</h4>
-                        </div>
-                        <p class="bit-1"><sup>*</sup> Fuente: axainforma.com / Análisis Axa México con datos OCDE</p>
-                    </div>
+                    <div class="bit-1 frame clearfix title">
+                        <?= img( [
+                                'src' => 'images/assets/2015/octubre/futuro/el-que-ahorra-mas-vive-mejor.png',
+                                'alt' => 'El que ahorra más, vive mejor. Con base en un estudio del INEGI (Instituto Nacional de Estadística y Geografía) los porcentajes de gasto promedio en los mexicanos son:',
+                                'class' => 'bit-1'
+                            ] );
+                        ?>
+                    </div><!-- El que ahorra más, vive mejor -->
+                    <div class="bit-1 clearfix section-1 frame">
+                        <ul class="clearfix bit-80">
+                            <li class="bit-40 centered">
+                                <?= img( [ 'src' => 'images/assets/2015/octubre/futuro/manzama-treinta-y-cuatro-porciento.png', 'alt' => '34%', 'class' => 'righted' ] ); ?>
+                                <p class="bit-60 lefted">
+                                    Alimentos y bebidas <br />no alcohólicas.
+                                </p>
+                            </li>
+                            <li class="bit-20 centered"></li>
+                            <li class="bit-40 centered">
+                                <?= img( [ 'src' => 'images/assets/2015/octubre/futuro/libro-catorce-porciento.png', 'alt' => '14%', 'class' => 'lefted' ] ); ?>
+                                <p class="bit-60 lefted">
+                                    Educación <br />y esparcimiento.</strong>
+                                </p>
+                            </li>
+                            <li class="bit-40 centered">
+                                <?= img( [ 'src' => 'images/assets/2015/octubre/futuro/casa-quince-porciento.png', 'alt' => '15%', 'class' => 'righted' ] ); ?>
+                                <p class="bit-60 lefted">
+                                    Vivienda y sus <br />servicios generales.
+                                </p>
+                            </li>
+                            <li class="bit-20 centered"></li>
+                            <li class="bit-40 centered">
+                                <?= img( [ 'src' => 'images/assets/2015/octubre/futuro/mandil-cinco-porciento.png', 'alt' => '5%', 'class' => 'lefted' ] ); ?>
+                                <p class="bit-60 lefted">
+                                    Vestido <br />y calzado.
+                                </p>
+                            </li>
+                            <li class="bit-40 centered">
+                                <?= img( [ 'src' => 'images/assets/2015/octubre/futuro/camioneta-diez-y-nueve-porciento.png', 'alt' => '19%', 'class' => 'righted' ] ); ?>
+                                <p class="bit-60 lefted">
+                                    Transporte <br /> y comunicaciones.
+                                </p>
+                            </li>
+                            <li class="bit-20 centered"></li>
+                            <li class="bit-40 centered">
+                                <?= img( [ 'src' => 'images/assets/2015/octubre/futuro/muela-nueve-porciento.png', 'alt' => '9%', 'class' => 'lefted' ] ); ?>
+                                <p class="bit-60 lefted">
+                                    Cuidados a la salud <br />y personales.
+                                </p>
+                            </li>
+                        </ul>
+                        <ul class="clearfix bit-20">
+                            <li class="bit-1 centered">
+                                <?= img( [ 'src' => 'images/assets/2015/octubre/futuro/moneda-cuatro-porciento.png', 'alt' => '4%', 'class' => 'centered' ] ); ?>
+                                <p class="bit-1 centered">Transferencia <br />de gasto.</p>
+                            </li>
+                        </ul>
+                    </div><!-- Octubre, mundialmente, es el mes de la lucha contra el cáncer de mama, y tiene… -->
+                    <div class="bit-1 clearfix section-2 frame">
+                        <?= img( [
+                                'src' => 'images/assets/2015/octubre/futuro/resultado-que-deja-un-cero-porciento-para-el-ahorro.png',
+                                'alt' => 'Resultado que deja un cero porciento para el ahorro.',
+                                'class' => 'centered'
+                            ] );
+                        ?>
+                    </div><!-- Resultado que deja un cero porciento para el ahorro. -->
+                    <div class="bit-1 clearfix section-3 frame">
+                        <?= img( [ 'src' => 'images/assets/2015/octubre/futuro/linea-horizontal.png', 'alt' => 'Separador', 'class' => 'centered' ] ); ?>
+                        <p class="bit-1 centered">
+                            De hecho, según una encuesta de la CONSAR (Comisión Nacional del Sistema de Ahorro <br />para el Retiro) <strong>en México el 66% de los habitantes no ahorran , 7 de cada 10 sí lo hacen</strong> <br />pero usan el dinero para <strong>afrontar una emergencia</strong> y sólo <strong>el 7% lo hace pensando en <br />su vejez.</strong> Mientras los que <strong>no ahorran, el 49% es porque no les alcanza, el 28% porque <br />tienen otros gastos y el 19% por falta de hábito.</strong>
+                        </p>
+                        <?= img( [ 'src' => 'images/assets/2015/octubre/futuro/linea-horizontal.png', 'alt' => 'Separador', 'class' => 'centered' ] ); ?>
+                    </div><!-- De hecho, según una encuesta de la CONSAR (Comisión Nacional del Sistema de Ahorro… -->
+                    <div class="bit-1 clearfix section-4 frame">
+                        <?= img( [
+                                'src' => 'images/assets/2015/octubre/futuro/el-habito-de-ahorrar-beneficia-en-varios-aspectos-como.png',
+                                'alt' => 'El hábito de ahorrar beneficia en varios aspectos como',
+                                'class' => 'centered'
+                            ] );
+                        ?>
+                    </div><!-- El hábito de ahorrar beneficia en varios aspectos, como: -->
+                    <div class="bit-1 clearfix section-5 frame">
+                        <ul class="clearfix bit-1">
+                            <li class="bit-5 centered">
+                                <?= img( [ 'src' => 'images/assets/2015/octubre/futuro/casa-icono.png', 'alt' => 'Manzana', 'class' => 'centered' ] ); ?>
+                                <p class="bit-80">La posibilidad <br />de comprar<br /> una casa.</p>
+                            </li>
+                            <li class="bit-5 centered">
+                                <?= img( [ 'src' => 'images/assets/2015/octubre/futuro/ambulancia-icono.png', 'alt' => 'Bicicleta', 'class' => 'centered' ] ); ?>
+                                <p class="bit-80">Cubrir emergencias <br />e imprevistos.</p>
+                            </li>
+                            <li class="bit-5 centered">
+                                <?= img( [ 'src' => 'images/assets/2015/octubre/futuro/libros-icono.png', 'alt' => 'Cigarro', 'class' => 'centered' ] ); ?>
+                                <p class="bit-80">Proveer <br />la educación <br />de tus hijos.</p>
+                            </li>
+                            <li class="bit-5 centered">
+                                <?= img( [ 'src' => 'images/assets/2015/octubre/futuro/avion-icono.png', 'alt' => 'Mastografía', 'class' => 'centered' ] ); ?>
+                                <p class="bit-80">Tomar vacaciones <br />y viajar.</p>
+                            </li>
+                            <li class="bit-5 centered">
+                                <?= img( [ 'src' => 'images/assets/2015/octubre/futuro/alcancia-icono.png', 'alt' => 'Mastografía', 'class' => 'centered' ] ); ?>
+                                <p class="bit-80">Tener una jubilación <br />de calidad.</p>
+                            </li>
+                        </ul>
+                    </div><!-- Beneficios del hábito de ahorrar. -->
+                    <div class="bit-1 clearfix section-6 frame centered">
+                        <p class="bit-80 centered">
+                            Sin embargo, no siempre es fácil saber cuál es la cantidad ideal para ahorrar. <strong>Forbes</strong> estipula que <br /><strong>lo ideal</strong> es del <strong>10% al 20% de tu ingreso total,</strong> pero puede <strong>variar</strong> según <strong>objetivo, edad, <br />situación</strong> y <strong>presupuesto</strong>. Por eso, dejamos unas recomendaciones para distintas etapas de vida:
+                        </p>
+                    </div><!-- Sin embargo, no siempre es fácil saber cuál es la cantidad ideal para ahorrar… -->
+                    <div class="bit-1 clearfix section-7 frame">
+                        <ul class="clearfix bit-1">
+                            <li class="bit-3">
+                                <?= img( [ 'src' => 'images/assets/2015/octubre/futuro/hombre-camisa-verde.png', 'alt' => 'Hombre camisa verde', 'class' => 'lefted' ] ); ?>
+                                <p class="bit-80 lefted">Si tienes 18 años, ahorra <br />el 10% para iniciar <br />el hábito.</p>
+                            </li>
+                            <li class="bit-3 centered">
+                                <?= img( [ 'src' => 'images/assets/2015/octubre/futuro/hombre-camisa-roja.png', 'alt' => 'Hombre camisa roja', 'class' => 'lefted' ] ); ?>
+                                <p class="bit-80 lefted">Si eres soltero, <br />ahorra del 25% al 30%.</p>
+                            </li>
+                            <li class="bit-3 centered">
+                                <?= img( [ 'src' => 'images/assets/2015/octubre/futuro/hombre-camisa-azul.png', 'alt' => 'Hombre camisa azul', 'class' => 'lefted' ] ); ?>
+                                <p class="bit-80 lefted">Si tienes entre 28 y 38 <br />años, ahorra el 15%.</p>
+                            </li>
+                            <li class="bit-2 centered">
+                                <?= img( [ 'src' => 'images/assets/2015/octubre/futuro/hombre-con-portafolio.png', 'alt' => 'Hombre con portafolios', 'class' => 'lefted' ] ); ?>
+                                <p class="bit-80 lefted">Si tienes entre 38 y 48 <br />años, ahorra el 20%.</p>
+                            </li>
+                            <li class="bit-2 centered">
+                                <?= img( [ 'src' => 'images/assets/2015/octubre/futuro/hombre-mayor.png', 'alt' => 'Hombre mayor', 'class' => 'lefted' ] ); ?>
+                                <p class="bit-80 lefted">Si tienes entre 48 <br /> y 58 años, ahorra el 30%.</p>
+                            </li>
+                        </ul>
+                    </div><!-- Recomendaciones para distintas etápas de vida -->
+                    <div class="bit-1 clearfix section-8 frame">
+                        <?= img( [
+                                'src' => 'images/assets/2015/octubre/futuro/tambien-puedes.png',
+                                'alt' => 'También puedes',
+                                'class' => 'centered'
+                            ] );
+                        ?>
+                    </div><!-- También puedes -->
+                    <div class="bit-1 clearfix section-9 frame">
+                        <ul class="clearfix bit-1">
+                            <li class="bit-3">
+                                <?= img( [ 'src' => 'images/assets/2015/octubre/futuro/cigarro-icono.png', 'alt' => 'Cigarro', 'class' => 'centered' ] ); ?>
+                                <p class="bit-80 centered">Eliminar los productos innecesarios de tu presupuesto.</p>
+                            </li>
+                            <li class="bit-3 centered">
+                                <?= img( [ 'src' => 'images/assets/2015/octubre/futuro/calendario-icono.png', 'alt' => 'Calendario', 'class' => 'centered' ] ); ?>
+                                <p class="bit-80 centered">Establecer metas de ahorro razonables.</p>
+                            </li>
+                            <li class="bit-3 centered">
+                                <?= img( [ 'src' => 'images/assets/2015/octubre/futuro/monedas-icono.png', 'alt' => 'Monedas', 'class' => 'centered' ] ); ?>
+                                <p class="bit-80 centered">Comparar precios y marcas antes de tomar una elección de compra.</p>
+                            </li>
+                        </ul>
+                        <ul class="clearfix bit-70 centered">
+                            <li class="bit-1 centered">
+                                <?= img( [ 'src' => 'images/assets/2015/octubre/futuro/carro-icono.png', 'alt' => 'Carro', 'class' => 'centered' ] ); ?>
+                                <p>Reducir el consumo energético. Puedes apagar los electrónicos cuando no los uses <br />u optar por moverte en bicicleta o transporte público en lugar de en el auto.</p>
+                            </li>
+                        </ul>
+                    </div><!-- Continuación de recomendaciones para distintas etápas de vida -->
+                    <div class="bit-1 clearfix foot-notes frame centered">
+                        <p class="bit-1">Fuente: INEGI y Banco de México, Consar.</p>
+                    </div><!-- Fuente: INEGI y Banco de México, Consar. -->
                     <hr class="bit-1 rule-information bit-1" />
                 </div>
