@@ -1,4 +1,4 @@
-                <div class="container hogar">
+                <div class="container home">
                     <div class="bit-1 frame clearfix title">
                         <?= img( [ 'src' => 'images/assets/2015/octubre/hogar/elabora-tu-plan-familiar.png', 'alt' => 'Elabora tu plan familiar', 'class' => 'bit-1' ] ); ?>
                     </div><!-- Elabora tu plan familiar -->
@@ -42,13 +42,13 @@
                         <?= img( [ 'src' => 'images/assets/2015/octubre/hogar/asegura-la-zona.png', 'alt' => 'Asegura la zona', 'class' => 'centered' ] ); ?>
                         <ul class="clearfix">
                             <li class="bit-3 centered">
-                                Sujeta objetos y muebles que puedan caerse
+                                Sujeta objetos y muebles que puedan caerse.
                             </li>
                             <li class="bit-3 centered">
-                                Mantén productos tóxicos lejos del alcance de los niños.
+                                Mantén productos tóxicos lejos <br />del alcance de los niños.
                             </li>
                             <li class="bit-3 centered">
-                                Identifica los riesgos al exterior de tu hogar.
+                                Identifica los riesgos al exterior <br />de tu hogar.
                             </li>
                         </ul>
                     </div><!-- Asegura la zona -->
@@ -57,7 +57,7 @@
                             <?= img( [ 'src' => 'images/assets/2015/octubre/hogar/luz.png', 'alt' => 'Luz', 'class' => 'centered' ] ); ?>
                             <ul class="clearfix bit-1">
                                 <li class="bit-1 centered">
-                                    Sujeta objetos y mebles que puedan caerse
+                                    No sobrecargues los enchufes de la luz <br />con diversos aparatos eléctricos.
                                 </li>
                             </ul>
                         </div><!-- Luz -->
@@ -101,7 +101,7 @@
                         </div>
                     </div><!-- Teléfonos de emergencia -->
                     <div class="bit-1 clearfix section-12 frame blue-bg">
-                        <p class="bit-90 centered"><strong>Es recomendable que cuentes</strong></p>
+                        <p class="bit-90 centered"><strong>Es recomendable que cuentes con:</strong></p>
                     </div><!-- Es recomendable que cuentes -->
                     <div class="bit-1 clearfix section-13 frame">
                         <div class="bit-2">
