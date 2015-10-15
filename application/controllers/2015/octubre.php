@@ -19,10 +19,10 @@ class Octubre extends CI_Controller
 
     public function salud ()
     {
-        $this->_data[ 'title' ]                 = '11 razones para dejar de fumar';
+        $this->_data[ 'title' ]                 = 'Sé una mujer a la vanguardia de tu salud';
         $this->_data[ 'related_article_title' ] = 'Mujer Independiente';
         $this->_data[ 'related_article_link' ]  = 'http://www.boletinaxa.com.mx/anterior/tu-futuro-marzo-2014.html';
-        $this->_data[ 'rating_section' ]        = '11-razones';
+        $this->_data[ 'rating_section' ]        = 'mujer-vanguardia-salud';
 
         $this->parser->parse( 'header_v', $this->_data );
         $this->parser->parse( '2015/octubre/salud_v', $this->_data );
@@ -45,10 +45,10 @@ class Octubre extends CI_Controller
 
     public function auto ( )
     {
-        $this->_data[ 'title' ]                 = 'Por tu seguridad, evita el celular al volante';
+        $this->_data[ 'title' ]                 = 'Cómo conducir ante climas adversos';
         $this->_data[ 'related_article_title' ] = 'Conoce las estadísticas y toma las precauciones';
         $this->_data[ 'related_article_link' ]  = 'http://www.boletinaxa.com.mx/anterior/datos-sobre-robo-de-automoviles.html';
-        $this->_data[ 'rating_section' ]        = 'evita-celular';
+        $this->_data[ 'rating_section' ]        = 'conducir-climas-adversos';
 
         $this->parser->parse( 'header_v', $this->_data );
         $this->parser->parse( '2015/octubre/auto_v', $this->_data );
