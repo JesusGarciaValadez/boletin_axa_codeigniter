@@ -12,6 +12,8 @@ class Octubre extends CI_Controller
 
     public function index ()
     {
+        $this->_data[ 'stylesheet' ]            = 'julio-2015';
+
         $this->parser->parse( 'header_v', $this->_data );
         $this->parser->parse( '2015/octubre/inicio_v', $this->_data );
         $this->load->view( 'footer_v' );

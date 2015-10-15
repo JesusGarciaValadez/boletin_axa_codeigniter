@@ -10,7 +10,7 @@
                             <? foreach($poll as $key => $value){ ?>
                             <div class="quiz-slide" style="width:<?=100/(count($poll)+1);?>%;">
                                 <?=form_open( 'opinion/submit', '',[ 'question' => $value[ 'id' ], 'form_id' => $form_id ] );?>
-                                <h2><?=img( 'images/assets/' . $value[ 'id' ] . '.jpg' );?> <?=$value[ 'question' ];?></h2>
+                                <h2><?=img( 'images/assets/' . $value[ 'id' ] . '.png' );?> <?=$value[ 'question' ];?></h2>
                                     <ul>
                                     <? foreach( $value[ 'answers' ] as $id => $answer ) { ?>
                                         <li><input type="radio" id="answer<?=$id;?>" name="answer" value="<?=$answer['id'];?>" /> <?=$answer['answer'];?></li>

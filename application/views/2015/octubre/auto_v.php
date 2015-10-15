@@ -1,7 +1,7 @@
-                <div class="container hogar">
+                <div class="container auto">
                     <div class="bit-1 frame clearfix title">
                         <?= img( [ 'src' => 'images/assets/2015/octubre/auto/como-conducir-ante-climas-adversos.png', 'alt' => 'Como conducir ante climas adversos', 'class' => 'bit-1' ] ); ?>
-                    </div><!-- Cómo conducir ante cliomas adversos -->
+                    </div><!-- Cómo conducir ante climas adversos -->
                     <div class="bit-1 clearfix section-1 frame">
                         <p class="bit-1">Al <strong>conducir</strong> es común <strong>enfrentarte</strong> con <strong>diversas condiciones climatológicas</strong> que pueden ser <strong>adversas</strong> y <strong>retrasar</strong> o <strong>impedir tu viaje</strong>, e incluso <strong>poner</strong> en <strong>riesgo</strong> tu <strong>seguridad</strong>. Por ello, te damos algunos <strong>consejos</strong> para prever <strong>accidentes</strong> ante estos escenarios:</p>
                     </div><!-- Las afectaciones en el hogar provocadas por fenómenos naturales se pueden evitar… -->

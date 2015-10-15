@@ -3,9 +3,9 @@
 class Opinion extends CI_Controller
 {
     public $_data   = array(
-                            'mes'       => 'Julio',
+                            'mes'       => 'Octobre',
                             'anio'      => '2015',
-                            'numero'    => '12',
+                            'numero'    => '13',
                             'stylesheet'=> 'enero-2015'
                             );
     function __construct( )
@@ -66,6 +66,9 @@ class Opinion extends CI_Controller
         //     redirect( 'inicio' );
         // }
 
+
+        $this->_data[ 'title' ] = 'Tu opinión';
+
         $questions  = $this->functions->getQuiz( );
 
         $poll       = array();
@@ -96,6 +99,7 @@ class Opinion extends CI_Controller
 
     function submit( )
     {
+        date_default_timezone_set( "America/Mexico_City" );
         $question   = $this->input->post( 'question', true );
         $answer     = $this->input->post( 'answer', true );
         $form       = $this->input->post( 'form_id', true );

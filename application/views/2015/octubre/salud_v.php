@@ -1,7 +1,7 @@
                 <div class="container health">
                     <div class="bit-1 frame clearfix title">
                         <?= img( [ 'src' => 'images/assets/2015/octubre/salud/se-una-mujer-a-la-vanguardia-de-tu-salud.png', 'alt' => 'Como conducir ante climas adversos', 'class' => 'bit-1' ] ); ?>
-                    </div><!-- Cómo conducir ante climas adversos -->
+                    </div><!-- Sé iuna mujer a la vanguardia de tu salud -->
                     <div class="bit-1 clearfix section-1 frame">
                         <p class="bit-1 centered">
                             <strong>Octubre</strong>, mundialmente, es el <strong>mes de la lucha contra el cáncer de mama</strong>, y tiene como objetivo <strong>incentivar la concientización y detección</strong> temprana, factor que <strong>mejora el pronóstico y la supervivencia de los casos.</strong>
