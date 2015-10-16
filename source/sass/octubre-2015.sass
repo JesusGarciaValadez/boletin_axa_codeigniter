@@ -47,50 +47,48 @@
    ========================================================================== */
 
 /* ==========================================================================
-   Desktop High Resolution
+   iPhone 3GS/4/4S Portrait Orientation
    ========================================================================== */
-@media only screen and (min-width: em( 1919, 16 ))
+@media only screen and (min-width: em( 480 ))
 
-@media print, ( -webkit-min-device-pixel-ratio: 1.25 ), ( min-resolution: 1.25dppx ), ( min-resolution: 120dpi )
-
-/* ==========================================================================
-   iPad
-   ========================================================================== */
-@media only screen and ( max-width: em( 1024, 16 ) )
-
-@media only screen and ( max-width: em( 1024, 16 ) ) and ( orientation: portrait )
-
-/* ==========================================================================
-   iPhone 6 Plus Landscape Orientation
-   ========================================================================== */
-@media only screen and ( max-width: em( 736, 16 ) )
-
-@media only screen and ( max-width: em( 736, 16 ) ) and ( orientation: landscape )
-
-/* ==========================================================================
-   iPhone 6
-   ========================================================================== */
-@media only screen and ( max-width: em( 667, 16 ) ) and ( orientation: landscape )
-
-@media only screen and ( max-width: em( 667, 16 ) )
+@media only screen and (min-width: em( 480 )) and (orientation:landscape)
 
 /* ==========================================================================
    iPhone 5/5S
    ========================================================================== */
-@media only screen and ( max-width: em( 568, 16 ) ) and ( orientation: landscape )
+@media only screen and ( min-width: em( 320, 16 ) ) and (max-width: em( 1023, 16) )
+    @import "default-styles/_general_mobile"
 
-@media only screen and ( max-width: em( 568, 16 ) )
-
-/* ==========================================================================
-   iPhone 3GS/4/4S
-   ========================================================================== */
-@media only screen and ( max-width: em( 480, 16 ) )
-
-@media only screen and ( max-width: em( 480, 16 ) ) and ( orientation: landscape )
+@media only screen and (min-width: em( 568, 16 )) and (orientation:landscape)
 
 /* ==========================================================================
-   Print styles.
-   Inlined to avoid required HTTP connection: h5bp.com/r
+   iPhone 6
    ========================================================================== */
+@media only screen and (min-width: em( 667, 16 )) and (max-width: em( 1023, 16) )
+
+@media only screen and (min-width: em( 667, 16 )) and (orientation:landscape)
+
+/* ==========================================================================
+   iPhone 6 Plus
+   ========================================================================== */
+@media only screen and (min-width: em( 736, 16 )) and (max-width: em( 1023, 16) )
+
+@media only screen and (min-width: em( 736, 16 )) and (orientation:landscape)
+
+/* ==========================================================================
+   iPad
+   ========================================================================== */
+@media only screen and (min-width: em( 1024, 16 ))
+    @import "default-styles/_general"
+
+@media only screen and (min-width: em( 1024, 16 )) and (orientation:portrait)
+
+@media only screen and (min-width: em( 1024, 16 )) and (orientation:landscape)
+
+/* ==========================================================================
+   Desktop High Resolution
+   ========================================================================== */
+@media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi)
+
 @media print
-  @import "default-styles/_print_stylesheet"
+    @import "default-styles/_print_stylesheet"

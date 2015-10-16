@@ -93,7 +93,7 @@
     .section-12
         p
             float: none
-            font-size: em( 20, 16 )
+            font-size: em( 21, 16 )
     .section-13
         .bit-2
             p
@@ -104,6 +104,13 @@
             p.lefted
                 font-size: em( 21, 16 )
                 text-align: right
+        @media only screen and ( max-width: em( 568, 16 ) )
+            .lefted, .righted
+                display: block
+                float: none
+                margin: 0 auto
+            p
+                text-align: center !important
     .section-14
         h1
             float: none
