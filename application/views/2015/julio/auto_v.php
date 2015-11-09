@@ -17,7 +17,7 @@
                     </div>
                     <div class="frame bit-1 section-2 clearfix">
                         <hr class="bit-90">
-                        <p class="bit-90">Sabías que 7 de cada 10 accidentes son derivados de los distractores, siendo el celular el más común de ellos.</p>
+                        <p class="bit-90">¿Sabías que 7 de cada 10 accidentes son derivados de los distractores, siendo el celular el más común de ellos.?</p>
                         <hr class="bit-90">
                     </div>
                     <div class="frame bit-1 section-3 clearfix">

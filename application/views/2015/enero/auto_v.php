@@ -36,7 +36,7 @@
                                     </div>
                                     <div class="frame">
                                         <div class="bit-1">
-                                            <p style="font-size:1.4em;">Cada año, por la inseguridad vial, 16 mil mexicanos pierden la vida y más de un millón de niños, jóvenes y adultos sufren discapacidad, lesiones u orfandad.</p>
+                                            <p style="font-size:1.4em;">Cada año, por la inseguridad vial, 16,000 mexicanos pierden la vida y más de un millón de niños, jóvenes y adultos sufren discapacidad, lesiones u orfandad.</p>
                                             <br>
                                             <p style="font-size:1.4em;"><strong>Las principales causas de accidentes vehiculares fatales en México son:</strong></p>
                                         </div>
@@ -45,8 +45,8 @@
                                         <div class="bit-3" style="text-align:right;">
                                             <h1 style="font-size:5em; color:#039">60%</h1>
                                             <p style="font-size:2em;color:#039">Alcohol</p>
-                                            <p style="color:#039">Consumir alcohol por arriba de los límites legales y manejar es la principal causa de estos accidentes</p><br>
-                                            <p style="color:#039">El índice de <strong>uso peligroso de consumo del alcohol </strong>en México duplica al de EUA y es 33% mayor al promedio Latinoamericano</p>
+                                            <p style="color:#039">Consumir alcohol por arriba de los límites legales y manejar es la principal causa de estos accidentes.</p><br>
+                                            <p style="color:#039">El índice del <strong>uso peligroso de consumo del alcohol </strong>en México duplica al de EUA y es 33% mayor al promedio Latinoamericano.</p>
                                             <br>
                                         </div>
                                         <div class="bit-3" style="text-align:center;">
@@ -55,9 +55,9 @@
                                         </div>
                                         <div class="bit-3" style="text-align:left;">
                                             <h3><span style="font-size:3em; color:#CC3">28%</span> <span style="font-size:1.8em; color:#CC3">Velocidad</span></h3>
-                                            <p style="color:#CC3">El exceso de velocidad es la segunda causa de estos accidentes</p><br><br>
+                                            <p style="color:#CC3">El exceso de velocidad es la segunda causa de estos accidentes.</p><br><br>
                                             <h3> <span style="font-size:2em; color:#666">12%</span> <span style="font-size:1.6em; color:#666">Otras causas</span></h3>
-                                            <p style="color:#666">Los distractores, como el uso del celular, la falta de uso de cinturón de seguridad y sistemas de retención infantil, entre otras causas, ocasionan el resto de estos accidentes</p>
+                                            <p style="color:#666">Los distractores, como el uso del celular, la falta del uso de cinturón de seguridad y sistemas de retención infantil, entre otras causas, ocasionan el resto de estos accidentes.</p>
                                         </div>
                                     </div>
                                     <div class="frame">

@@ -17,8 +17,8 @@
                         <div class="sign-square">
                             <div class="roadsign sign-inner-square">
                                 <div class="bit-90">
-                                    <h3>En 2011 se registraron m&aacute;s de 24,900 accidentes en las carreteras mexicanas. 3.5% de ellos est&aacute;n asociados al malfuncionamiento del vehículo.</h3>
-                                    <span class="source">Fuente: Secretaría de Comunicaciones y Transportes</span>
+                                    <h3>En 2013 se registraron m&aacute;s de 24,900 accidentes en las carreteras mexicanas (3.5% de ellos est&aacute;n asociados al malfuncionamiento del vehículo).</h3>
+                                    <span class="source">Fuente: Secretaría de Comunicaciones y Transportes.</span>
                                 </div>
                                 <div class="bit-10-1 first-sign" style="float:left;">
                                     <?=img('images/assets/reparacion.png');?>
@@ -54,7 +54,7 @@
                             <div class="roadsign sign-inner-square">
                                 <div class="bit-90">
                                     <h3>El costo promedio de los accidentes viales es de m&aacute;s de $24,000 pesos.</h3>
-                                    <span class="source">Fuente: Siniestros AXA</span>
+                                    <span class="source">Fuente: Siniestros AXA.</span>
                                 </div>
                                 <div class="bit-10-1" style="float:left;">
                                     <?=img('images/assets/alerta.png');?>
