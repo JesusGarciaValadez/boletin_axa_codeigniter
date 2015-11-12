@@ -8,7 +8,7 @@
                                 <br>
                                 <p style="font-size:1.8em">¿Sabías que el 90% de los accidentes que ocurren en el
                                 hogar se pueden evitar?</p>
-                                <span class="source">Fuente: Instituto de Seguridad Social del Estado de México y Municipios</span><br>
+                                <span class="source">Fuente: Instituto de Seguridad Social del Estado de México y Municipios.</span><br>
                             </div>
                         </div>
                     </div>
@@ -30,7 +30,7 @@
                                 <div class="frame graytext">
                                     <br>
                                     <p style="font-size:1.8em">Lo importante de esto es conocer las causas para poder tomar las medidas necesarias para prevenirlos, en especial si en casa viven niños y adultos de la tercera edad.</p>
-                                    <span class="source">Fuente: Consejo Nacional para la Prevención de Accidentes</span>
+                                    <span class="source">Fuente: Consejo Nacional para la Prevención de Accidentes.</span>
                                     <br>
                                 </div>
                             </div>
@@ -93,7 +93,7 @@
                                     <div class="frame graytext">
                                         <br>
                                         <p style="font-size:1.8em; padding-left:20px">Más del 50% de los accidentes del hogar les ocurren a los niños de entre 0 y 9 años.</p>
-                                        <span class="source" style="padding-left:20px">Fuente: IMSS</span>
+                                        <span class="source" style="padding-left:20px">Fuente: IMSS.</span>
                                         <br>
                                     </div>
                                 </div>

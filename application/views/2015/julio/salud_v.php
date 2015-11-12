@@ -37,7 +37,7 @@
                             <ul class="bit-1 clearfix">
                                 <li class="bit-5"><?=img('images/assets/2015/julio/salud/3.png');?></li>
                                 <li class="bit-60">
-                                    <p class="bit-1"><strong>Tu piel se regenera</strong>: evitas el envejecimiento prematuro, arrugas, caída del cabello y el tono opaco.</p>
+                                    <p class="bit-1"><strong>Tu piel se regenera</strong>, evitas el envejecimiento prematuro, arrugas, caída del cabello y el tono opaco.</p>
                                 </li>
                                 <li class="bit-5"><?=img('images/assets/2015/julio/salud/persona.png');?></li>
                             </ul>
@@ -122,7 +122,7 @@
                         <h4 class="bit-1"><strong>¡Agrega días a tu vida y a la de los tuyos!</strong></h4>
                     </div>
                     <div class="frame section-4 bit-1">
-                        <p class="bit-3"><sup>*</sup> Fuente: <?=anchor( 'http://www.trendenciashombre.com' );?> <br /><?=anchor( 'http://bvs.sld.cu/revistas/med/' );?> <br />Organización Mundial de la Salud (OMS)</p>
+                        <p class="bit-3"><sup>*</sup> Fuente: <?=anchor( 'http://www.trendenciashombre.com' );?> <br /><?=anchor( 'http://bvs.sld.cu/revistas/med/' );?> <br />Organización Mundial de la Salud (OMS).</p>
                     </div>
                     <hr class="bit-1 rule-information bit-1" />
                 </div>

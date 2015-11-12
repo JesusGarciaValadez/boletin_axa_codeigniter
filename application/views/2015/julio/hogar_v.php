@@ -13,7 +13,7 @@
                     <div class="bit-1 clearfix section-1 frame">
                         <hr class="bit-90">
                         <h2 class="bit-90">Un inmueble puede aumentar alrededor del 5% de su valor con una pequeña inversión.</h2>
-                        <p class="bit-70">Fuente: TINSA México</p>
+                        <p class="bit-70">Fuente: TINSA México.</p>
                         <hr class="bit-90">
                         <p class="bit-90">La industria inmobiliaria recomienda para añadir valor a la vivienda y recuperar casi entre el 95% y el 100% de la inversión realizada, mejorar las siguientes áreas del hogar:</p>
                         <div class="bit-3 clearfix">
@@ -36,63 +36,63 @@
                         <div class="bit-3 clearfix">
                             <?= img( [ 'src' => 'images/assets/2015/julio/hogar/regadera.png', 'alt' => 'Regadera' ] ); ?>
 
-                            <p class="bit-80"><strong>Baño:</strong></p>
+                            <p class="bit-80"><strong>Baño</strong></p>
                             <ul class="bit-80 clearfix">
                                 <li>Asegurarse que no haya goteras en llaves y regadera.</li>
                             </ul>
                         </div>
                     </div>
                     <div class="bit-1 clearfix section-2 frame pink">
-                        <p class="bit-1">Fuente: TINSA México</p>
+                        <p class="bit-1">Fuente: TINSA México.</p>
                     </div>
                     <div class="bit-1 clearfix section-3 frame">
                         <p class="bit-1">También es recomendable invertir con sencillas mejoras en la imagen de cada espacio en el hogar como:</p>
                         <div class="bit-3 clearfix">
                             <?= img( [ 'src' => 'images/assets/2015/julio/hogar/rodillo.png', 'alt' => 'Rodillo' ] ); ?>
 
-                            <p class="bit-80">Pintar el interior y exterior de la casa</p>
+                            <p class="bit-80">Pintar el interior y exterior de la casa.</p>
                         </div>
                         <div class="bit-3 clearfix">
                             <?= img( [ 'src' => 'images/assets/2015/julio/hogar/ventana.png', 'alt' => 'Ventana' ] ); ?>
 
-                            <p class="bit-80">Mantener limpias y sin rayones todas las ventanas</p>
+                            <p class="bit-80">Mantener limpias y sin rayones todas las ventanas.</p>
                         </div>
                         <div class="bit-3 clearfix">
                             <?= img( [ 'src' => 'images/assets/2015/julio/hogar/herramientas.png', 'alt' => 'Herramientas' ] ); ?>
 
-                            <p class="bit-80">Resanar grietas y huecos de clavos en la pared</p>
+                            <p class="bit-80">Resanar grietas y huecos de clavos en la pared.</p>
                         </div>
                         <div class="bit-3 clearfix">
                             <?= img( [ 'src' => 'images/assets/2015/julio/hogar/refrigerador-morado.png', 'alt' => 'Refrigerador' ] ); ?>
 
-                            <p class="bit-80">Invertir en tecnología inteligente: como grifos de agua, refrigeradores, etcétera.</p>
+                            <p class="bit-80">Invertir en tecnología inteligente, como grifos de agua, refrigeradores, etcétera.</p>
                         </div>
                         <div class="bit-3 clearfix">
                             <?= img( [ 'src' => 'images/assets/2015/julio/hogar/puerta.png', 'alt' => 'Puerta' ] ); ?>
 
-                            <p class="bit-80">Utilizar el mismo tipo de cerraduras en todas las puertas de la casa</p>
+                            <p class="bit-80">Utilizar el mismo tipo de cerraduras en todas las puertas de la casa.</p>
                         </div>
                         <div class="bit-3 clearfix pink">
-                            <p class="bit-90">Protege tu inversión y tu patrimonio, pregunta a tu agente cómo puedes asegurar que tu hogar no pierda su valor a causa de catástrofes naturales o robo. </p>
+                            <p class="bit-90">Protege tu inversión y tu patrimonio, pregunta a tu agente cómo puedes asegurar que tu hogar no pierda su valor a causa de catástrofes naturales o robo.</p>
                         </div>
                     </div>
                     <div class="bit-1 clearfix section-4 frame pink">
-                        <p>Además, con nuestra oferta también adquieres servicios de asistencia como:</p>
+                        <p>Además, con nuestra oferta también adquieres servicios de asistencia, como:</p>
                         <ul class="clearfix bit-1">
                             <li class="bit-3">
                                 <?= img( [ 'src' => 'images/assets/2015/julio/hogar/doctor.png', 'alt' => 'Doctor' ] ); ?>
 
-                                <p class="bit-80">Asistencia médica telefónica</p>
+                                <p class="bit-80">Asistencia médica telefónica.</p>
                             </li>
                             <li class="bit-3">
                                 <?= img( [ 'src' => 'images/assets/2015/julio/hogar/ambulancia.png', 'alt' => 'Ambulancia' ] ); ?>
 
-                                <p class="bit-80">Servicio de ambulancia sin costo</p>
+                                <p class="bit-80">Servicio de ambulancia sin costo.</p>
                             </li>
                             <li class="bit-3">
                                 <?= img( [ 'src' => 'images/assets/2015/julio/hogar/computadora.png', 'alt' => 'Computadora' ] ); ?>
 
-                                <p class="bit-80">Asistencia a mascotas y equipo de cómputo</p>
+                                <p class="bit-80">Asistencia a mascotas y equipo de cómputo.</p>
                             </li>
                         </ul>
                     </div>

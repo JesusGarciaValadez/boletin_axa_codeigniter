@@ -11,13 +11,13 @@
                     </div>
                     <div class="frame">
                         <div class="bit-60 purple-text">
-                            <h1>&iquest;Sab&iacute;as qu&eacute;?</h1><?=br(2);?>
+                            <h1>&iquest;Sab&iacute;as que?</h1><?=br(2);?>
                             <h3>M&eacute;xico es un pa&iacute;s con alta incidencia de enfermedades bucales:</h3>
                             <ul>
-                                <li>90% de la poblaci&oacute;n padece caries</li>
-                                <li>70% padece enfermedad periodontal o de enc&iacute;as</li>
+                                <li>90% de la poblaci&oacute;n padece caries.</li>
+                                <li>70% padece enfermedad periodontal o de enc&iacute;as.</li>
                             </ul>
-                            <span class="source">Fuente: Programa Nacional de Salud, SSA, 2010</span></p>
+                            <span class="source">Fuente: Programa Nacional de Salud, SSA, 2010.</span></p>
                         </div>
                         <div class="bit-40" style="text-align:right;">
                             <?=img('images/assets/mapa.png');?>
@@ -54,7 +54,7 @@
                         </div>
                         <div class="bit-90 purple-text" style="text-align:right;">
                             <?=br(1);?>
-                            <p>Estudios demuestran que las personas con mala higiene bucal incrementan el riesgo de desarrollar Alzheimer. Ya que en éstos se han encontrado la bacteria Porphyromonas gingivalis, asociada a enfermedades dentales.<br /><span class="source">Fuente: Universidad Central de Lancashire, Reino Unido</span></p>
+                            <p>Estudios demuestran que las personas con mala higiene bucal incrementan el riesgo de desarrollar Alzheimer. Ya que en éstos se han encontrado la bacteria Porphyromonas gingivalis, asociada a enfermedades dentales.<br /><span class="source">Fuente: Universidad Central de Lancashire, Reino Unido.</span></p>
                         </div>
                     </div>
                     <div class="frame">
@@ -82,8 +82,8 @@
                                 <tr>
                                     <td class="yellow">
                                         <div class="bit-60">
-                                            <h3>Frutas y verduras</h3>
-                                            <p>(Manzana, zanahoria y apio)</p>
+                                            <h3>Frutas y verduras.</h3>
+                                            <p>(Manzana, zanahoria y apio).</p>
                                         </div>
                                         <div class="bit-40">
                                             <?=img('images/assets/manzana.png');?>
@@ -100,7 +100,7 @@
                                     <td class="yellow">
                                         <div class="bit-60">
                                             <h3>Productos lácteos.</h3>
-                                            <p>(Algunos quesos y leche)</p>
+                                            <p>(Algunos quesos y leche).</p>
                                         </div>
                                         <div class="bit-40">
                                             <?=img('images/assets/queso.png');?>
@@ -127,7 +127,7 @@
                                 <tr>
                                     <td class="gray">
                                         <div class="bit-80">
-                                            <h3>Bebidas gaseosas</h3>
+                                            <h3>Bebidas gaseosas.</h3>
                                         </div>
                                         <div class="bit-20">
                                             <?=img('images/assets/lata_refresco.png');?>
@@ -140,7 +140,7 @@
                                 <tr>
                                     <td class="gray">
                                         <div class="bit-80">
-                                            <h3>Papas fritas</h3>
+                                            <h3>Papas fritas.</h3>
                                         </div>
                                         <div class="bit-20">
                                             <?=img('images/assets/papas.png');?>
@@ -154,7 +154,7 @@
                                 <tr>
                                     <td class="gray">
                                         <div class="bit-80">
-                                            <h3>Dulces y caramelos</h3>
+                                            <h3>Dulces y caramelos.</h3>
                                         </div>
                                         <div class="bit-20">
                                             <?=img('images/assets/paleta.png');?>
@@ -203,9 +203,9 @@
                                 tratamientos a precios preferenciales*.</h3>
                                 <span class="source">*Excepto Protección Efectiva Gastos Médicos.</span>
                             </div>
-                            <div class="bit-20" style="text-align:right;">
+                            <!--div class="bit-20" style="text-align:right;">
                                 <?=img('images/assets/logo_dentalia.png');?>
-                            </div>
+                            </div-->
                         </div>
                     </div>
                 </div>

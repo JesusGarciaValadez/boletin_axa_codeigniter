@@ -42,7 +42,7 @@
                                             <div class="bit-1">
                                                 <p align="left"  style="font-size:1.5em; color:#039">Es cierto que no todos llegan a endeudarse para solventar los gastos decembrinos, pero parece que una gran parte sí prefiere gastar que planear y ahorrar para el futuro.</p>
                                             </div>
-                                            <div><span class="source" align="center"  style="color:#039">Fuente: Encuesta Nacional de Vivienda- Parametría 2013 (www.parametría.com.mx)</span></div>
+                                            <div><span class="source" align="center"  style="color:#039">Fuente: Encuesta Nacional de Vivienda- Parametría 2013 (www.parametría.com.mx).</span></div>
                                         </div>
                                     </div>
                                     <div class="frame graytext">

@@ -22,7 +22,7 @@
                     </div>
                     <div class="frame bit-1 section-3 clearfix">
                         <h2>Principales distractores que causan accidentes</h2>
-                        <?=img( [ 'src' => 'images/assets/2015/julio/auto/distractores-que-causan-accidentes.jpg', 'alt' => 'Principales distractores que causan accidentes' ] );?>
+                        <?=img( [ 'src' => 'images/assets/2015/julio/auto/distractores-que-causan-accidentes.png', 'alt' => 'Principales distractores que causan accidentes' ] );?>
                         <p class="bit-1">Investigaciones del Centro de Experimentación y Seguridad Vial México señalan que los accidentes que se habían reducido con el Programa Conduce Sin Alcohol, se vuelven a incrementar debido al uso de teléfonos frente al volante.</p>
                     </div>
                     <div class="frame bit-1 section-4 clearfix">

@@ -17,7 +17,7 @@
                         <div class="sign-square">
                             <div class="roadsign sign-inner-square">
                                 <div class="bit-90">
-                                    <h3>En 2013 se registraron m&aacute;s de 24,900 accidentes en las carreteras mexicanas (3.5% de ellos est&aacute;n asociados al malfuncionamiento del vehículo).</h3>
+                                    <h3>En el 2011 se registraron m&aacute;s de 24,900 accidentes en las carreteras mexicanas (3.5% de ellos est&aacute;n asociados al malfuncionamiento del vehículo).</h3>
                                     <span class="source">Fuente: Secretaría de Comunicaciones y Transportes.</span>
                                 </div>
                                 <div class="bit-10-1 first-sign" style="float:left;">

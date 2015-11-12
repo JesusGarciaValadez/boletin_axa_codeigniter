@@ -15,18 +15,18 @@
                     <div class="frame graytext">
                         <div class="bit-3">
                             <?=img('images/assets/futuro_icono_1.png');?>
-                            <h3 style="text-align:left;">5% de las personas mayores de 60 a&ntilde;os viven de sus ahorros</h3>
+                            <h3 style="text-align:left;">5% de las personas mayores de 60 a&ntilde;os viven de sus ahorros.</h3>
                         </div>
                         <div class="bit-3">
                             <?=img('images/assets/futuro_icono_2.png');?>
-                            <h3>24% reciben una pensi&oacute;n que les resulta insuficiente</h3>
+                            <h3>24% reciben una pensi&oacute;n que les resulta insuficiente.</h3>
                         </div>
                         <div class="bit-3">
                             <?=img('images/assets/futuro_icono_3.png');?>
-                            <h3 style="text-align:right;">50% siguen trabajando hasta que tienen una imposibilidad f&iacute;sica</h3>
+                            <h3 style="text-align:right;">50% siguen trabajando hasta que tienen una imposibilidad f&iacute;sica.</h3>
                         </div>
                         <div class="bit-1">
-                            <p style="text-align:left;"><span class="source">Fuente: Proyecciones CONAPO 2005</span></p>
+                            <p style="text-align:left;"><span class="source">Fuente: Proyecciones CONAPO 2005.</span></p>
                         </div>
                     </div>
                     <div class="frame olive">
@@ -47,17 +47,17 @@
                         </div>
                         <div class="bit-4">
                             <h1 style="font-size:2.5em;">40%</h1>
-                            <p>de su ingreso en caso de contar con seguridad social</p>
+                            <p>de su ingreso en caso de contar con seguridad social.</p>
                         </div>
                         <div class="bit-4">
                             <?=img('images/assets/doc_2.png');?>
                         </div>
                         <div class="bit-4">
                             <h1 style="font-size:2.5em;">70%</h1>
-                            <p>si no cuenta con acceso a servicios de salud</p>
+                            <p>si no cuenta con acceso a servicios de salud.</p>
                         </div>
                         <div class="bit-1">
-                            <span class="source">Fuente: Facultad de Negocios de la Universidad An&aacute;huac M&eacute;xico Sur</span>
+                            <span class="source">Fuente: Facultad de Negocios de la Universidad An&aacute;huac M&eacute;xico Sur.</span>
                         </div>
                     </div>
                     <div class="frame">
@@ -67,7 +67,7 @@
                             <p class="graytext" style="text-align:left;">Actualmente, la mayor parte de los mexicanos son jóvenes pero <strong>la tendencia indica que no será así en un futuro próximo.</strong></p><br />
                             <h1 class="red-text big-shadow" style="font-size:2.2em;">En el año 2030, el 50% de los mexicanos estará en edad productiva (15 a 60 años).</h1><br />
                             <p class="graytext" style="text-align:left;">Hoy existen alrededor de 10 millones de personas mayores a 60 años (9% de la población), pero en 2030 se estima sean <strong>más de 20 millones y en 2050, 33 millones</strong>.</p>
-                            <span class="source graytext">Fuente: CONAPO</span>
+                            <span class="source graytext">Fuente: CONAPO.</span>
                         </div>
                         <div class="bit-20">
                             <?=br(2);?>

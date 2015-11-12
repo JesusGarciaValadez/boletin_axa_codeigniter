@@ -17,7 +17,7 @@
                             <div class="bit-80 purple-text">
                                 <br><br>
                                 <h1 style="line-height: 120%;">¿Sabías que el 80% de los mexicanos padecen de dolores agudos de espalda en algún momento de su vida?</h1><br>
-                                <span class="source">Fuente: IMSS (www.imss.gob.mx/salud-en-linea/lumbalgia)</span>
+                                <span class="source">Fuente: IMSS (www.imss.gob.mx/salud-en-linea/lumbalgia).</span>
                                 <p></p>
                             </div>
                         </div>

@@ -37,7 +37,7 @@
                         <div class="frame warning-2">
                             <div class="bit-80">
                                 <h1>En 2012, se registraron 4,891 incendios a nivel nacional que fueron cubiertos por alg&uacute;n seguro. El costo que pagaron las aseguradoras por daños fue mayor a $4,673 millones de pesos.</h1>
-                                <span class="source">Fuente: AMS</span>
+                                <span class="source">Fuente: AMS.</span>
                             </div>
                             <div class="bit-20"></div>
                         </div>
